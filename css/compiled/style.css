@@ -1,15 +1,20 @@
-/* line 42, ../scss/_base.scss */
+@font-face {
+  font-family: "Aleo";
+  src: url('fonts/Aleo-Regular.woff') format('woff'), url('fonts/Aleo-Regular.otf') format('opentype');
+}
+
+/* line 44, ../scss/_base.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 43, ../scss/_base.scss */
+/* line 45, ../scss/_base.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 44, ../scss/_base.scss */
+/* line 46, ../scss/_base.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -21,10 +26,9 @@ html {
 
 /* line 9, ../scss/style.scss */
 body {
-  border-top: 3px solid #2775ff;
   background-color: #fffefb;
   color: #333333;
-  font-family: "proxima-nova", Helvetica, sans-serif;
+  font-family: "Aleo", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 17px;
   line-height: 1.5em;
@@ -91,7 +95,7 @@ body {
 
 /* line 68, ../scss/style.scss */
 a:link, a:visited {
-  color: #2775ff;
+  color: #387bf5;
   text-decoration: underline;
 }
 /* line 72, ../scss/style.scss */
@@ -166,7 +170,7 @@ p code {
 blockquote {
   padding: 0.7em 2em;
   border: 1px solid #cccccc;
-  border-left: 8px solid #2775ff;
+  border-left: 8px solid #387bf5;
   background-color: #F7F7F7;
   font-style: italic;
   color: #555555;
@@ -190,7 +194,7 @@ abbr[title] {
 
 /* line 142, ../scss/style.scss */
 .red {
-  color: #2775ff;
+  color: #387bf5;
 }
 
 /* line 143, ../scss/style.scss */
@@ -349,7 +353,7 @@ img {
 }
 /* line 282, ../scss/style.scss */
 #header a:hover, #header a:focus, #header a:active {
-  border-bottom: 6px solid #2775ff;
+  border-bottom: 6px solid #387bf5;
 }
 
 /* line 288, ../scss/style.scss */
@@ -362,7 +366,7 @@ img {
   -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  background: #4689ff;
+  background: #558ef6;
   color: #fff;
   display: block;
   font-size: 14px;
@@ -377,7 +381,7 @@ img {
 }
 /* line 306, ../scss/style.scss */
 #github:hover, #github:focus, #github:active {
-  background: #2775ff;
+  background: #387bf5;
 }
 @media only screen and (max-width: 850px) {
   /* line 288, ../scss/style.scss */
@@ -457,7 +461,7 @@ img {
 }
 /* line 377, ../scss/style.scss */
 .byline a:hover, .byline a:focus, .byline a:active {
-  color: #2775ff;
+  color: #387bf5;
   text-decoration: underline;
 }
 
@@ -640,7 +644,7 @@ ul.listing time a:link, ul.listing time a:visited {
 }
 /* line 530, ../scss/style.scss */
 ul.listing time a:hover, ul.listing time a:focus, ul.listing time a:active {
-  color: #2775ff;
+  color: #387bf5;
 }
 
 /* line 540, ../scss/style.scss */

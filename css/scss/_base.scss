@@ -1,13 +1,13 @@
 $experimental-support-for-khtml: false;
 @import "compass";
-// @import "compass/css3/font-face";
+@import "compass/css3/font-face";
 
 // Fonts
-// @include font-face("Aleo", font-files("../fonts/Aleo-Regular.otf"));
+@include font-face("Aleo", font-files("Aleo-Regular.woff", woff, "Aleo-Regular.otf", otf));
 
 $serif: "Aleo", Caslon, Baskerville, Palatino, "Palatino Linotype", "Hoefler Text", Garamond, "URW Palladio L", "Book Antiqua", Georgia, serif;
 $serif-caps: "gothic-open-shaded", $serif;
-$sans-serif: "proxima-nova", Helvetica, sans-serif;
+$sans-serif: "Aleo", Helvetica, sans-serif;
 // proxima-nova
 
 // Post width
@@ -23,7 +23,9 @@ $break4: 1100px;
 
 // Colors
 // Original template by feross, he used red and i'm using blue. I'll change var name later
-$red: #2775FF; 
+$red: #387BF5;
+
+// more vibrant: #2775FF
 
 $white: #FFF;
 $lightestGray: #EEE;
