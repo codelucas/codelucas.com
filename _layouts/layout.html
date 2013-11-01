@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+
+  <!--
+
+  Feross Aboukhadijeh
+  http://feross.org
+
+  Far better is it to dare mighty things, to win glorious triumphs,
+  even though checkered by failure... than to rank with those poor spirits
+  who neither enjoy nor suffer much, because they live in a gray twilight
+  that knows not victory nor defeat.
+                                                  — Theodore Roosevelt
+
+  -->
+  {% capture meta_desc %}{% if page.summary %}{{ page.summary }}{% else %}Feross Aboukhadijeh is a computer security researcher, teacher, web developer, designer, long distance runner, gamer, music lover, and builder of websites that (sometimes) go viral.{% endif %}{% endcapture %}
+  <title>{{ page.title }} &raquo; Feross.org</title>
+  <meta property="og:title" content="{{ page.title }} &raquo; Feross.org" />
+
+  <meta name="description" content="{{ meta_desc }}">
+  <meta property="og:description" content="{{ meta_desc }}" />
+
+  <meta property="og:type" content="article" />
+  {% if page.tags %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag | replace: '-', ' ' }}" />{% endfor %}{% endif %}
+  <meta property="og:image" content="http://feross.org/images/F.png" />
+
+  <meta property="article:author" content="http://feross.org/about/" />
+  <meta property="fb:admins" content="1347524341" />
+  <meta property="fb:app_id" content="515587071790188" />
+  <link rel="author" href="https://plus.google.com/108080265905114949970" />
+
+  {% if page.class == "post" %}
+  <link rel="canonical" href="http://feross.org{{ page.url }}/" />
+  <meta property="og:url" content="http://feross.org{{ page.url }}/" />
+  {% elsif page.class == "home" %}
+  <link rel="canonical" href="http://feross.org/" />
+  <meta property="og:url" content="http://feross.org/" />
+  {% endif %}
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="alternate" type="application/atom+xml" title="Feross.org" href="http://feeds.feedburner.com/feross" />
+
+  <link rel="stylesheet" href="/css/compiled/style.css" />
+
+  <script type="text/javascript" src="//use.typekit.net/lvb8hht.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+<body class="{{ page.class }}">
+  <div id="container">
+
+    <header id="header">
+      <h1><a href="http://feross.org">{% if page.class == "resume" %}Feross Aboukhadijeh{% else %}&#10025; Feross &#10025;{% endif %}</a></h1>
+    </header>
+
+    <section class="content clearfix">
+      {{ content }}
+    </section>
+
+    {% if page.class == "home" %}
+      <a href="https://github.com/feross" id="github">Fork me on GitHub</a>
+    {% endif %}
+
+  </div>
+
+  <script src="/js/libraries.js"></script>
+  <script src="/js/script.js"></script>
+
+  {% if page.script %}
+    <!-- Page-specific script -->
+    <script>
+      $(function() {
+        {{ page.script }}
+      });
+    </script>
+  {% endif %}
+
+  {% if page.demo %}
+    <!-- Page-specific demo code -->
+    {{ page.demo }}
+  {% endif %}
+
+  {% if page.class == "post" %}
+
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=223190377735910";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Twitter -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  {% endif %}
+
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-3898076-5'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+  <!-- StatCounter -->
+  <script type="text/javascript">
+      var sc_project=4429957;
+      var sc_invisible=1;
+      var sc_security="eb342ceb";
+  </script>
+  <script src="//www.statcounter.com/counter/counter.js"></script><noscript><div class="statcounter"><img class="statcounter" src="http://c.statcounter.com/4429957/0/eb342ceb/1/" alt="statcounter"></div></noscript>
+
+</body>
+</html>

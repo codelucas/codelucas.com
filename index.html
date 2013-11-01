@@ -1,0 +1,92 @@
+---
+layout: layout
+title: "Home of Lucas Ou-Yang"
+class: home
+---
+<div class="left">
+  <h2>Blog
+  </h2>
+  <ul class="listing">
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}/">{{ post.title }}</a>
+      <time datetime="{{post.date | date: "%Y-%m-%d"}}">
+        {{ post.date | date: "%B %e, %Y" }}{% if post.github %}.
+        Code on <a href="{{ post.github }}">GitHub</a>.
+        {% endif %}
+      </time>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="right">
+  <h2>Lucas Ou-Yang</h2>
+  <div class="bio">
+    <p>
+      I'm <strong>Lucas</strong> and this is my place on the web.
+    </p>
+    <p>
+      Read my <a href="/about/" class="strong">bio</a> and <a href="/resume/" class="strong">résumé</a>.
+      <br>Follow me on <a href="https://twitter.com/feross">Twitter</a>.
+      <br>Send me email at <a href="mailto:feross@feross.org">feross@feross.org</a>.
+    </p>
+
+    <a class="avatar" href="/about/" title="Feross Aboukhadijeh">
+      <img src="/images/feross-japan.jpg" alt="I am so handsome."/>
+    </a>
+  </div>
+
+  <h2>Projects</h2>
+  <ul class="listing">
+    <li>
+      <a href="http://peercdn.com">PeerCDN</a>
+      <span>A peer-to-peer CDN, using only JavaScript!</span>
+    </li>
+    <li>
+      <a href="http://www.apstudynotes.org">AP Study Notes</a>
+      <span>Free study materials for high school students.</span>
+    </li>
+    <li>
+      <a href="http://instant.fm">Instant.fm</a>
+      <span>Share music playlists with your friends.</span>
+    </li>
+    <li>
+      <a href="http://ytinstant.com">YouTube Instant</a>
+      <span>Fast search for YouTube videos.</span>
+    </li>
+  </ul>
+
+  <h2>In the News</h2>
+  <ul class="listing">
+    <li>
+      <a href="http://video.pandodaily.com/G8n/stanford-cs-student-feross-aboukhadijeh-on-whats-beyond-youtube-instant/">PandoDaily</a>
+      <span>"My life story in 3 minutes". Mar 2012.</span>
+    </li>
+    <li>
+      <a href="http://nymag.com/news/features/silicon-valley-2011-9">New York Magazine</a>
+      <span>"Bubble Boys". Sep 2011.</span>
+    </li>
+    <li>
+      <a href="http://www.youtube.com/watch?v=dECfaTxJ9Yo">CNN</a>
+      <span>"Hiring Spree in Silicon Valley". May 2011.</span>
+    </li>
+    <li>
+      <a href="http://allthingsd.com/20110422/early-adopter-from-the-hacker-who-brought-you-youtube-instant-instant-fm-launches-today/">All Things Digital</a>
+      <span>"Instant.fm Launches Today". Apr 2011.</span>
+    </li>
+    <li>
+      <a href="http://www.sacmag.com/Sacramento-Magazine/January-2011/People-of-the-Year/">Sacramento Magazine</a>
+      <span>"2010 People of the Year". Jan 2011.</span>
+    </li>
+  </ul>
+
+  <h2>Random</h2>
+  <ul class="listing">
+    <li>
+      <a href="/quotes/">Favorite Quotes</a>
+      <span>List of interesting &amp; inspiring quotes.</span>
+    </li>
+  </ul>
+
+</div>
