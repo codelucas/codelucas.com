@@ -10,9 +10,8 @@ class: post
   </h1>
 
   <div class="byline">
-    <span>By <a href="/about/" title="Feross Aboukhadijeh">Feross Aboukhadijeh</a></span>
+    <span>By <a href="/about/" title="Lucas Ou-Yang">Lucas Ou-Yang</a></span>
     <time datetime="{{page.date | date: "%Y-%m-%d"}}">{{ page.date | date: "%B %e, %Y" }}</time>
-    <span class="views" data-slug="{{ page.url }}"></span>
     Tagged with
     <ul class="tags">
       {% for tag in page.tags %}
@@ -20,8 +19,6 @@ class: post
       {% endfor %}
     </ul>
   </div>
-
-  {% include ad.html %}
 
 </div>
 
@@ -45,10 +42,10 @@ class: post
     <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=feross', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
       <p>
 
-        <a href="https://twitter.com/feross" class="avatar">
-          <img src="/images/F.png" height="50" width="50" alt="Feross Aboukhadijeh" />
+        <a href="https://twitter.com/codelucas" class="avatar">
+          <img src="/images/F.png" height="50" width="50" alt="Lucas Ou-Yang" />
         </a>
-        Hey, thanks for reading! I'm <a href="/about/">Feross Aboukhadijeh</a>, a web developer, designer, and Stanford computer science student. My current projects are <a href="https://peercdn.com" title="Peer to peer (P2P) CDN using WebRTC">to make the web faster and cheaper</a> using peer-to-peer web technology, and to <a href="http://www.apstudynotes.org/">help students learn faster and better</a> with high-quality study notes.
+        Hey, thanks for reading! I'm <a href="/about/">Lucas Ou-Yang</a>, a ... 
       </p>
 
       {% if page.hn %}<p>You can discuss, upvote, or poke fun at this post over at <a href="{{ page.hn }}">Hacker News</a>.</p>{% endif %}
@@ -83,9 +80,9 @@ class: post
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">
-      var disqus_shortname = 'feross-org';
+      var disqus_shortname = 'codelucas';
       var disqus_developer = (window.location.hostname == 'localhost') ? 1 : 0;
-      var disqus_url = 'http://feross.org{{ page.url }}/';
+      var disqus_url = 'http://codelucas.com{{ page.url }}/';
 
       (function() {
           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

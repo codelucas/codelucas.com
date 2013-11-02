@@ -16,6 +16,7 @@ body {
   font-size: 17px;
   line-height: 1.5em;
   margin: 0;
+  margin-top: -40px;
   padding: 0;
 
   @media only screen and (max-width: $break4) {
@@ -262,6 +263,7 @@ img {
 
 #header {
   text-align: center;
+  background-color: $red;
   h1 {
     border-bottom: none;
     font-family: $serif-caps;
@@ -275,12 +277,13 @@ img {
       margin: 30px 0 0 0;
     }
   }
-  a {
+  a { 
+    color: $bgColor;
     #{$link} {
       text-decoration: none;
     }
     #{$focus} {
-      border-bottom: 6px solid $red;
+      border-bottom: 3px solid $bgColor;
     }
   }
 }

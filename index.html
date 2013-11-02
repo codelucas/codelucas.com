@@ -4,10 +4,9 @@ title: "Home of Lucas Ou-Yang"
 class: home
 ---
 <div class="left">
-  <h2>Blog
-  </h2>
+  <h2>Blog - <a href="/posts/" style="font-weight:300;font-size:20px;">view all</a></h2>
   <ul class="listing">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:6 %}
     <li>
       <a href="{{ post.url }}/">{{ post.title }}</a>
       <time datetime="{{post.date | date: "%Y-%m-%d"}}">
@@ -18,26 +17,7 @@ class: home
     </li>
     {% endfor %}
   </ul>
-</div>
-
-<div class="right">
-  <h2>Lucas Ou-Yang</h2>
-  <div class="bio">
-    <p>
-      Hi. I'm <strong>&#8593;</strong>, welcome to my homepage!
-    </p>
-    <p>
-      My <a href="/about/" class="strong">life</a> and <a href="/resume/" class="strong">resume</a> are avalible.
-      <br>Follow me on <a href="https://twitter.com/lucasouyang">Twitter</a>.
-      <br>Send me email at <a href="mailto:lucas@wintria.com">lucas@wintria.com</a>.
-    </p>
-
-    <a class="avatar" href="/about/" title="Lucas Ou-Yang">
-      <img src="http://codelucas.com/wp-content/uploads/2013/06/me_7_mod.jpg" alt="Check me out..."/>
-    </a>
-  </div>
-
-  <h2>Projects</h2>
+  <h2>Large Projects</h2>
   <ul class="listing">
     <li>
       <a href="http://wintria.com">Wintria</a>
@@ -56,8 +36,58 @@ class: home
       <span>Reddit's hotness algorithm + facebook likes!</span>
     </li>
   </ul>
+  <h2>Misc</h2>
+  <ul class="listing">
+    <li>
+      <a href="http://wintria.com">Personal manifesto</a>
+      <span>Personal goals and beliefs.</span>
+    </li>
+    <li>
+      <a href="http://www.apstudynotes.org">Technical notes</a>
+      <span>Notes I keep track of while building things.</span>
+    </li>
+    <li>
+      <a href="http://darehut.com">Photography & art</a>
+      <span>I enjoy sketching and photography.</span>
+    </li>
+  </ul>
+</div>
 
-  <h2>People I look up to:</h2>
+<div class="right">
+  <h2>Lucas Ou-Yang</h2>
+  <div class="bio">
+    <p>
+      Hi. I'm <strong>&#8593;</strong>, welcome to my homepage!
+    </p>
+    <p>
+      My <a href="/about/" class="strong">personal</a> and <a href="/resume/" class="strong">resume</a> are avalible.
+      <br>Follow me on <a href="https://twitter.com/lucasouyang">Twitter</a>.
+      <br>Send me email at <a href="mailto:lucas@wintria.com">lucas@wintria.com</a>.
+    </p>
+
+    <a class="avatar" href="/about/" title="Lucas Ou-Yang">
+      <img src="http://codelucas.com/wp-content/uploads/2013/06/me_7_mod.jpg" 
+	alt="Check me out..." style="max-width:200px;margin:0px 0px 0px 0px;" />
+    </a>
+  </div>
+
+  <h2>Small Hacks</h2>
+  <ul class="listing">
+    <li>
+      <a href="http://wintria.com">EasyComplete</a>
+      <span>Python auto-completion module.</span>
+    </li>
+    <li>
+      <a href="http://www.apstudynotes.org">AntChatter</a>
+      <span>[In Progress] Real-time chat service.</span>
+    </li>
+    <li>
+      <a href="http://darehut.com">RocketBoy!</a>
+      <span>Java Applet game, 1st side project!</span>
+    </li>
+  </ul>
+
+  <h2>Great People</h2>
   <ul class="listing">
     <li>
       <a href="http://norvig.com">Peter Norvig</a>

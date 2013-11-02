@@ -6,7 +6,7 @@ $experimental-support-for-khtml: false;
 @include font-face("Aleo", font-files("Aleo-Regular.woff", woff, "Aleo-Regular.otf", otf));
 
 $serif: "Aleo", Caslon, Baskerville, Palatino, "Palatino Linotype", "Hoefler Text", Garamond, "URW Palladio L", "Book Antiqua", Georgia, serif;
-$serif-caps: "gothic-open-shaded", $serif;
+$serif-caps: "Aleo", $serif;
 $sans-serif: "Aleo", Helvetica, sans-serif;
 // proxima-nova
 
