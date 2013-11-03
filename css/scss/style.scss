@@ -263,7 +263,10 @@ img {
 
 #header {
   text-align: center;
-  background-color: $red;
+  background-repeat: no-repeat;
+  background-image: url(/images/space.png);
+  background-position: 50% 46%;
+  //background-color: $red;
   h1 {
     border-bottom: none;
     font-family: $serif-caps;
@@ -278,12 +281,12 @@ img {
     }
   }
   a { 
-    color: $bgColor;
+    color: #3D3D3B;
     #{$link} {
       text-decoration: none;
     }
     #{$focus} {
-      border-bottom: 3px solid $bgColor;
+      border-bottom: 3px solid #3D3D3B;
     }
   }
 }
@@ -637,3 +640,9 @@ ul.listing {
     font-size: 90%;
   }
 }
+
+.viewtag {font-weight:200!important;font-size:15px!important;}
+
+/* Better styles for embedding GitHub Gists */
+.gist-data.gist-syntax{font-family:"Aleo";}
+.gist h1 {margin-left:15px;}
