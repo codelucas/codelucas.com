@@ -1,5 +1,6 @@
 exclude: [config.rb, nginx.conf, Makefile, README.md, build.sh, .gitignore, .gitmodules]
 destination: /home/louyang/webapps/codelucas/
+source: /home/louyang/codelucas_dev/
 markdown: rdiscount
 pygments: true
 permalink: /:title

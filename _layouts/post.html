@@ -26,31 +26,31 @@ class: post
 
   {{ content }}
 
-  {% if site.related_posts %}<p>(If you liked this, you might like <a href="{{ site.related_posts[0].url }}/">{{ site.related_posts[0].title }}</a>.)</p>{% endif %}
+  <!-- {% if site.related_posts %}<p>(If you liked this, you might like <a href="{{ site.related_posts[0].url }}/">{{ site.related_posts[0].title }}</a>.)</p>{% endif %} -->
 
 </article>
 
 <section class="meta">
   <h3>
-    Discussion, links, and tweets
-    <a class="rss" href="http://feeds.feedburner.com/feross" title="Subscribe to the Feross.org Feed">
+    Discussion & Media
+    <a class="rss" href="http://feeds.feedburner.com/" title="Subscribe to the codelucas.com Feed">
       <img src="/images/rss.png" alt="RSS Feed Icon" />
     </a>
   </h3>
 
   <section class="copy">
-    <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=feross', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+    <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=USERNAME_HERE', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
       <p>
 
         <a href="https://twitter.com/codelucas" class="avatar">
-          <img src="/images/F.png" height="50" width="50" alt="Lucas Ou-Yang" />
+          <img src="/images/logo_small.png" height="50" width="50" alt="Lucas Ou-Yang" />
         </a>
-        Hey, thanks for reading! I'm <a href="/about/">Lucas Ou-Yang</a>, a ... 
+        Hey, thanks for reading! I'm <a href="/about/">Lucas Ou-Yang</a>, a software enthusiast. I love creating web apps, cross country running, and learning new technologies. I also enjoy design and art. 
       </p>
 
       {% if page.hn %}<p>You can discuss, upvote, or poke fun at this post over at <a href="{{ page.hn }}">Hacker News</a>.</p>{% endif %}
       <p>
-        If you enjoyed this article, you should <a href="https://twitter.com/feross">follow me on Twitter</a> or sign up to get an email whenever I write something new:
+        If you enjoyed this article, you should follow me on <a href="http://facebook.com/lucas.ouyang.7">Facebook</a> or <a href="https://twitter.com/lucasouyang">Twitter</a> or sign up to get an email whenever I write something new:
 
         <input type="email" name="email" placeholder="email@email.com"/>
         <input type="hidden" value="feross" name="uri"/>
