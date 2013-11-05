@@ -19,11 +19,11 @@
 
   <meta property="og:type" content="article" />
   {% if page.tags %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag | replace: '-', ' ' }}" />{% endfor %}{% endif %}
-  <meta property="og:image" content="" />
+  <meta property="og:image" content="http://codelucas.com/images/logo.png" />
 
   <meta property="article:author" content="http://codelucas.com/about/" />
-  <meta property="fb:admins" content="" />
-  <meta property="fb:app_id" content="" />
+  <meta property="fb:admins" content="lucas.ouyang.7" />
+  <!-- <meta property="fb:app_id" content="" /> -->
   <link rel="author" href="https://plus.google.com/108352969036344290601" />
   <link rel="icon" type="image/png" href="/favicon.ico">
 
@@ -100,6 +100,13 @@
 
   {% endif %}
   <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-37131973-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
 
 </body>
 </html>

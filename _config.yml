@@ -1,4 +1,5 @@
 exclude: [config.rb, nginx.conf, Makefile, README.md, build.sh, .gitignore, .gitmodules]
+include: ['pages']
 destination: /home/louyang/webapps/codelucas/
 source: /home/louyang/codelucas_dev/
 markdown: rdiscount

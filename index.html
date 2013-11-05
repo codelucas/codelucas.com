@@ -4,7 +4,11 @@ title: "Home of Lucas Ou-Yang"
 class: home
 ---
 <div class="left">
-  <h2>Blog <a href="/posts/" class="viewtag">- view all</a></h2>
+  <h2>Blog <a href="/posts/" class="viewtag">- view all</a>
+    <a class="rss" href="http://feeds.feedburner.com/codelucas" title="Subscribe to the codelucas.com Feed">
+      <img src="/images/rss.png" alt="RSS Feed Icon" />
+    </a>
+  </h2>
   <ul class="listing">
     {% for post in site.posts limit:6 %}
     <li>
@@ -29,7 +33,7 @@ class: home
       <span>Reddit's hotness algorithm + facebook likes!</span>
     </li>
     <li>
-      <a href="http://www.apstudynotes.org">IslandOverlord</a> -
+      <a href="/pages/island-overlord.html">IslandOverlord</a> -
 		 <a class="viewtag" href="https://github.com/codelucas/islandoverlord">view code</a>
       <span>3D Virtual life simulation.</span>
     </li>
@@ -70,13 +74,13 @@ class: home
       <!-- <br>Send me email at <a href="mailto:lucas@wintria.com">lucas@wintria.com</a>. -->
     </p>
 
-    <a class="avatar" href="/about/" title="Lucas Ou-Yang">
-      <img src="http://codelucas.com/wp-content/uploads/2013/06/me_7_mod.jpg" 
+    <a class="avatar" title="Lucas Ou-Yang">
+      <img src="/images/selfie1.jpg" 
 	alt="Check me out..." style="max-width:200px;margin:0px 0px 0px 0px;" />
     </a>
   </div>
 
-  <h2>Small Hacks</h2>
+  <h2>Small Hacks <a href="/small-hacks/" class="viewtag">- view all</a></h2>
   <ul class="listing">
     <li>
       <a href="http://wintria.com">EasyComplete</a> - 
@@ -84,12 +88,12 @@ class: home
       <span>Python auto-completion module.</span>
     </li>
     <li>
-      <a href="http://www.apstudynotes.org">AntChatter</a> - 
+      <a href="">AntChatter</a> - 
 		<a class="viewtag" href="https://github.com/codelucas/antchatter">view code</a>
       <span>[In Progress] Real-time chat service.</span>
     </li>
     <li>
-      <a href="http://darehut.com">RocketBoy!</a> - 
+      <a href="/pages/rocketboy.html">RocketBoy!</a> - 
 		<a class="viewtag" href="https://github.com/codelucas/rocketboy">view code</a>
       <span>Java Applet game, 1st side project!</span>
     </li>

@@ -4,8 +4,17 @@
 # Build the actual website content
 jekyll build
 
-# Compile the .scss into .css, add compression alter
-compass compile
+# Run this compile if we are publishing, css is compressed
+if [ "$1" = "publish" ]
+then
+    rm ~/codelucas_dev/css/compiled/*
+    compass compile --output-style compressed
+    echo "css has been compiled and compressed"
+else
+    # Run this compile for editing, not compressed
+    compass compile
+fi
+
 # Actually copy if over due to weird webfaction structure
 cp -rf css ~/webapps/codelucas
 
