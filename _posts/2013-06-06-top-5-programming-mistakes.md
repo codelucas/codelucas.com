@@ -14,7 +14,7 @@ Here are the <u>Top 5 most Alarming Programming mistakes that Intro to CS majors
 
 First-timers tend to think that huge IDE's like Eclipse or Visual S. are magical wizards that seem to transform syntax into commands when the "play" button has been hit. **And yes, i've heard someone actually call it a f*cking play button before. **People don't know why the magical "bin" folder is there and i've met others who don't know the difference between source and binary files. Sure, for the first one or two intro to CS classes, its ok to be naive, you have synax to worry about. However, everyone should at least make an attempt to dive in further ASAP.
 
-<a href="http://codelucas.com/wp-content/uploads/2013/06/play_button.png"><img class=" wp-image-759 " alt="The glorious play button of eclipse... It makes your code work." src="http://codelucas.com/wp-content/uploads/2013/06/play_button.png" width="443" height="79" /></a> 
+![Glorious play button of eclipse](/images/play_button.png)
 <center><u>The glorious play button of eclipse... It makes your code work.</u></center>
 
 A good way to get started, and what helped me, was to put the GUI and the IDE away. If you are on Windows, download <a title="Cygwin" href="http://www.cygwin.com/install.html" target="_blank">Cygwin</a> and use VI/M or Emacs as a text editor. If your language needs to be compiled, manually compile it, and then run it. You will be exposed to a deeper level of what is going on, and in a healthy way. (Mac and Linux users, you guys are spoiled. You can immediately start by opening up Terminal).

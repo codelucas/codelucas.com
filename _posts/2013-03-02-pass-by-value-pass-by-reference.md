@@ -27,7 +27,7 @@ int x = 10;
 Car car = new Car("foo"); 
 {% endhighlight %}
 
-<img src="http://codelucas.com/wp-content/uploads/2013/03/Value-vs-Reference-Type.jpg" alt="Graphical representation of a reference type and a value type" />
+<img src="/images/Value-vs-Reference-Type.jpg" alt="Graphical representation of a reference type and a value type" />
 
 **Passing by value** means whenever a value or reference type is being passed through a method, the passed ref/value is cloned into an identical value. If it's a value type, an identical value is created. If the passed parameter is a reference type, the reference gets cloned, not the object it's pointing at. However, the new reference is pointing at the original object still!. This is very important to understand.
 
@@ -64,9 +64,9 @@ public static void main (String[] args) {
 }
 {% endhighlight %}
 
-<img src="http://codelucas.com/wp-content/uploads/2013/03/Pass-by-Val-varChange.jpg" alt="Pass by Value PT 1" />
+<img src="/images/Pass-by-Val-varChange.jpg" alt="Pass by Value PT 1" />
 
-<img src="http://codelucas.com/wp-content/uploads/2013/03/Pass-by-Val-varChange-2.jpg" alt="Pass by Value PT 2" />
+<img src="/images/Pass-by-Val-varChange-2.jpg" alt="Pass by Value PT 2" />
 
 Take a look at this new example, we use a new method, refNewCar(...). This method differs from the original because it does not change the car's var property, it completely points the input reference towards a new car object. This is very important! Because the car reference is pointing now at a new car object (not original), all changes made to this object will not affect the original! This is much better explained with graphical images. 
 
@@ -80,7 +80,7 @@ public static void main (String[] args) {
 }
 {% endhighlight %}
 
-<img src="http://codelucas.com/wp-content/uploads/2013/03/Pass-by-Val-redirect.jpg" alt="Pass by Value Redirect" />
+<img src="/images/Pass-by-Val-redirect.jpg" alt="Pass by Value Redirect" />
 
 Just one more fun example for pass by value. Manipulating array index values via methods. Reference variables which point to arrays also give programmers the ability to change index values with pass by value. This is similar to our first example, after passing by value, our reference variable is cloned, however it's still pointing at the same array, which means we can make manipulations. Let's have this example be in python.
 
@@ -94,8 +94,6 @@ def main():
     changeFirstE(arr)
     print arr
 {% endhighlight %}
-
-<img src="http://codelucas.com/wp-content/uploads/2013/03/Pass-by-Val-Arr-Change.jpg" alt="Pass by Value Array Change" />
 
 For the pass by value section of this post, I have only used reference types because they are much trickier to understand as opposed to value types. For a value type, via pass by value, the value is just duplicated. Any changes to the value won't affect the original value. For pass by references it's not the same though!
 
@@ -122,15 +120,12 @@ int main() {
 }
 {% endhighlight %}
 
-<img src="http://codelucas.com/wp-content/uploads/2013/03/Pass-by-reference-value-type.png" alt="Pass by Reference Value Type" />
-
 The main takeaway for pass by references is that after pointing the input reference to a new object, the changes stay. The object reference will now stay pointed at that new object. If you are passing by a value type, the value will also change if it is pointed towards a new value.
 
 The ampersand y (&y) in the method signature of setValue(...) denotes a new reference which points to the value type of the object in memory, which is initialized to 10. Instead of duplicating a value or reference, we are now just simply referencing it with a new reference. We are using a new reference to point to the <b>original</b> value type, and we are setting it to a new object in memory. This means all changes to the object, or even resetting the reference to a new objects, have permanent results. 
 
 If we wanted to mimic our above example with Car car, and the refNewCar setup, the graphic below will represent the subtle change. Having our car reference a new object will result in the reference permanently pointing towards a new object.
  
-<img src="http://codelucas.com/wp-content/uploads/2013/03/Pas-by-Reference-redirect1.jpg" alt="Pass by Reference Redirect" />
 
 Congratulations, you have read through my lengthy guide to parameter passing and variable types! I hope this has helped you guys, please share this article with your friends if it really did help you!
 
