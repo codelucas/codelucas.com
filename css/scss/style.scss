@@ -644,5 +644,7 @@ ul.listing {
 .viewtag {font-weight:200!important;font-size:15px!important;}
 
 /* Better styles for embedding GitHub Gists */
-.gist-data.gist-syntax{font-family:"Aleo";}
-.gist h1 {margin-left:15px;}
+
+.gist-data.gist-syntax { background-color: $bgColor !important; font-family:"Aleo"; }
+.gist h1 { margin-left:15px; }
+
