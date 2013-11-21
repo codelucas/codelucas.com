@@ -37,7 +37,7 @@ for (int i = 2; i <= 2000000; i++) // O(n^2)
 Look at the code above, we are going integer by integer, from two all the way to two million.
 For each of those integers, we are checking if it's divisible by <i>every</i> number from two all the way up until the number itself! It's a O(n^2) implementation, ew.
 
-There are some trivial but immediate fixes which we can add, the first is based on the fact that even numbers <em>can't </em>be prime. So we can replace
+There are some trivial but immediate fixes which we can add, the first is based on the fact that even numbers <em>can't </em>be prime. So we can replace
 
 {% highlight java %}
 for (int i = 2; i <= 2000000; i++)
@@ -50,7 +50,7 @@ for (int i = 3; i <= 2000000; i += 2)
 
 Enough of that though! Lets delve into some of the more interesting implementations:
 
-With some more context about how primes work, we can really speed things up. For example, whether or not 2 is prime, we know that all greater factors of two <em>are not. </em>This rule follows for 3, 4, 5, etc.. So, for each number we test if is prime or not, we can eliminate all future factors so we can tell our for loop to skip these numbers, we already know that they are prime. Here is the implementation: (To avoid confusion, a BitSet is essentially a list of true and false (0, 1) values).
+With some more context about how primes work, we can really speed things up. For example, whether or not 2 is prime, we know that all greater factors of two <em>are not. </em>This rule follows for 3, 4, 5, etc.. So, for each number we test if is prime or not, we can eliminate all future factors so we can tell our for loop to skip these numbers, we already know that they are prime. Here is the implementation: (To avoid confusion, a BitSet is essentially a list of true and false (0, 1) values).
 
 {% highlight java %}
 long sum = 0;
@@ -70,7 +70,7 @@ for (int i = 2; i <= 2000000; i++) {
 }
 {% endhighlight %}
 
-What's very cool about this implementation is that it's O(nlog(n)) time complexity, versus the O(n^2) above, so it's significantly faster, especially if our n is 2 million. The optimized operation you see above solved Euler problem #10 in 0.27 seconds, the first implementation would have taken <em>many</em> minutes. Also, the answer is 142,913,828,922.
+What's very cool about this implementation is that it's O(nlog(n)) time complexity, versus the O(n^2) above, so it's significantly faster, especially if our n is 2 million. The optimized operation you see above solved Euler problem #10 in 0.27 seconds, the first implementation would have taken <em>many</em> minutes. Also, the answer is 142,913,828,922.
 
 We can apply the above logic for Euler problem number 7, I won't go too in depth for this one.
 
