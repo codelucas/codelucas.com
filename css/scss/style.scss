@@ -103,7 +103,7 @@ h4 { font-size: 1.1em; margin: 1.2em 0 0.6em 0; color: $lightGray; }
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.1em;
   margin: 1em 0;
   line-height: 1.6em;
 
@@ -122,7 +122,7 @@ blockquote {
   border: 1px solid $lighterGray;
   border-left: 8px solid $red;
   background-color: #F7F7F7;
-  font-style: italic;
+  // font-style: italic;
   color: $darkGray;
 }
 
@@ -419,7 +419,7 @@ img {
   h3 {
     border-bottom: 0;
     color: $darkerGray;
-    font-size: 1.05em;
+    font-size: 1.15em;
     font-weight: bold;
     margin-bottom: 0.5em;
     text-decoration: none;
@@ -514,7 +514,7 @@ ul.listing {
     margin: 20px 0;
     > a {
         #{$link} {
-          font-size: 1.1em;
+          font-size: 1.2em;
           font-weight: bold;
           text-decoration: none;
         }
@@ -645,6 +645,6 @@ ul.listing {
 
 /* Better styles for embedding GitHub Gists */
 
-.gist-data.gist-syntax { background-color: $bgColor !important; font-family:"Aleo"; }
+.gist-data.gist-syntax { background-color: $bgColor !important; font-family:"Calibri"; }
 .gist h1 { margin-left:15px; }
 
