@@ -103,7 +103,7 @@ h4 { font-size: 1.1em; margin: 1.2em 0 0.6em 0; color: $lightGray; }
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.0em;
   margin: 1em 0;
   line-height: 1.6em;
 
@@ -502,6 +502,13 @@ a.prev, a.next {
   }
 }
 
+// Bio section
+
+.bio {
+  > p {
+    font-weight: 300;
+  }
+}
 
 // Blog post listing
 
@@ -514,8 +521,8 @@ ul.listing {
     margin: 20px 0;
     > a {
         #{$link} {
-          font-size: 1.2em;
-          font-weight: bold;
+          font-size: 1.1em;
+          font-weight: 600;
           text-decoration: none;
         }
         #{$focus} {
@@ -645,6 +652,6 @@ ul.listing {
 
 /* Better styles for embedding GitHub Gists */
 
-.gist-data.gist-syntax { background-color: $bgColor !important; font-family:"Calibri"; }
+.gist-data.gist-syntax { background-color: $bgColor !important; font-family: $sans-serif; }
 .gist h1 { margin-left:15px; }
 
