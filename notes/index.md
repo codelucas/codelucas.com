@@ -67,6 +67,7 @@ Technical Notes
 
 <!--- -->
 > New strategies to deploy python webapps instead of the boring apache + mod_wsgi setup:
+>
 > - Having nginx facing the front while reverse proxying to apache + mod_wsgi
 > - Having nginx facing the front while reverse proxying to a "wsgi server" for better 
 > performance like gunicorn, uWSGI, etc.

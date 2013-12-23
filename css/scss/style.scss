@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  //border-top: 3px solid $red;
+  border-top: 6px solid $pink;
   background-color: $bgColor;
   color: $darkerGray;
   font-family: $sans-serif;
@@ -16,7 +16,7 @@ body {
   font-size: 17px;
   line-height: 1.5em;
   margin: 0;
-  margin-top: -40px;
+  // margin-top: -40px; // uncomment if you want to use a banner
   padding: 0;
 
   @media only screen and (max-width: $break4) {
@@ -67,10 +67,11 @@ body {
 
 a {
   #{$link} {
-    color: $red;
+    color: $pink;
     text-decoration: underline;
   }
   #{$focus} {
+    color: $pink;
     text-decoration: none;
   }
 }
@@ -120,7 +121,7 @@ p {
 blockquote {
   padding: 0.7em 2em;
   border: 1px solid $lighterGray;
-  border-left: 8px solid $red;
+  border-left: 8px solid $pink;
   background-color: #F7F7F7;
   // font-style: italic;
   color: $darkGray;
@@ -140,7 +141,7 @@ abbr[title] { border-bottom: 1px dotted $lightGray; }
 
 // Non-semantic helper classes
 
-.red { color: $red; }
+.red { color: $pink; } // I'm using Feross's template, his primary color was red, mine is pink
 .strong { font-weight: bold; }
 
 
@@ -265,15 +266,14 @@ img {
   height: 70px;
   text-align: center;
   // background-repeat: no-repeat;
-  background-image: url(/images/winter_background.jpg);
-  background-position: 0% 0%;
+  // background-image: url(/images/winter_background.jpg);
+  // background-position: 0% 0%;
 
   h1 {
-    border-top: 6px solid rgb(197, 227, 255);
-    border-bottom: 6px solid rgb(197, 227, 255);
+    border-bottom: 0px;
     font-family: $serif-caps;
-    font-size: 2.5em; // 4em;
-    font-weight: normal;
+    font-size: 2.5em; 
+    font-weight: 200;
     line-height: 1.5em;
     margin: 40px 0 10px 0;
 
@@ -283,13 +283,13 @@ img {
     }
   }
   a { 
-    color: $bgColor; 
+    color: $gray; 
     #{$link} {
       text-decoration: none;
     }
     #{$focus} {
-      color: #FF568C; // bright pink
-      // border-bottom: 3px solid $bgColor; 
+      color: $pink; // bright pink
+      // border-bottom: 3px solid $bgColor; // uncomment if you want hover underline
     }
   }
 }
@@ -301,7 +301,7 @@ img {
 
   @include rotate(-45deg);
 
-  background: lighten($red, 6%);
+  background: lighten($pink, 6%);
   color: #fff;
   display: block;
   font-size: 14px;
@@ -313,7 +313,7 @@ img {
   @include box-shadow(#999 1px 1px 4px);
 
   #{$focus} {
-    background: $red;
+    background: $gray;
   }
 
   @media only screen and (max-width: $break2) {
@@ -384,7 +384,7 @@ img {
     text-decoration: underline;
   }
   #{$focus} {
-    color: $red;
+    color: $pink;
     text-decoration: underline;
   }
 }
@@ -525,7 +525,7 @@ ul.listing {
     > a {
         #{$link} {
           font-size: 1.1em;
-          font-weight: 600;
+          font-weight: 600; // uncomment for slightly bolder titles 600;
           text-decoration: none;
         }
         #{$focus} {
@@ -544,7 +544,7 @@ ul.listing {
         text-decoration: underline;
       }
       #{$focus} {
-        color: $red;
+        color: $pink;
       }
       }
   }
