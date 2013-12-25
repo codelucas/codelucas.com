@@ -86,6 +86,6 @@ To solve this, implement the same solution above, but keep a counter that increm
 
 Primes are fun, the two problems were cool in the sense that anyone can find a solution, but a better solution takes time to think and plan out.
 
-Also, there are some roadblocks which some of you may encounter. Like, when I first tried these problems, I had `int counter = 0;` instead of `long counter = 0;`, which caused a big error because the biggest integer is roughly 2.14 billion, and the summation of the primes to 2 million is actually much higher, and java never produced any run-time warnings, the answer was just an incorrect number :p.
+Also, there are some roadblocks which some of you may encounter. Like, when I first tried these problems, I had `int counter = 0;` instead of `long counter = 0;`, which caused a big error because the biggest integer is roughly 2.14 billion, and the summation of the primes to 2 million is actually much higher, and java never produced any run-time warnings, the answer was just an incorrect number :p.
 
 But yeah, hope you all enjoyed this! Be sure to comment or contact me if you have any questions on the implementations above.

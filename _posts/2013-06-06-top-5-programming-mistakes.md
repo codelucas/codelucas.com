@@ -6,18 +6,18 @@ tags:
 ---
 
 
-Last night, my roommate Edwin and I, both Computer Science / Engineering majors, were working on a Java lab with a few others. As it turns out, one of our group mates didn't know what the keyword `static` meant in Java and he was a Junior. This blog post is not intended to be mean, it's meant to provide a list of **very important** CS fundamentals which are too frequently overlooked.
+Last night, my roommate Edwin and I, both Computer Science / Engineering majors, were working on a Java lab with a few others. As it turns out, one of our group mates didn't know what the keyword `static` meant in Java and he was a Junior. This blog post is not intended to be mean, it's meant to provide a list of CS fundamentals which are too frequently overlooked.
 
 Here are the <u>Top 5 most Alarming Programming mistakes that Intro to CS majors make</u> and tips to avoid them!:
 
 ###1. Over-reliance on big IDE's:
 
-First-timers tend to think that huge IDE's like Eclipse or Visual S. are magical wizards that seem to transform syntax into commands when the "play" button has been hit. **And yes, i've heard someone actually call it a f*cking play button before. **People don't know why the magical "bin" folder is there and i've met others who don't know the difference between source and binary files. Sure, for the first one or two intro to CS classes, its ok to be naive, you have synax to worry about. However, everyone should at least make an attempt to dive in further ASAP.
+First-timers tend to think that huge IDE's like Eclipse or Visual S. are magical wizards that seem to transform syntax into commands when the "play" button has been hit. **And yes, i've heard someone actually call it a f*cking play button before. **People don't know why the magical "bin" folder is there and i've met others who don't know the difference between source and binary files. Sure, for the first one or two intro to CS classes, its ok to be naive, you have synax to worry about. However, everyone should at least make an attempt to dive in further ASAP.
 
 ![Glorious play button of eclipse](/images/play_button.png)
-<center><u>The glorious play button of eclipse... It makes your code work.</u></center>
+<center>The glorious play button of eclipse... It makes your code work.</center>
 
-A good way to get started, and what helped me, was to put the GUI and the IDE away. If you are on Windows, download <a title="Cygwin" href="http://www.cygwin.com/install.html" target="_blank">Cygwin</a> and use VI/M or Emacs as a text editor. If your language needs to be compiled, manually compile it, and then run it. You will be exposed to a deeper level of what is going on, and in a healthy way. (Mac and Linux users, you guys are spoiled. You can immediately start by opening up Terminal).
+A good way to get started, and what helped me, was to put the GUI and the IDE away. If you are on Windows, download <a title="Cygwin" href="http://www.cygwin.com/install.html" target="_blank">Cygwin</a> and use VI/M or Emacs as a text editor. If your language needs to be compiled, manually compile it, and then run it. You will be exposed to a deeper level of what is going on, and in a healthy way. (Mac and Linux users, you guys are spoiled. You can immediately start by opening up Terminal).
 
 ###2. Failure to understand reference types:
 
@@ -52,7 +52,7 @@ public class Ref {
 }
 {% endhighlight %}
 
-Not understanding how reference types works also contributes to a lack of understanding of the pass by reference &amp; value protocols. <u>I've met someone who thought that Strings were primitive in Java.</u> Hiccups in something like distinguishing reference types can cause large and subtle errors.
+Not understanding how reference types works also contributes to a lack of understanding of the pass by reference &amp; value protocols. I've met someone who thought that Strings were primitive in Java. Hiccups in something like distinguishing reference types can cause large and subtle errors.
 
 ###3. Lacking of Memory awareness - bits, bytes, fundamentals
 

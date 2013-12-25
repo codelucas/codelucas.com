@@ -12,7 +12,7 @@ tags:
 
 In the below example, we will solve this in Java. A common initial approach to this problem involves trying to compute 2^1000, storing the value as a number, and then converting the number into a string and adding each digit one by one. However, this won't work for most compiled langauges. Remember that the primitive data types `long` or `double` are 8 bytes, (64 bits). We are left at a 2^63-1 max number if signed. 2^1000 will greatly exceed the storage space within a double or a long.
 
-However! We can pre-allocate a bunch of room in an array, and manually <u>build</u> the number 2^1000 within the array, with each array index slot holding **one** digit. For example, instead of
+However! We can pre-allocate a bunch of room in an array, and manually build the number 2^1000 within the array, with each array index slot holding **one** digit. For example, instead of
 `long var1 = 100;`
 we would have
 `int[] var1 = {0, 0, 1};`
@@ -62,6 +62,6 @@ for (int i = 0; holder[i] != -1; i++)
 System.out.println(sum);
 {% endhighlight %}
 
-We are using an array of integers with pre-allocated space as a <u>custom data structure</u>, which can hold much much more than a java long or double. 
+We are using an array of integers with pre-allocated space as a *custom data structure*, which can hold much much more than a java long or double. 
 
 To conserve memory in cases where our numbers get *really* big, we can even initialize the array to be of type `byte`, because no value will go over 10 anyways. Oh and the answer was `1366` if anyone was curious.
