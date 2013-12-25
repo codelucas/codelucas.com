@@ -13,7 +13,7 @@ The three languages which we will talk about are Python, Java, and C++. Python a
 
 <!-- We will first talk about passing by value. For many newer and modern languages, there seems to be a trend of strict pass by value restrictions. PHP, Python, Go, Java, and many more languages are all pass by value! -->
 
-**Important:** Before going technical over these two passing protocols, we need to distinguish two types of variables in programming languages, `Value types` and `reference types`, because a variable's type does affect how it is passed & interpreted.
+**Important:** Before going technical over these two passing protocols, we need to distinguish two types of variables in programming languages, *value types* and *reference types*, because a variable's type does affect how it is passed & interpreted.
 
 {% highlight java %}
 // Value type in Java, there is no layer between the variable 
@@ -51,7 +51,7 @@ class Car {
 }
 {% endhighlight %}
 
-In the following example, we are passing by value the reference to a car object called "car". It is default initialized with "foo", so the var String property of the object is "foo" after creation. In the setCarVar(...) method, we take the car instance, and change it's var variable into the String "bar". Despite this being pass by value, the change still takes effect because the reference was cloned, <b>not the actual object</b>. The reference is still pointing towards the original object!
+In the following example, we are passing by value the reference to a car object called `car`. It is default initialized with `"foo"`, so the `var` String property of the object is `"foo"` after creation. In the `setCarVar(...)` method, we take the `car` instance, and change it's `var` variable into the String `bar`. Despite this being pass by value, the change still takes effect because the reference was cloned, <b>not the actual object</b>. The reference is still pointing towards the original object!
 
 {% highlight java %}
 public static void main (String[] args) {
@@ -68,7 +68,7 @@ public static void main (String[] args) {
 
 <img src="/images/Pass-by-Val-varChange-2.jpg" alt="Pass by Value PT 2" />
 
-Take a look at this new example, we use a new method, refNewCar(...). This method differs from the original because it does not change the car's var property, it completely points the input reference towards a new car object. This is very important! Because the car reference is pointing now at a new car object (not original), all changes made to this object will not affect the original! This is much better explained with graphical images. 
+Take a look at this new example, we use a new method, `refNewCar(...)`. This method differs from the original because it does not change the car's `var` property, it completely points the input reference towards a new car object. This is very important! Because the car reference is pointing now at a new car object (not original), all changes made to this object will not affect the original! This is much better explained with graphical images. 
 
 {% highlight java %}
 public static void main (String[] args) {
@@ -122,9 +122,9 @@ int main() {
 
 The main takeaway for pass by references is that after pointing the input reference to a new object, the changes stay. The object reference will now stay pointed at that new object. If you are passing by a value type, the value will also change if it is pointed towards a new value.
 
-The ampersand y (&y) in the method signature of setValue(...) denotes a new reference which points to the value type of the object in memory, which is initialized to 10. Instead of duplicating a value or reference, we are now just simply referencing it with a new reference. We are using a new reference to point to the <b>original</b> value type, and we are setting it to a new object in memory. This means all changes to the object, or even resetting the reference to a new objects, have permanent results. 
+The ampersand y `&y` in the method signature of `setValue(...)` denotes a new reference which points to the value type of the object in memory, which is initialized to 10. Instead of duplicating a value or reference, we are now just simply referencing it with a new reference. We are using a new reference to point to the <b>original</b> value type, and we are setting it to a new object in memory. This means all changes to the object, or even resetting the reference to a new objects, have permanent results. 
 
-If we wanted to mimic our above example with Car car, and the refNewCar setup, the graphic below will represent the subtle change. Having our car reference a new object will result in the reference permanently pointing towards a new object.
+If we wanted to mimic our above example with `Car car`, and the `refNewCar(...)` setup, the graphic below will represent the subtle change. Having our car reference a new object will result in the reference permanently pointing towards a new object.
  
 
 Congratulations, you have read through my lengthy guide to parameter passing and variable types! I hope this has helped you guys, please share this article with your friends if it really did help you!
