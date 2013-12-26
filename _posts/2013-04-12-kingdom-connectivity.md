@@ -7,7 +7,7 @@ tags:
 - hackerrank
 ---
 
-Today I will write about a problem found on <a href="https://www.hackerrank.com/">HackerRank</a>. It's a graph problem, graph problems are a set of problems which are known for generally being harder than others, however very useful in the real world.
+Today I will write about a problem found on [HackerRank](https://www.hackerrank.com). It's a graph problem, graph problems are a set of problems which are known for generally having a steep learning curve. However, they are highly applicable in the real world.
 
 > King Charles recently opened up a compeltely new kingdom! This kingdom has many cities connected by one-way roads. To ensure high connectivity, two cities are sometimes directly connected by even more than one road. King Charles has made one of the cities in the new kingdom his financial capital and one city his warfare capital, and he wants high connectivity between these two capitals. 
 
@@ -18,11 +18,11 @@ Today I will write about a problem found on <a href="https://www.hackerrank.com/
 
 We are told that the roads are one way, so *the graph is directed*. The problem mentions nothing about the roads being cyclic or not, so we assume that *cycles are present*. Infinitely many paths can exist between two nodes. The only possibility of an infinite # of paths between two nodes is when a cycle is present within the path between the two nodes.
 
-We know that the graph is directed and cyclical. We need to find the # of paths between two nodes, so no weights are involved. We are just node hopping while bookkeeping the the incoming or outgoing edges. This  stands out as a <a href="http://en.wikipedia.org/wiki/Dynamic_programming">Dynamic Programming</a> problem because the problem we are trying to solve can be divided into many smaller problems.
+We know that the graph is directed and cyclical. We need to find the # of paths between two nodes, so no weights are involved. This problem boils down to us just node hopping while bookeeping the outgoing edges. This stands out as a <a href="http://en.wikipedia.org/wiki/Dynamic_programming">Dynamic Programming</a> problem because the problem we are trying to solve can be divided into many smaller problems. Imagine a simple graph, `A->B->C`. After we compute the # of paths between B and C, we can use our answer to solve the same problem between nodes A and C! 
 
-We will start at the source city and depth first search straight towards the destination. The **base case** is the destination. Once hit, we `return 1`, which stands for one path found. We perform this procedure for every child edge of every edge and add up the # of paths found on each child edge. At each turn, the weight between the current node and it's adjacent nodes will be **cached** in a hashtable so save computations. 
+We will start at the source city and depth first search straight towards the destination. The **base case** is the destination. Once we hit the dest, we `return 1`, which stands for one path found. We perform this procedure for every child edge of every edge and add up the # of paths found on each child edge. At each turn, the weight between the current node and its adjacent nodes will be **cached** in a hashtable so save computations. 
 
-Also, at each turn we are checking all the adjacent nodes and marking them as seen. If they are seen again, we are now in a cycle. If we are in a cycle **and** we are also on the path from the source to destination, we now have an infinite amount of paths.
+Also, at each turn we are checking all the adjacent nodes and marking them as seen. If we encounter any node that is marked as seen, we are now in a cycle. If we are in a cycle **and** we are also on the path from the source to destination, we now have an infinite amount of paths.
 
 {% highlight python %}__author__ = 'lucas'
 # Ending Vertex, Number of Edges
@@ -53,7 +53,7 @@ def find_paths(start, dest):
 
         is_hit[edge] = True
         # If the weight is stored via dynamic programing
-        # take it, if it's not recurse and find it
+        # take it, if it is not recurse and find it
         if paths.get(edge):
             weight = paths[edge]
         else:
