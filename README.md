@@ -1,6 +1,6 @@
 # [codelucas.com](http://codelucas.com) Blog
 
-This blog was heavily inspired by [Ferros's Blog](http://feross.org). I will add more specifics later.
+This blog was heavily inspired by [Feross's Blog](http://feross.org). I will add more specifics later.
 
 ## How it's built
 
