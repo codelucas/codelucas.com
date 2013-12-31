@@ -21,15 +21,13 @@ A good way to get started, and what helped me, was to put the GUI and the IDE aw
 
 ###2. Failure to understand reference types:
 
-I think that this is by far the *most dangerous* mistake introductory students can make.
-
 {% highlight java %}
 
 // C does not "equal" a car object in memory, it's 
 // a reference to that object in memory
 
 Car c = new Car(); 
-// This is a big difference and below is an example why.
+// This is a big difference and below is an example why.
 class Car {
     public int wheels = 2;
     public Car(int wheels) {

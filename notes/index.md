@@ -82,3 +82,8 @@ Technical Notes
 - [gnu/linux information project](http://www.linfo.org/)
 - [list of 5K urls](http://files.ianonavy.com/urls.txt)
 
+
+- [intro to Makefiles](http://www.linuxdevcenter.com/pub/a/linux/2002/01/31/make_intro.html?page=2)
+- [difference between /bin /sbin/ /usr/bin](http://askubuntu.com/questions/308045/differences-between-bin-sbin-usr-bin-usr-sbin-usr-local-bin-usr-local)
+- [vagrant](http://docs.vagrantup.com/v2/)
+
