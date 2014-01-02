@@ -26,7 +26,12 @@ class: post
 
   {{ content }}
 
-  <!-- {% if site.related_posts %}<p>(If you liked this, you might like <a href="{{ site.related_posts[0].url }}/">{{ site.related_posts[0].title }}</a>.)</p>{% endif %} -->
+<!--
+{% if site.related_posts %}
+    <p>(If you liked this, you might like <a href="{{ site.related_posts[0].url }}/">
+    {{ site.related_posts[0].title }}</a>.)</p>
+{% endif %} 
+-->
 
 </article>
 
@@ -41,11 +46,16 @@ class: post
   <section class="copy">
     <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=USERNAME_HERE', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
       <p>
-
         <a href="https://twitter.com/codelucas" class="avatar">
-          <img src="/images/logo_small.jpg" height="50" width="50" alt="Lucas Ou-Yang" />
+          <img src="/images/selfie3_small.jpg" height="50" width="50" alt="Lucas Ou-Yang" />
         </a>
-        Hey, thanks for reading! I'm <a href="/about/">Lucas Ou-Yang</a>, a software enthusiast. I love creating web apps, cross country running, and learning new technologies. I also enjoy design and art. 
+        Hey, thanks for reading! I'm <a href="/about/">Lucas Ou-Yang</a>, I love making things. 
+        I am currently working on <a href="http://github.com/codelucas/newspaper">Newspaper</a>, 
+        an open source python library for article news extraction, and 
+        <a href="http://antchatter.com">Antchatter.com</a> a geolocation enhanced chatroom 
+        for college kids. 
+        
+        I am also a co-founder of <a href="http://wintria.com">Wintria.com</a>. 
       </p>
 
       {% if page.hn %}<p>You can discuss, upvote, or poke fun at this post over at <a href="{{ page.hn }}">Hacker News</a>.</p>{% endif %}
@@ -76,7 +86,6 @@ class: post
   {% if page.next.url %}
     <a class="next" href="{{ page.next.url }}/" title="Next Post: {{ page.next.title }}">{{ page.next.title }}</a>
   {% endif %}
-
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">

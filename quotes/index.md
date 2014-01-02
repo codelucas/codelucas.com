@@ -4,6 +4,16 @@ title: Quotes
 ---
 
 <!-- -->
+> January 1st is my favorite day of the year. Quiet, reflective, and full of potential. If only we could make this our every day. -- Jack Dorsey, Twitter Cofounder
+
+<!-- -->
+> ...for whatever you're doing, there's usually only one place where the top people go. 
+> You should go there. Don't settle for anywhere else. -- Drew Houston, Dropbox
+
+<!-- -->
+> Be curious. Read widely. Try new things. I think a lot of what people call intelligence just boils down to curiosity. -- Aaron Swartz, "Guy who hacked MIT's library", Reddit Cofounder, RSS Architect
+
+<!-- -->
 > To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment. -- Ralph Waldo Emerson
 
 <!-- -->
@@ -11,10 +21,6 @@ title: Quotes
 
 <!-- -->
 > Everybody pities the weak; jealousy you have to earn. -- Arnold Schwarzengger
-
-<!-- -->
-> ...for whatever you're doing, there's usually only one place where the top people go. 
-> You should go there. Don't settle for anywhere else. -- Drew Houston, Dropbox
 
 <!-- -->
 > No, I don't believe in luck. -- John Nash, A Beautiful Mind
@@ -46,10 +52,6 @@ title: Quotes
 > be right once. -- Drew Houston, Dropbox
 
 <!-- -->
-> If you aren't a programmer, you're like one of the unlettered people of the Middle Ages 
-> who were told what to think by the literate priesthood. -- Tim O'Reilly, O'Reilly Media
-
-<!-- -->
 > Everyone has a plan 'till they get punched in the mouth. -- Mike Tyson
 
 <!-- -->
@@ -61,13 +63,10 @@ title: Quotes
 
 <!-- -->
 > If you have to refer to the documentation every time you use a 
-> module or library, then you need to build a new module or library. -- Kenneth Reitz, Author of Requests
+> library, then you need to build a new library. -- Kenneth Reitz, Author of Requests
 
 <!-- -->
 > Youth is the next best thing to revenue. -- WSJ on Snapchat
-
-<!-- -->
-> Twenty years ago... New, powerful technologies were being developed, and power shifted (temporarily, perhaps) to those few who understood them at a deep level. There was slight subversion of the 1%; they weren't destroyed, but they were visibly outperformed. -- Michael O. Church
 
 <!-- -->
 > We use Linux, MySQL, Ruby itself...they're free, and you can use them, you can change them, you can do whatever you want.  So it kind of feels like once you're in that world, you'd be an ass if you just developed something...and then you just kept it to yourself. -- DHH on open sourcing Ruby on Rails
@@ -75,3 +74,7 @@ title: Quotes
 <!-- -->
 > The purpose of abstracting is not to be vague, but it is to create a new semantic level where 
 > one can be absolutely precise. -- Dijkstra, Turing Speech 1947
+
+<!-- -->
+> I saw the angel in the marble and carved until I set him free. -- Michelangelo
+

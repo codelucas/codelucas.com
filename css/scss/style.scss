@@ -7,8 +7,8 @@ html {
 }
 
 body {
-  border-top: 6px solid $pink;
-  // border-bottom: 30px solid $pink;
+  // border-top: 6px solid $mainColor;
+  // border-bottom: 30px solid $mainColor;
   background-color: $bgColor;
   color: $darkerGray;
   font-family: $sans-serif;
@@ -68,11 +68,11 @@ body {
 
 a {
   #{$link} {
-    color: $pink;
+    color: $mainColor;
     text-decoration: underline;
   }
   #{$focus} {
-    color: $pink;
+    color: $mainColor;
     text-decoration: none;
   }
 }
@@ -104,6 +104,13 @@ h4 { font-size: 1.1em; margin: 1.2em 0 0.6em 0; color: $lightGray; }
   }
 }
 
+article {
+  p {
+    font-size: 1.1em;
+    line-height: 1.65em; 
+  }
+}
+
 p {
   font-size: 1.0em;
   margin: 1em 0;
@@ -122,7 +129,7 @@ p {
 blockquote {
   padding: 0.7em 2em;
   border: 1px solid $lighterGray;
-  border-left: 8px solid $pink;
+  border-left: 8px solid $mainColor;
   background-color: #F7F7F7;
   // font-style: italic;
   color: $darkGray;
@@ -142,7 +149,7 @@ abbr[title] { border-bottom: 1px dotted $lightGray; }
 
 // Non-semantic helper classes
 
-.red { color: $pink; } // I'm using Feross's template, his primary color was red, mine is pink
+.red { color: $mainColor; } // I'm using Feross's template, his primary color was red, mine is pink
 .strong { font-weight: bold; }
 
 
@@ -266,9 +273,8 @@ img {
 #header {
   height: 70px;
   text-align: center;
-  // background-repeat: no-repeat;
-  // background-image: url(/images/winter_background.jpg);
-  // background-position: 0% 0%;
+  background-color: $headerBgColor;
+  padding: 10px 0 10px 0;
 
   h1 {
     border-bottom: 0px;
@@ -276,21 +282,24 @@ img {
     font-size: 2.5em; 
     font-weight: 200;
     line-height: 1.5em;
-    margin: 40px 0 10px 0;
+    // margin: 40px 0 10px 0;
+    margin: 0 0 0 0;
 
     @media only screen and (max-width: $break1) {
       font-size: 3em;
-      margin: 30px 0 0 0;
+      // margin: 30px 0 0 0;
+      margin: 0 0 0 0;
     }
   }
   a { 
-    color: $gray; 
+    color: $mainColor; 
     #{$link} {
       text-decoration: none;
     }
     #{$focus} {
-      color: $pink; // bright pink
-      // border-bottom: 3px solid $bgColor; // uncomment if you want hover underline
+      // color: $blueGray; 
+      border-bottom: 1px solid $mainColor; // uncomment if you want hover underline
+      font-style: italic;
     }
   }
 }
@@ -302,7 +311,7 @@ img {
 
   @include rotate(-45deg);
 
-  background: lighten($pink, 6%);
+  background: lighten($mainColor, 6%);
   color: #fff;
   display: block;
   font-size: 14px;
@@ -385,7 +394,7 @@ img {
     text-decoration: underline;
   }
   #{$focus} {
-    color: $pink;
+    color: $mainColor;
     text-decoration: underline;
   }
 }
@@ -545,9 +554,9 @@ ul.listing {
         text-decoration: underline;
       }
       #{$focus} {
-        color: $pink;
+        color: $mainColor;
       }
-      }
+    }
   }
 }
 

@@ -15,24 +15,25 @@ Technical Notes
 - [Huffman coding](http://rosettacode.org/wiki/Huffman_coding)
 - [Bootstrap responsive ui guide](http://bootply.com/73952)
 
-> Stop referring to GNU/Linux systems as just "Linux". Linux is
+<!-- -->
+> GNU/Linux systems should not be referred to as just "Linux". Linux is
 > just the kernel when GNU consists of most of the tools running
-> above it. GNU stands for "GNU is not UNIX", it's recursive ;)
+> above it. GNU stands for "GNU is not UNIX"
 
-<!--- -->
+<!-- -->
 > OSX has it's own kernel, XNU, which stands for "X is not UNIX".
 > OSX's own OS tool set, Darwin, is built around XNU, much like how
 > GNU is built around Linux.
 
-<!--- -->
+<!-- -->
 > POSIX, an acronym for "Portable Operating System Interface", is 
 > a family of standards for maintaining compatibility between operating systems. 
 > POSIX defines the API, along with shells and interfaces, for compatibility with 
 > variants of Unix and other operating systems.
 
-<!--- -->
+<!-- -->
 > Windows OS's use their own custom microsoft made kernels and compilers & tools
-> which are not POSIX compliant. However windows users can use [`cygwin`](http://www.cygwin.com/)
+> which are not POSIX compliant. However windows users can use [cygwin](http://www.cygwin.com/)
 > to mimic a POSIX protocol.
 
 - [Flask Long-Polling example](https://bitbucket.org/danjac/chatbox/src)
@@ -81,9 +82,9 @@ Technical Notes
 - [curl vs wget](http://daniel.haxx.se/docs/curl-vs-wget.html)
 - [gnu/linux information project](http://www.linfo.org/)
 - [list of 5K urls](http://files.ianonavy.com/urls.txt)
-
-
 - [intro to Makefiles](http://www.linuxdevcenter.com/pub/a/linux/2002/01/31/make_intro.html?page=2)
 - [difference between /bin /sbin/ /usr/bin](http://askubuntu.com/questions/308045/differences-between-bin-sbin-usr-bin-usr-sbin-usr-local-bin-usr-local)
 - [vagrant](http://docs.vagrantup.com/v2/)
-
+- [intro to git merging & branching](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
+- [Aaron Swartz being cocky](https://aaronsw.jottit.com/howtoget)
+- [technical explanation of bitcoin](http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/)

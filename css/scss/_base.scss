@@ -11,7 +11,7 @@ $sans-serif: "Open Sans", sans-serif;
 
 // Post width
 $fullWidth: 1000px;
-$postWidth: 700px;
+$postWidth: 650px;
 $postWidthSmall: 600px;
 
 // Media query break points
@@ -21,14 +21,11 @@ $break3: 950px;
 $break4: 1100px;
 
 // Colors
-// Original template by feross, he used red and i'm using blue. I'll change var name later
+$mainColor: #00A3FF;
+$headerBgColor: #f8f8f8;
+$blueGray: #7c858e;
 
-$pink: #00A3FF;// #FF568C;
-
-// #00A3FF; //#22AFFF;
-// #387BF5
-// more vibrant: #2775FF
-// $red: #666; // save the blue, we using gray theme atm #56A0FF; 
+// $red: #666; 
 
 $white: #FFF;
 $lightestGray: #EEE;
