@@ -7,20 +7,39 @@ title: Quotes
 > January 1st is my favorite day of the year. Quiet, reflective, and full of potential. If only we could make this our every day. -- Jack Dorsey, Twitter Cofounder
 
 <!-- -->
+> The fool didn't know it was impossible, so he did it. -- A fool
+
+<!-- -->
+> A ship is safe in harbor, but that's not what ships are for. -- William G.T. Shedd
+
+<!-- -->
+> Somewhere in the world someone is training when you are not. When you race him, he will win. -- Tom Fleming
+
+<!-- -->
+> Everybody pities the weak; jealousy you have to earn. -- Arnold Schwarzengger
+
+<!-- -->
 > ...for whatever you're doing, there's usually only one place where the top people go. 
 > You should go there. Don't settle for anywhere else. -- Drew Houston, Dropbox
 
 <!-- -->
+> If you merely want to be the next Mark Zuckerberg, at best you will come in 2nd place. Because
+> Mark Zuckerberg will always be a better Mark Zuckerberg than you. -- Ashton Kutcher
+
+<!-- -->
 > Be curious. Read widely. Try new things. I think a lot of what people call intelligence just boils down to curiosity. -- Aaron Swartz, "Guy who hacked MIT's library", Reddit Cofounder, RSS Architect
+
+<!-- -->
+> We can't help everyone, but everyone can help someone. -- Ronald Reagan  
+
+<!-- -->
+> You might have more talent than me, you might be smarter than me, you might be sexier than me, you might be all of those things you got it on me in nine categories. But if we get on the treadmill together, there's two things: You're getting off first, or I'm going to die. It's really that simple, right? -- Will Smith
 
 <!-- -->
 > To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment. -- Ralph Waldo Emerson
 
 <!-- -->
 > Wherever smart people work, doors are unlocked. -- Steve Wozniak, Apple
-
-<!-- -->
-> Everybody pities the weak; jealousy you have to earn. -- Arnold Schwarzengger
 
 <!-- -->
 > No, I don't believe in luck. -- John Nash, A Beautiful Mind
@@ -32,6 +51,12 @@ title: Quotes
 > The Gods envy us. They envy us because we're mortal, because any moment might be our last. Everything is more beautiful because we're doomed. You will never be lovelier than you are now. We will never be here again. -- Achilles to Briseis, Troy
 
 <!-- -->
+> True friends stab you in the front. -- Oscar Wilde
+
+<!-- -->
+> Don't practice until you get it right. Practice until you can't get it wrong. -- Anon
+
+<!-- -->
 > The world is full of low IQ people that try to look intelligent and fall on their ass, and Steve, 
 > I think is a fairly high IQ person that does a great job at looking stupid, and that's probably 
 > why he's succesful at what he does. -- Steve-O's Dad
@@ -40,19 +65,15 @@ title: Quotes
 > Anything in life worth doing is worth overdoing; Moderation's for cowards. -- Navy Seal Creed & Mick Jagger
 
 <!-- -->
-> We understand walls in terms of bricks, bricks in terms of crystals, crystals in terms of molecules, and etc. -- Dijkstra, Turing Speech 1947
+> Man is least himself when he talks in his own person. Give him a mask, and he will tell you the truth. -- Oscar Wilde 
 
 <!-- -->
-> If you merely want to be the next Mark Zuckerberg, at best you will come in 2nd place. Because
-> Mark Zuckerberg will always be a better Mark Zuckerberg than you. -- Ashton Kutcher
+> We understand walls in terms of bricks, bricks in terms of crystals, crystals in terms of molecules, and etc. -- Dijkstra, Turing Speech 1947
 
 <!-- -->
 > That's my favorite thing that changes today. You no longer carry around a number indicating 
 > the sum of all your mistakes (GPA). From now on, failure doesn't matter: you only have to 
 > be right once. -- Drew Houston, Dropbox
-
-<!-- -->
-> Everyone has a plan 'till they get punched in the mouth. -- Mike Tyson
 
 <!-- -->
 > I discovered that I could be a better programmer by using only the good parts and avoiding 
