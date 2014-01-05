@@ -7,7 +7,7 @@ tags:
 - hackerrank
 ---
 
-Today I will write about a problem found on [HackerRank](https://www.hackerrank.com). It's a graph problem, graph problems are a set of problems which are known for generally having a steep learning curve. However, they are highly applicable in the real world.
+Today I will write about a problem found on [HackerRank](https://www.hackerrank.com). 
 
 > King Charles recently opened up a compeltely new kingdom! This kingdom has many cities connected by one-way roads. To ensure high connectivity, two cities are sometimes directly connected by even more than one road. King Charles has made one of the cities in the new kingdom his financial capital and one city his warfare capital, and he wants high connectivity between these two capitals. 
 
