@@ -4,7 +4,6 @@ title: "Thoughts on building a large object oriented game"
 tags:
 - programming
 - java
-github: https://github.com/codelucas/islandoverlord
 ---
 
 My java applet game, dubbed [IslandOverlord](http://codelucas.com/pages/island-overlord.html), started out as a small Summer project, but it has grown in both physical size and emotional weight very quickly. It's now 7,000 lines of java code and has progressed to the point where i'm devoting over 5-6 hours a day, with school, to work on. The fact that I had to hand draw the graphics via gimp did not help :(

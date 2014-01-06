@@ -88,3 +88,4 @@ Technical Notes
 - [intro to git merging & branching](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
 - [Aaron Swartz being cocky](https://aaronsw.jottit.com/howtoget)
 - [technical explanation of bitcoin](http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/)
+- [Placeit, splash image simulator](https://placeit.net)
