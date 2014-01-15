@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<head>
+
+  <!--
+  
+  Lucas Ou-Yang
+  http://codelucas.com
+  
+  "I saw the angel in the marble and carved until I set him free." - Michelangelo
+
+  -->
+  
+  <title>Kingdom Connectivity - Graph theory problem &raquo; codelucas.com</title>
+  <meta property="og:title" content="Kingdom Connectivity - Graph theory problem &raquo; codelucas.com" />
+
+  <meta name="description" content="Hi! My name is Lucas, i'm passionate about software & art. I build web applications and distance run in my spare time.">
+  <meta property="og:description" content="Hi! My name is Lucas, i'm passionate about software & art. I build web applications and distance run in my spare time." />
+
+  <meta property="og:type" content="article" />
+  <meta property="article:tag" content="algorithms" /><meta property="article:tag" content="graphtheory" /><meta property="article:tag" content="hackerrank" />
+  <meta property="og:image" content="http://codelucas.com/images/logo.png" />
+
+  <meta property="article:author" content="http://codelucas.com/about/" />
+  <meta property="fb:admins" content="lucas.ouyang.7" />
+  <!-- <meta property="fb:app_id" content="" /> -->
+  <link rel="author" href="https://plus.google.com/108352969036344290601" />
+  <link rel="icon" type="image/png" href="/favicon.ico">
+  <!-- Fonts, 600 is pseudo bold -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="canonical" href="http://codelucas.com/kingdom-connectivity/" />
+  <meta property="og:url" content="http://codelucas.com/kingdom-connectivity/" />
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- <link rel="alternate" type="application/atom+xml" title="codelucas.com" href="" /> -->
+
+  <link rel="stylesheet" href="/css/compiled/style.css" />
+
+  <script type="text/javascript" src="//use.typekit.net/lvb8hht.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+<body class="post">
+
+  <header id="header">
+  <h1><a href="/">codelucas</a></h1>
+  </header>
+  
+  <div id="container">
+
+    <section class="content clearfix">
+      <div class="postHeader">
+
+  <h1>
+    <a href="/kingdom-connectivity/">Kingdom Connectivity - Graph theory problem</a>
+  </h1>
+
+  <div class="byline">
+    <span>By <a href="/about/" title="Lucas Ou-Yang">Lucas Ou-Yang</a></span>
+    <time datetime="2013-04-12">April 12, 2013</time>
+    Tagged with
+    <ul class="tags">
+      
+      <li><a href="/tag/algorithms/">algorithms</a></li>
+      
+      <li><a href="/tag/graphtheory/">graphtheory</a></li>
+      
+      <li><a href="/tag/hackerrank/">hackerrank</a></li>
+      
+    </ul>
+  </div>
+
+</div>
+
+<article>
+
+  <p>Today I will write about a problem found on <a href="https://www.hackerrank.com">HackerRank</a>.</p>
+
+<blockquote><p>King Charles recently opened up a compeltely new kingdom! This kingdom has many cities connected by one-way roads. To ensure high connectivity, two cities are sometimes directly connected by even more than one road. King Charles has made one of the cities in the new kingdom his financial capital and one city his warfare capital, and he wants high connectivity between these two capitals.</p>
+
+<p>The connectivity of a pair of cities A and B is defined as the number of different paths from city A to city B. A path may use a road more than once if possible. Two paths are considered different if they do not use exactly the same sequence of roads. There are N cities numbered 1 to N in the new kingdom and M one-way roads. City 1 is the financial capital and city N is the warfare capital.</p>
+
+<p>What is the connectivity of the financial capital and warfare capital, i.e how many different paths are there from city 1 to city N? Input Format The first line contains two integers N and M. M lines follow, each containing two integers x and y, indicating there is a road from city x to city y (1&lt;=x,y&lt;=N). Output Format Print the number of different paths from city 1 to city N modulo 1,000,000,000(10<sup>9</sup>). If there are infinitely many different paths print INFINITE PATHS (quotes are for clarity).</p></blockquote>
+
+<p>We are told that the roads are one way, so <em>the graph is directed</em>. The problem mentions nothing about the roads being cyclic or not, so we assume that <em>cycles are present</em>. Infinitely many paths can exist between two nodes. The only possibility of an infinite # of paths between two nodes is when a cycle is present within the path between the two nodes.</p>
+
+<p>We know that the graph is directed and cyclical. We need to find the # of paths between two nodes, so no weights are involved. This problem boils down to us just node hopping while bookeeping the outgoing edges. This stands out as a <a href="http://en.wikipedia.org/wiki/Dynamic_programming">Dynamic Programming</a> problem because the problem we are trying to solve can be divided into many smaller problems. Imagine a simple graph, <code>A-&gt;B-&gt;C</code>. After we compute the # of paths between B and C, we can use our answer to solve the same problem between nodes A and C!</p>
+
+<p>We will start at the source city and depth first search straight towards the destination. The <strong>base case</strong> is the destination. Once we hit the dest, we <code>return 1</code>, which stands for one path found. We perform this procedure for every child edge of every edge and add up the # of paths found on each child edge. At each turn, the weight between the current node and its adjacent nodes will be <strong>cached</strong> in a hashtable so save computations.</p>
+
+<p>Also, at each turn we are checking all the adjacent nodes and marking them as seen. If we encounter any node that is marked as seen, we are now in a cycle. If we are in a cycle <strong>and</strong> we are also on the path from the source to destination, we now have an infinite amount of paths.</p>
+
+<div class="highlight"><pre><code class="python"><span class="n">__author__</span> <span class="o">=</span> <span class="s">&#39;lucas&#39;</span>
+<span class="c"># Ending Vertex, Number of Edges</span>
+<span class="n">dest</span><span class="p">,</span> <span class="n">N</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">raw_input</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">)]</span>
+<span class="c"># DP hash, adjacency list</span>
+<span class="n">paths</span><span class="p">,</span> <span class="n">graph</span> <span class="o">=</span> <span class="p">{},</span> <span class="p">{}</span>
+<span class="n">is_hit</span><span class="p">,</span> <span class="n">is_cycle</span>  <span class="o">=</span> <span class="p">[</span><span class="bp">False</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">dest</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)],</span> <span class="p">[</span><span class="bp">False</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">dest</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span>
+
+<span class="k">def</span> <span class="nf">init</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">is_hit</span><span class="p">,</span> <span class="n">is_cycle</span><span class="p">,</span> <span class="n">dest</span><span class="p">,</span> <span class="n">N</span><span class="p">,</span> <span class="n">paths</span>
+    <span class="n">is_hit</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+    <span class="n">find_paths</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">dest</span><span class="p">)</span>
+    <span class="k">print</span> <span class="n">paths</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">find_paths</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">dest</span><span class="p">):</span>
+    <span class="k">global</span> <span class="n">is_hit</span><span class="p">,</span> <span class="n">is_cycle</span><span class="p">,</span> <span class="n">paths</span><span class="p">,</span> <span class="n">graph</span>
+    <span class="c"># Base case, if we hit the destination</span>
+    <span class="c"># return a path length of 1</span>
+    <span class="k">if</span> <span class="n">start</span> <span class="o">==</span> <span class="n">dest</span><span class="p">:</span> <span class="k">return</span> <span class="mi">1</span>
+    <span class="c"># In the case that our start point isn&#39;t</span>
+    <span class="c"># in the graph, return 0 possible paths</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">graph</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">start</span><span class="p">):</span> <span class="k">return</span> <span class="mi">0</span>
+
+    <span class="k">for</span> <span class="n">edge</span> <span class="ow">in</span> <span class="n">graph</span><span class="p">[</span><span class="n">start</span><span class="p">]:</span>
+        <span class="k">if</span> <span class="n">is_hit</span><span class="p">[</span><span class="n">edge</span><span class="p">]:</span>
+            <span class="n">is_cycle</span><span class="p">[</span><span class="n">edge</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+            <span class="k">continue</span>
+
+        <span class="n">is_hit</span><span class="p">[</span><span class="n">edge</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+        <span class="c"># If the weight is stored via dynamic programing</span>
+        <span class="c"># take it, if it is not recurse and find it</span>
+        <span class="k">if</span> <span class="n">paths</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">edge</span><span class="p">):</span>
+            <span class="n">weight</span> <span class="o">=</span> <span class="n">paths</span><span class="p">[</span><span class="n">edge</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">weight</span> <span class="o">=</span> <span class="n">find_paths</span><span class="p">(</span><span class="n">edge</span><span class="p">,</span> <span class="n">dest</span><span class="p">)</span>
+
+        <span class="c"># We must have this init check here and not all</span>
+        <span class="c"># at once at the beginning because we rely on checking</span>
+        <span class="c"># if a path[key] exists to determine to use DP or not.</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">paths</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">start</span><span class="p">):</span>
+            <span class="n">paths</span><span class="p">[</span><span class="n">start</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+
+        <span class="n">paths</span><span class="p">[</span><span class="n">start</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">paths</span><span class="p">[</span><span class="n">start</span><span class="p">]</span> <span class="o">+</span> <span class="n">weight</span><span class="p">)</span> <span class="o">%</span> <span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">9</span><span class="p">)</span>
+
+        <span class="c"># If the cur node is reachable via the destination</span>
+        <span class="c"># &quot;paths[start] &gt; 0&quot;, and if there is a cycle</span>
+        <span class="c"># &quot;is_hit&quot; true twice, then we are in a loop AND</span>
+        <span class="c"># that loop is on a road from start to dest, so we</span>
+        <span class="c"># now have infinite paths!</span>
+        <span class="k">if</span> <span class="n">paths</span><span class="p">[</span><span class="n">start</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">is_cycle</span><span class="p">[</span><span class="n">start</span><span class="p">]:</span>
+            <span class="k">print</span> <span class="s">&quot;INFINITE PATHS&quot;</span>
+            <span class="n">quit</span><span class="p">()</span>
+        <span class="n">is_hit</span><span class="p">[</span><span class="n">edge</span><span class="p">]</span> <span class="o">=</span> <span class="bp">False</span>
+    <span class="k">return</span> <span class="n">paths</span><span class="p">[</span><span class="n">start</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">N</span><span class="p">)):</span>
+    <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">raw_input</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">)]</span>
+    <span class="k">if</span> <span class="n">a</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">graph</span><span class="p">:</span>
+        <span class="n">graph</span><span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">b</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">graph</span><span class="p">[</span><span class="n">a</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+
+<span class="n">init</span><span class="p">()</span>
+</code></pre></div>
+
+
+<p>I hope this example and explanation helps you guys with visualizing graph problems more. They can be a bit tricky sometimes, but in my opinion, graph problems are the most satisfying to solve out of all algorithmic challenges!</p>
+
+<p>Later tonight or tomorrow, I will make a long delayed post about Wintria, my startup, and my Summer internship!</p>
+
+
+<!--
+
+    <p>(If you liked this, you might like <a href="/euler-problem-7-and-10-fun-primes/">
+    Fun with primes - Euler Problems 7 & 10</a>.)</p>
+ 
+-->
+
+</article>
+
+<section class="meta">
+  <h3>
+    Discussion & Media
+    <a class="rss" href="http://feeds.feedburner.com/" title="Subscribe to the codelucas.com Feed">
+      <img src="/images/rss.png" alt="RSS Feed Icon" />
+    </a>
+  </h3>
+
+  <section class="copy">
+    <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=USERNAME_HERE', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+      <p>
+        <a href="https://twitter.com/codelucas" class="avatar">
+          <img src="/images/selfie3_small.jpg" height="50" width="50" alt="Lucas Ou-Yang" />
+        </a>
+        Hey, thanks for reading! I'm <a href="/about/">Lucas Ou-Yang</a>, I love making things. 
+        I am currently working on <a href="http://github.com/codelucas/newspaper">Newspaper</a>, 
+        an open source python library for article news extraction, and 
+        <a href="http://antchatter.com">Antchatter.com</a> a geolocation enhanced chatroom 
+        for college kids. 
+        
+        I am also a co-founder of <a href="http://wintria.com">Wintria.com</a>. 
+      </p>
+
+      
+      <p>
+        If you enjoyed this article, you should follow me on <a href="http://facebook.com/lucas.ouyang.7">Facebook</a> or <a href="https://twitter.com/lucasouyang">Twitter</a><!-- or sign up to get an email whenever I write something new:
+
+        <input type="email" name="email" placeholder="email@email.com"/>
+        <input type="hidden" value="codelucas" name="uri"/>
+        <input type="hidden" name="loc" value="en_US"/>
+        <input type="submit" value="Subscribe" />-->
+      </p>
+    </form>
+
+    <p>
+      Share this article with your friends:
+    </p>
+
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://codelucas.com/kingdom-connectivity/" data-text="Kingdom Connectivity - Graph theory problem" data-via="lucasouyang" data-size="large" data-related="lucasouyang">Tweet</a>
+
+    <div class="fb-like" data-href="http://codelucas.com/kingdom-connectivity/" data-send="false" data-width="320" data-show-faces="true"></div>
+
+  </section>
+
+
+  
+    <a class="prev" href="/pass-by-value-pass-by-reference/" title="Previous Post: Pass by value & pass by reference">Pass by value & pass by reference</a>
+  
+  
+    <a class="next" href="/top-5-programming-mistakes/" title="Next Post: Programming Mistakes that intro CS students make">Programming Mistakes that intro CS students make</a>
+  
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = 'codelucas';
+      var disqus_developer = (window.location.hostname == 'localhost') ? 1 : 0;
+      var disqus_url = 'http://codelucas.com/kingdom-connectivity/';
+
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+    </section>
+
+    
+
+  </div>
+  <center>
+      <!--<div class="byline" style="margin-bottom:10px;">"I saw the angel in the marble and carved until I set him free." - Michelangelo</div>-->
+
+      <div class="byline" style="margin-bottom:10px;">The theme is a modified version of <a href="http://feross.org">Feross's blog</a></div>
+  </center>
+
+  <script src="/js/libraries.js"></script>
+  <script src="/js/script.js"></script>
+
+  
+
+  
+
+  
+
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=223190377735910";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Twitter -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-37131973-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+</body>
+</html>

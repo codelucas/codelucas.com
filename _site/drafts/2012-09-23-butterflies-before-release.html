@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+<head>
+
+  <!--
+  
+  Lucas Ou-Yang
+  http://codelucas.com
+  
+  "I saw the angel in the marble and carved until I set him free." - Michelangelo
+
+  -->
+  
+  <title>Thoughts on Django after learning Flask &raquo; codelucas.com</title>
+  <meta property="og:title" content="Thoughts on Django after learning Flask &raquo; codelucas.com" />
+
+  <meta name="description" content="Hi! My name is Lucas, i'm passionate about software & art. I build web applications and distance run in my spare time.">
+  <meta property="og:description" content="Hi! My name is Lucas, i'm passionate about software & art. I build web applications and distance run in my spare time." />
+
+  <meta property="og:type" content="article" />
+  <meta property="article:tag" content="programming" /><meta property="article:tag" content="startups" /><meta property="article:tag" content="django" /><meta property="article:tag" content="flask" />
+  <meta property="og:image" content="http://codelucas.com/images/logo.png" />
+
+  <meta property="article:author" content="http://codelucas.com/about/" />
+  <meta property="fb:admins" content="lucas.ouyang.7" />
+  <!-- <meta property="fb:app_id" content="" /> -->
+  <link rel="author" href="https://plus.google.com/108352969036344290601" />
+  <link rel="icon" type="image/png" href="/favicon.ico">
+  <!-- Fonts, 600 is pseudo bold -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="canonical" href="http://codelucas.com/drafts/2012-09-23-butterflies-before-release.html/" />
+  <meta property="og:url" content="http://codelucas.com/drafts/2012-09-23-butterflies-before-release.html/" />
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- <link rel="alternate" type="application/atom+xml" title="codelucas.com" href="" /> -->
+
+  <link rel="stylesheet" href="/css/compiled/style.css" />
+
+  <script type="text/javascript" src="//use.typekit.net/lvb8hht.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+<body class="post">
+
+  <header id="header">
+  <h1><a href="/">codelucas</a></h1>
+  </header>
+  
+  <div id="container">
+
+    <section class="content clearfix">
+      <div class="postHeader">
+
+  <h1>
+    <a href="/drafts/2012-09-23-butterflies-before-release.html/">Thoughts on Django after learning Flask</a>
+  </h1>
+
+  <div class="byline">
+    <span>By <a href="/about/" title="Lucas Ou-Yang">Lucas Ou-Yang</a></span>
+    <time datetime=""></time>
+    Tagged with
+    <ul class="tags">
+      
+      <li><a href="/tag/programming/">programming</a></li>
+      
+      <li><a href="/tag/startups/">startups</a></li>
+      
+      <li><a href="/tag/django/">django</a></li>
+      
+      <li><a href="/tag/flask/">flask</a></li>
+      
+    </ul>
+  </div>
+
+</div>
+
+<article>
+
+  <!--
+I have been working nonstop on my first web application!!... Darehut. You can check it out if you'd like. *Depending on when you read this it may or may not still be in debug mode.*
+
+EDIT: And now it's discontinued :(
+
+Darehut was started mid-Summer after I finished my large scale java applet game, which you can read about [here](http://codelucas.com/). Game programming is fun and all but I had already finished two games, *both in java*, and I needed to touch something new.
+-->
+
+
+<p>I built my first website in the Summer of Freshman Year. I modeled it after Reddit, with posts, threaded comments, voting, etc.</p>
+
+<p>At the time, I understood nothing about http and web development. To make matters worse, the framework which I started off with was <a href="">django</a>, a popular python based framework hailed for &ldquo;perfectionists with deadlines&rdquo;.</p>
+
+<p>I am not claiming that there is anything wrong with django, but I really don&rsquo;t recommend anyone use it when they are still learning the basics of web dev, eg: when building your <em>first</em> website.</p>
+
+<p>Django is very good at what it does best, it allows users to produce production ready websites at a <em>very</em> fast pace. However, the combination of django&rsquo;s high level api and it&rsquo;s very rigid app-centric structure make for a confusing and sterile experience for beginners.</p>
+
+<p>For the first few weeks of programming using django, it did not feel like I was learning much about web development or python, it felt like I was learning a lot about <em>django</em>. This is best illustrated with an example.</p>
+
+<p>I remember seeing that famed <code>CSRF</code> token error and searching on stackoverflow for help. I was told that I had forgotten to include the request context within my templates. So I pasted in the code given to me and it worked.</p>
+
+<pre><code class="python">return render_to_response('index.html', kwargs, context_instance=RequestContext(request))
+</code></pre>
+
+<center>C'mon, how familiar does that above line look</center>
+
+
+<p>However, I still did not know what <code>context_instance=RequestContext(request)</code> meant, so I looked it up. The answers and definitions were all confusing and required more background knowledge. So I looked them up also. I kept googling up terms all the way down to &ldquo;requests&rdquo; and &ldquo;responses&rdquo;. I still felt bad because I could not really comprehend and connect all of these terms together just by reading about them.</p>
+
+
+<!--
+ 
+-->
+
+</article>
+
+<section class="meta">
+  <h3>
+    Discussion & Media
+    <a class="rss" href="http://feeds.feedburner.com/" title="Subscribe to the codelucas.com Feed">
+      <img src="/images/rss.png" alt="RSS Feed Icon" />
+    </a>
+  </h3>
+
+  <section class="copy">
+    <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=USERNAME_HERE', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+      <p>
+        <a href="https://twitter.com/codelucas" class="avatar">
+          <img src="/images/selfie3_small.jpg" height="50" width="50" alt="Lucas Ou-Yang" />
+        </a>
+        Hey, thanks for reading! I'm <a href="/about/">Lucas Ou-Yang</a>, I love making things. 
+        I am currently working on <a href="http://github.com/codelucas/newspaper">Newspaper</a>, 
+        an open source python library for article news extraction, and 
+        <a href="http://antchatter.com">Antchatter.com</a> a geolocation enhanced chatroom 
+        for college kids. 
+        
+        I am also a co-founder of <a href="http://wintria.com">Wintria.com</a>. 
+      </p>
+
+      
+      <p>
+        If you enjoyed this article, you should follow me on <a href="http://facebook.com/lucas.ouyang.7">Facebook</a> or <a href="https://twitter.com/lucasouyang">Twitter</a><!-- or sign up to get an email whenever I write something new:
+
+        <input type="email" name="email" placeholder="email@email.com"/>
+        <input type="hidden" value="codelucas" name="uri"/>
+        <input type="hidden" name="loc" value="en_US"/>
+        <input type="submit" value="Subscribe" />-->
+      </p>
+    </form>
+
+    <p>
+      Share this article with your friends:
+    </p>
+
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://codelucas.com/drafts/2012-09-23-butterflies-before-release.html/" data-text="Thoughts on Django after learning Flask" data-via="lucasouyang" data-size="large" data-related="lucasouyang">Tweet</a>
+
+    <div class="fb-like" data-href="http://codelucas.com/drafts/2012-09-23-butterflies-before-release.html/" data-send="false" data-width="320" data-show-faces="true"></div>
+
+  </section>
+
+
+  
+  
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = 'codelucas';
+      var disqus_developer = (window.location.hostname == 'localhost') ? 1 : 0;
+      var disqus_url = 'http://codelucas.com/drafts/2012-09-23-butterflies-before-release.html/';
+
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+    </section>
+
+    
+
+  </div>
+  <center>
+      <!--<div class="byline" style="margin-bottom:10px;">"I saw the angel in the marble and carved until I set him free." - Michelangelo</div>-->
+
+      <div class="byline" style="margin-bottom:10px;">The theme is a modified version of <a href="http://feross.org">Feross's blog</a></div>
+  </center>
+
+  <script src="/js/libraries.js"></script>
+  <script src="/js/script.js"></script>
+
+  
+
+  
+
+  
+
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=223190377735910";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Twitter -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-37131973-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+</body>
+</html>

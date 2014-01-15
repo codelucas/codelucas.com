@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+<head>
+
+  <!--
+  
+  Lucas Ou-Yang
+  http://codelucas.com
+  
+  "I saw the angel in the marble and carved until I set him free." - Michelangelo
+
+  -->
+  
+  <title>Thoughts on building a large object oriented game &raquo; codelucas.com</title>
+  <meta property="og:title" content="Thoughts on building a large object oriented game &raquo; codelucas.com" />
+
+  <meta name="description" content="Hi! My name is Lucas, i'm passionate about software & art. I build web applications and distance run in my spare time.">
+  <meta property="og:description" content="Hi! My name is Lucas, i'm passionate about software & art. I build web applications and distance run in my spare time." />
+
+  <meta property="og:type" content="article" />
+  <meta property="article:tag" content="programming" /><meta property="article:tag" content="java" />
+  <meta property="og:image" content="http://codelucas.com/images/logo.png" />
+
+  <meta property="article:author" content="http://codelucas.com/about/" />
+  <meta property="fb:admins" content="lucas.ouyang.7" />
+  <!-- <meta property="fb:app_id" content="" /> -->
+  <link rel="author" href="https://plus.google.com/108352969036344290601" />
+  <link rel="icon" type="image/png" href="/favicon.ico">
+  <!-- Fonts, 600 is pseudo bold -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="canonical" href="http://codelucas.com/thoughts-on-building-object-oriented-game/" />
+  <meta property="og:url" content="http://codelucas.com/thoughts-on-building-object-oriented-game/" />
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- <link rel="alternate" type="application/atom+xml" title="codelucas.com" href="" /> -->
+
+  <link rel="stylesheet" href="/css/compiled/style.css" />
+
+  <script type="text/javascript" src="//use.typekit.net/lvb8hht.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+<body class="post">
+
+  <header id="header">
+  <h1><a href="/">codelucas</a></h1>
+  </header>
+  
+  <div id="container">
+
+    <section class="content clearfix">
+      <div class="postHeader">
+
+  <h1>
+    <a href="/thoughts-on-building-object-oriented-game/">Thoughts on building a large object oriented game</a>
+  </h1>
+
+  <div class="byline">
+    <span>By <a href="/about/" title="Lucas Ou-Yang">Lucas Ou-Yang</a></span>
+    <time datetime="2012-07-05">July  5, 2012</time>
+    Tagged with
+    <ul class="tags">
+      
+      <li><a href="/tag/programming/">programming</a></li>
+      
+      <li><a href="/tag/java/">java</a></li>
+      
+    </ul>
+  </div>
+
+</div>
+
+<article>
+
+  <p>My java applet game, dubbed <a href="http://codelucas.com/pages/island-overlord.html">IslandOverlord</a>, started out as a small Summer project, but it has grown in both physical size and emotional weight very quickly. It&rsquo;s now 7,000 lines of java code and has progressed to the point where i&rsquo;m devoting over 5-6 hours a day, with school, to work on. The fact that I had to hand draw the graphics via gimp did not help :(</p>
+
+<p>I&rsquo;m also proud to say that it relies on nothing but the Java SDK! Even for graphics. The code has been open sourced, check it out <a href="https://github.com/codelucas/islandoverlord">here</a>.</p>
+
+<p>The game itself is a sims-esque game where a bunch of villagers spawn on an island and generate a society by themselves. The island&rsquo;s trees, rocks, and animals grow and spread by themselves also.</p>
+
+<p><img src="http://i1145.photobucket.com/albums/o516/lukepop/da522032.png" alt="Picture of IslandOverlord" /></p>
+
+<p>However, I think that the actual engineering and design processes behind building this game are <em>much</em> more fascinating than the game itself. Firstly, a lot of IslandOverlord&rsquo;s data structures and mechanics are based off of one of <a href="https://mojang.com/notch/">Notch</a>&rsquo;s early day games, titled <a href="https://mojang.com/notch/ld12/breaking/">BreakingTheTower</a>.</p>
+
+<p>The entire game is on an Island object, which is both <code>render()'ed</code> and <code>tick()'ed</code> every game second. On every <code>render()</code> and <code>tick()</code>, all of the entities on the Island are also rendered and ticked. Here is the OOP structure:</p>
+
+<div class="highlight"><pre><code class="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Entity</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">tick</span><span class="o">()</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">render</span><span class="o">(</span><span class="n">Graphics2D</span> <span class="n">g</span><span class="o">,</span> <span class="kt">double</span> <span class="n">alpha</span><span class="o">)</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">distance</span><span class="o">(</span><span class="n">Entity</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+    <span class="o">...</span>
+<span class="o">}</span>
+
+<span class="c1">// Everything is an Entity because everything has to be drawn (rendered) and</span>
+<span class="c1">// ticked (moved) every game second. Beyond that? Things get more complex.</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Animal</span> <span class="kd">extends</span> <span class="n">Entity</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Tree</span> <span class="kd">extends</span> <span class="n">Entity</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Person</span> <span class="kd">extends</span> <span class="n">Entity</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Mineral</span> <span class="kd">extends</span> <span class="n">Entity</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+
+<span class="c1">// Minerals can be mined, Meteors also need a mine() functionality</span>
+<span class="c1">// so extend the Mineral class. In the natural world, meteors are minerals!</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Meteor</span> <span class="kd">extends</span> <span class="n">Mineral</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+
+<span class="c1">// And now the island, where life happens...</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Island</span> <span class="o">{</span>
+    <span class="o">...</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">tick</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="k">this</span><span class="o">.</span><span class="na">entities</span><span class="o">.</span><span class="na">size</span><span class="o">();</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+            <span class="n">entities</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">i</span><span class="o">).</span><span class="na">tick</span><span class="o">();</span>
+            <span class="k">if</span><span class="o">(!</span><span class="n">entities</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">i</span><span class="o">).</span><span class="na">isAlive</span><span class="o">())</span> <span class="o">{</span>
+                <span class="o">...</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+    <span class="o">...</span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p>The island itself is just a circular picture that can be rotated with a users camera. The impression of rivers and lakes on the island is created with transparent pixels which allow the blue background to seep though. I also borrowed Notch&rsquo;s neat hack where he uses some bit manipulaiton to tell if an entity is standing on a transparent pixel (water) or not.</p>
+
+<div class="highlight"><pre><code class="java"><span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">isOnGround</span><span class="o">(</span><span class="kt">double</span> <span class="n">x</span><span class="o">,</span> <span class="kt">double</span> <span class="n">y</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">x</span> <span class="o">/=</span> <span class="mf">1.5</span><span class="o">;</span>
+    <span class="n">y</span> <span class="o">/=</span> <span class="mf">1.5</span><span class="o">;</span>
+    <span class="kt">int</span> <span class="n">xp</span> <span class="o">=</span> <span class="o">(</span><span class="kt">int</span><span class="o">)</span> <span class="o">(</span><span class="n">x</span> <span class="o">+</span> <span class="mi">128</span><span class="o">);</span>
+    <span class="kt">int</span> <span class="n">yp</span> <span class="o">=</span> <span class="o">(</span><span class="kt">int</span><span class="o">)</span> <span class="o">(</span><span class="n">y</span> <span class="o">+</span> <span class="mi">128</span><span class="o">);</span>
+
+    <span class="c1">// If coords are out of range of pixel img, it&#39;s out of question</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">xp</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">yp</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">xp</span> <span class="o">&gt;=</span> <span class="mi">256</span> <span class="o">||</span> <span class="n">yp</span> <span class="o">&gt;=</span> <span class="mi">256</span><span class="o">)</span> 
+        <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+
+    <span class="c1">// If coords are on a transparent pixel, it&#39;s on &quot;water&quot;</span>
+    <span class="k">return</span> <span class="o">(</span><span class="n">pixels</span><span class="o">[</span><span class="n">yp</span> <span class="o">&lt;&lt;</span> <span class="mi">8</span> <span class="o">|</span> <span class="n">xp</span><span class="o">]</span> <span class="o">&gt;&gt;&gt;</span> <span class="mi">24</span><span class="o">)</span> <span class="o">&gt;</span> <span class="mi">128</span><span class="o">;</span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p>Well, that&rsquo;s all I have to say on the topic of IslandOverlord for now! I have released this game to a few of my friends and the public reception so far has been good!</p>
+
+<p><strong>The feeling of people you know actually using stuff that you have built is incredible</strong>. This is a feeling that I want to experience many more times in the future.</p>
+
+
+<!--
+
+    <p>(If you liked this, you might like <a href="/pass-by-value-pass-by-reference/">
+    Pass by value & pass by reference</a>.)</p>
+ 
+-->
+
+</article>
+
+<section class="meta">
+  <h3>
+    Discussion & Media
+    <a class="rss" href="http://feeds.feedburner.com/" title="Subscribe to the codelucas.com Feed">
+      <img src="/images/rss.png" alt="RSS Feed Icon" />
+    </a>
+  </h3>
+
+  <section class="copy">
+    <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=USERNAME_HERE', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+      <p>
+        <a href="https://twitter.com/codelucas" class="avatar">
+          <img src="/images/selfie3_small.jpg" height="50" width="50" alt="Lucas Ou-Yang" />
+        </a>
+        Hey, thanks for reading! I'm <a href="/about/">Lucas Ou-Yang</a>, I love making things. 
+        I am currently working on <a href="http://github.com/codelucas/newspaper">Newspaper</a>, 
+        an open source python library for article news extraction, and 
+        <a href="http://antchatter.com">Antchatter.com</a> a geolocation enhanced chatroom 
+        for college kids. 
+        
+        I am also a co-founder of <a href="http://wintria.com">Wintria.com</a>. 
+      </p>
+
+      
+      <p>
+        If you enjoyed this article, you should follow me on <a href="http://facebook.com/lucas.ouyang.7">Facebook</a> or <a href="https://twitter.com/lucasouyang">Twitter</a><!-- or sign up to get an email whenever I write something new:
+
+        <input type="email" name="email" placeholder="email@email.com"/>
+        <input type="hidden" value="codelucas" name="uri"/>
+        <input type="hidden" name="loc" value="en_US"/>
+        <input type="submit" value="Subscribe" />-->
+      </p>
+    </form>
+
+    <p>
+      Share this article with your friends:
+    </p>
+
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://codelucas.com/thoughts-on-building-object-oriented-game/" data-text="Thoughts on building a large object oriented game" data-via="lucasouyang" data-size="large" data-related="lucasouyang">Tweet</a>
+
+    <div class="fb-like" data-href="http://codelucas.com/thoughts-on-building-object-oriented-game/" data-send="false" data-width="320" data-show-faces="true"></div>
+
+  </section>
+
+
+  
+  
+    <a class="next" href="/first-internship-m2catalyst/" title="Next Post: My first internship: M2catalyst">My first internship: M2catalyst</a>
+  
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = 'codelucas';
+      var disqus_developer = (window.location.hostname == 'localhost') ? 1 : 0;
+      var disqus_url = 'http://codelucas.com/thoughts-on-building-object-oriented-game/';
+
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+    </section>
+
+    
+
+  </div>
+  <center>
+      <!--<div class="byline" style="margin-bottom:10px;">"I saw the angel in the marble and carved until I set him free." - Michelangelo</div>-->
+
+      <div class="byline" style="margin-bottom:10px;">The theme is a modified version of <a href="http://feross.org">Feross's blog</a></div>
+  </center>
+
+  <script src="/js/libraries.js"></script>
+  <script src="/js/script.js"></script>
+
+  
+
+  
+
+  
+
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=223190377735910";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Twitter -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-37131973-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+</body>
+</html>

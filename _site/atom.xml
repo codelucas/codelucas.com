@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <title type="text">codelucas.com</title>
+  <subtitle type="text">Software Enthusiast</subtitle>
+
+  <updated>2014-01-10T17:56:17-08:00</updated>
+
+  <link rel="alternate" type="text/html" href="http://codelucas.com" />
+  <id>http://codelucas.com</id>
+  <link rel="self" type="application/atom+xml" href="http://codelucas.com/atom.xml" />
+
+  <author>
+    <name>Lucas Ou-Yang</name>
+    <uri>http://codelucas.com</uri>
+  </author>
+
+  
+  
+  <entry>
+    <title>How I stumbled on the open source world</title>
+    <author>
+      <name>Lucas Ou-Yang</name>
+      <uri>http://codelucas.com</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://codelucas.com/how-i-stumbled-on-the-open-source-world/"/>
+    <id>http://codelucas.com/how-i-stumbled-on-the-open-source-world</id>
+    <updated>2014-01-05T00:00:00-08:00</updated>
+    <summary type="html"><![CDATA[During the Summer of &lsquo;13 my friend Nithin and I founded a news media startup, Wintria. We built the product, incorporated the company, and then launched. For a shit ton of reasons, the product never took off. It felt very demoralizing. Fall quarter of Junior year had started and I was completely consumed with school...]]></summary>
+    <content type="html" xml:base="http://codelucas.com/how-i-stumbled-on-the-open-source-world/"><![CDATA[<p>During the <a href="http://codelucas.com/summer-of-13/">Summer of &lsquo;13</a> my friend <a href="http://nithinjilla.com">Nithin</a> and I founded a news media startup, <a href="http://wintria.com">Wintria</a>. We built the product, incorporated the company, and then launched. For a shit ton of reasons, the product never took off. It felt very demoralizing.</p>
+
+<p>Fall quarter of Junior year had started and I was completely consumed with school and interviews. Being in a startup during school made no sense and I opted to leave.</p>
+
+<p>Our product was a news search engine that recieved its news from a seperate module which I built early in 2013. This service was conveniently dubbed <a href="http://newspaper.readthedocs.org/en/latest/">Newspaper</a>.</p>
+
+<p>After the quarter ended, I refactored the code, wrote up the documentation, and then published Newspaper open source <a href="https://github.com/codelucas/newspaper">on Github</a>.</p>
+
+<p>I didn&rsquo;t think much of it at the beginning. The only benefit of publishing the code, as I thought, was that a few extra eyeballs would be on the lookout for errors and maybe a pull request would occur once in a while.</p>
+
+<p>But what happened was much more awesome.</p>
+
+<p><img src="/images/newspaper_trending_first.png" alt="Number 1 on Github" /></p>
+
+<p>Quickly after publishing the code, many people had begun to download it from pypi, the python package index. On Github, my repository quickly rose to the #1 trending python spot!</p>
+
+<p>To make things better, <a href="https://github.com/kennethreitz/">Kenneth Reitz</a>, the most followed contributor on Github and the author of the widely used <a href="https://github.com/kennethreitz/requests">requests</a> module tweeted and starred my repository!</p>
+
+<p><img src="/images/KR_tweeted_newspaper.png" alt="Kenneth Reitz starring my repo!" /></p>
+
+<p>At this point I was literally shaking in excitement at the idea of open source. The idea that so many people around the world can download and use code you have written is both horrifying and incredible.</p>
+
+<p>It is horrifying because any bug that you forget to test and fix can result in catastrophic amounts of frustration and time wasted among a huge amount of people.</p>
+
+<p>Similarly, it is incredible because of the sheer potential for positive impact. If you write a piece of widely used software that greatly out performs its predecessors, imagine the value gained in society.</p>
+
+<p><strong>I view the effect of public software and tools as trickledown.</strong> If you, the developer, release inefficient or buggy code that is popular with dependent-developers. These dependent-developers will have a harder time doing their jobs, which also impacts many other people who rely on those developers. This effect grows exponentially until entire industries are affected.</p>
+
+<p>Writing great and public software, in my opinion, is analogous to donating a vast and growing amount of money to charity. If <a href="http://httpd.apache.org/">Apache server</a> never existed or was proprietary, the value lost in society would be unimaginable. In this case, even charity organizations would be affected.</p>
+
+<p>I don&rsquo;t know what i&rsquo;m going to be doing after graduation, but I hope to always be writing some form of open source software on the side.</p>
+]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>The Summer of '13: Startups, Hackathons, and The Scam</title>
+    <author>
+      <name>Lucas Ou-Yang</name>
+      <uri>http://codelucas.com</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://codelucas.com/summer-of-13/"/>
+    <id>http://codelucas.com/summer-of-13</id>
+    <updated>2013-09-27T00:00:00-07:00</updated>
+    <summary type="html"><![CDATA[Today is the first day of school and Summer is now officially over! A lot has happened. My friend Nithin and I incorporated an investor backed startup, Wintria. I also purchased a car, almost got scammed, interned at a big company, and attended my first hackathon. All of it was new and eye opening and...]]></summary>
+    <content type="html" xml:base="http://codelucas.com/summer-of-13/"><![CDATA[<p>Today is the first day of school and Summer is now officially over!</p>
+
+<p>A lot has happened. My friend <a href="http://nithinjilla.com">Nithin</a> and I incorporated an investor backed startup, <a href="http://wintria.com">Wintria</a>.  I also purchased a car, almost got scammed, interned at a big company, and attended my first hackathon.</p>
+
+<p>All of it was new and eye opening and the perfect SoCal weather made it better. But most importantly, these experiences, some good and some bad, allow for reflection.</p>
+
+<p><img src="/images/mustang.jpg" alt="2003 Ford Mustang, snagged it for $5K" /></p>
+
+<center>The car I bought, snagged it for $5K</center>
+
+
+<h3>Wintria - Our Startup</h3>
+
+<p>At the start of January 2013, I had begun to write the code for what would become our startup, <a href="http://wintria.com">Wintria</a>. Wintria is a news search engine &amp; aggregator. There are millions of ways to aggregate and present news content, but to do it sensibly and elegantly to the user, then the task becomes a real challenge. This is reinforced by the fact that <a href="http://www.quora.com/News-Aggregators/As-of-2013-why-have-personalized-news-startups-failed">as of 2013, nearly all news aggregators have
+failed</a>. However, there are a few underdog success stories. Think of Reddit&rsquo;s subreddit dynamic or Twitter&rsquo;s 140 character limit.</p>
+
+<!--
+These distinctive and unqiue traits can change everything about a media platform.
+It seems like our definition of a news platform keeps on getting looser and looser with even applications like [Newsle](http://newsle.com) and [Twitter](http://twitter.com) being considered real and reliable news.
+-->
+
+
+<p>Working with <a href="http://nithinjilla.com">Nithin</a>, my partner for Wintria who I met this Summer, has been both exciting and uncomfortable. Nithin wanted to play a business centric role for Wintria. Our skills and strong personalities complemented each other. As a result, we fell into a lot of unfortunate disagreements, but we also have learned from each other.</p>
+
+<p>One of my shortcomings was a habit of taking individual feedback to personally. I&rsquo;d listen to user after user and implement their advice one by one. I don&rsquo;t know whether or not Wintria will ever become profitable or even &ldquo;successful&rdquo;, but regardless, I do hope that it will at least serve as a stepping stone for me.</p>
+
+<blockquote><p>You are trying too hard to please everyone instead of looking at the bigger picture. &ndash; Nithin</p></blockquote>
+
+<h3>The Scam - Dangers of entrepreneurship</h3>
+
+<p>Before Summer started, an older and visibly more established man approached one of my TA&rsquo;s, my friend, and myself for the opportunity of forming a startup with him. The older man&rsquo;s name was Jon.</p>
+
+<p>For our first two meetings, Jon impressed the hell out of us. He was clean shaven, well spoken, insanely well dressed. When we first met, he showed up in a clean black suit and drove us in a huge S class Mercedes in order to treat us to the <a href="http://www.montagelagunabeach.com/">nicest restaurant</a> in Laguna Beach. Every girl in that restaurant looked like a trophy wife and the menu&rsquo;s didn&rsquo;t even have prices on them! He had the intention of asking us to build him a prototype. Being totally impressed, we all agreed.</p>
+
+<p>A few weeks in, things had begun to bother me. Jon would only talk about the prototype and the product with us. A lot of the legal, IP, funding, company issues were simply never raised. We did not get paid and we never signed any form of paperwork for ownership, IP, equity, or salary. Whenever anything sensetive was brought up, Jon responded by exclaiming how much money we <em>would</em> make after we launch. He also treated us to weekly dinners at <em>really</em> nice places, so we felt awkward about complaining.</p>
+
+<blockquote><p>We will all become billionaires by the end of 2014. &ndash; Jon</p></blockquote>
+
+<p>Deep inside, my mistrust of Jon grew. He was very closed off, he refused to tell me about his family, wife, hobbies, schedule, investments, etc. Whenever I asked something that was out of the ordinary, he would shut me up. I felt an increasing disconnect between us, the engineers, and him. My <a href="http://en.wikipedia.org/wiki/Fight-or-flight_responsehttp://en.wikipedia.org/wiki/Fight-or-flight_response">fight or flight instinct</a> was screaming FLIGHT.</p>
+
+<p>I angrily decided to back out. A few weeks later, I found out that both the startup and prototype failed. Nothing resulted from the prototype. No big fancy launch party, no money, no shares, nothing.</p>
+
+<p><em>I was pretty much working with a modern day conman!</em> We may have sounded like naive kids, but the allure of Jon&rsquo;s presentation pretty much tricked the three of us to instill full trust on him with no burden of proof.</p>
+
+<!--
+###Internship at Canon
+
+Interning at Canon was lots of fun. We touched upon and used a lot of services, like apache SOLR, Hadoop, Hbase, etc. I don't think I can get more specific than that though because of NDA reasons!
+
+![Canon's Irvine campus is beautiful](/images/canon_campus.jpg)
+
+I loved my coworkers. Sam, Quinten, Fernando, you guys are all awesome people and excellent engineers. Hari, you are a legend. I literally want to be like you when I grow up. Hari is a middle aged security engineer who drives a porshe and gives no fucks. Al prefers to stay anonymous, even on the web, so I can't say much except he has taught me a lot! Craig, you are an excellent manager! It was fun having lunch with you and working with you guys.
+-->
+
+
+<h3>Pennapps 2013 - Awesome Hacks</h3>
+
+<p><a href="http://pennapps.com">Pennapps</a>, which is held at UPenn twice a year, is America&rsquo;s largest college hackathon. Attending it was very enlightening because it was my first <a href="https://www.google.com/search?q=define%3Ahackathon&amp;oq=define">hackathon</a> and I never really had the chance to sit down with a big group of people where everyone genuinely enjoyed building stuff. Some of the projects which were created required a <strong>deep</strong> understanding in multiple fields and disciplines, not just software. <em>I posted a video of the top Pennapps hacks below.</em></p>
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/LgHS_-L8iVs" frameborder="0" allowfullscreen=""></iframe>
+
+
+<p>Compared to local or smaller school sponsored hackathons, this was on a whole new level. Contestants came from over <strong>100 universities</strong> all over the globe and free food and tons of sponsor gear were provided! I ended up recieving $100 in AWS credit, $2000 appengine credit, and 10GB Dropbox storage! Oh, and unlimited free tshirts :) Words can&rsquo;t describe how lively and full of energy the environment was. There were students laying half awake holding their laptops at 3-5A.M. in the morning.</p>
+
+<p>If I could change something about my experience, I regret not going with a team. A lot of the teams there had shifts where one person would work while others slept or ate. This was much harder if you were alone.</p>
+
+<p>I&rsquo;m glad that hackathons exist, they bond people from different universities and countries together to not only build things together, but to mix ideas. This is powerful because the participant pool at some of the large hackathons like <a href="http://pennapps.com">Pennapps</a>, <a href="http://mhacks.org/">MHacks</a>, and <a href="http://hackmit.org/">HackMIT</a> is very diverse. Also, Pennsylvania and Philidelphia are both gorgeous. Check out my Pennapps submission: <a href="http://socialrank.codelucas.com">SocialRank</a></p>
+
+<h3>Conclusion</h3>
+
+<p>Summer was great. My friend from high school, Jake, came down to SoCal from Seattle to visit! I also did a lot of side hacking with my friend <a href="http://jasontanner.herokuapp.com/">Jason</a>. Stay tuned for some cool apps from us! For the last 3 weeks, I visited my family back home before school started. Basketball with my brother &amp; his friends was fun.</p>
+
+<p>However, I&rsquo;m back on campus now and ready for next year!</p>
+
+<!--
+Check out this awesome view from my new apartment.
+![The view from my balcony](/images/balcony.jpg)
+-->
+
+
+<p>Goodbye for now, more posts to come soon!</p>
+]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Programming Mistakes that intro CS students make</title>
+    <author>
+      <name>Lucas Ou-Yang</name>
+      <uri>http://codelucas.com</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://codelucas.com/top-5-programming-mistakes/"/>
+    <id>http://codelucas.com/top-5-programming-mistakes</id>
+    <updated>2013-06-06T00:00:00-07:00</updated>
+    <summary type="html"><![CDATA[<!-- Last night, my roommate Edwin and I, both Computer Science / Engineering majors, were working on a Java lab with a few others. As it turns out, one of our group mates didn't know what the keyword `static` meant in Java and he was a Junior. This blog post is not intended to be...]]></summary>
+    <content type="html" xml:base="http://codelucas.com/top-5-programming-mistakes/"><![CDATA[<!--
+Last night, my roommate Edwin and I, both Computer Science / Engineering majors, were working on a Java lab with a few others. As it turns out, one of our group mates didn't know what the keyword `static` meant in Java and he was a Junior. This blog post is not intended to be mean, it's meant to provide a list of CS fundamentals which are too frequently overlooked.
+
+Here are the <u>Top 5 most Alarming Programming mistakes that Intro to CS majors make</u> and tips to avoid them!:
+-->
+
+
+<h3>1. Over-reliance on big IDE&rsquo;s:</h3>
+
+<p>Big IDE&rsquo;s, like Eclipse and Visual Studios, are commonly required in college classes. They make the process of writing code quicker but unfortunatly hide a lot of details from the user. When you press the &ldquo;play&rdquo; button on Eclipse, you only see the output from your program on the surface when internally much more is happening.</p>
+
+<p><img src="/images/play_button.png" alt="Glorious play button of eclipse" /></p>
+
+<center>The glorious play button of eclipse... It makes your code work.</center>
+
+
+<p>A good way to get started, and what helped me, was to put the GUI and the IDE away for smaller scale projects. If you are on Windows, download <a href="http://www.cygwin.com/install.html">Cygwin</a> and use <a href="http://www.vim.org/">vim</a> or <a href="http://www.gnu.org/software/emacs/">emacs</a> as a text editor. If your language needs to be compiled, manually compile it, and then run it. You will be exposed to a deeper level of what is going on, and in a healthy way. <em>Mac and Linux users, you guys are spoiled. You can immediately start by opening up Terminal</em>.</p>
+
+<h3>2. Failure to understand reference types:</h3>
+
+<div class="highlight"><pre><code class="java"><span class="c1">// C does not &quot;equal&quot; a car object in memory, it&#39;s </span>
+<span class="c1">// a reference to that object in memory</span>
+
+<span class="n">Car</span> <span class="n">c</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Car</span><span class="o">();</span> 
+<span class="c1">// This is a big difference and below is an example why.</span>
+<span class="kd">class</span> <span class="nc">Car</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">int</span> <span class="n">wheels</span> <span class="o">=</span> <span class="mi">2</span><span class="o">;</span>
+    <span class="kd">public</span> <span class="nf">Car</span><span class="o">(</span><span class="kt">int</span> <span class="n">wheels</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">this</span><span class="o">.</span><span class="na">wheels</span> <span class="o">=</span> <span class="n">wheels</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Ref</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">Car</span> <span class="n">a</span> <span class="o">=</span>  <span class="k">new</span> <span class="n">Car</span><span class="o">(</span><span class="mi">2</span><span class="o">);</span>
+        <span class="n">Car</span> <span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="o">;</span> <span class="c1">// b does not &quot;equals&quot; a</span>
+
+        <span class="n">a</span><span class="o">.</span><span class="na">wheels</span> <span class="o">=</span> <span class="mi">10</span><span class="o">;</span> <span class="c1">// It&#39;s a freight truck now!</span>
+
+        <span class="c1">// We get 10, not 2! b is not a new copy of a car</span>
+        <span class="c1">// It&#39;s pointing towards a in memory. They share</span>
+        <span class="c1">// the same object.</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">b</span><span class="o">.</span><span class="na">wheels</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p>Not understanding how reference types works also contributes to a lack of understanding of the pass by reference &amp; value protocols. Thinking that Strings are primitive in Java is a common mistake. Hiccups in something like distinguishing reference types can cause large and subtle errors.</p>
+
+<h3>3. Lacking of Memory awareness - bits, bytes, fundamentals</h3>
+
+<p>This may not seem important, but it can be a big deal. Curious why the max cash and score limits in videogames are usually around 2 billion? It&rsquo;s because the variable which was used to store the score was a signed 4 bit integer. 4 bytes is 32 bits, which means the number range is between -2<sup>31</sup> to 2<sup>31</sup>-1 and your max number, 2<sup>31</sup>-1, ends up being 2.147 billion.</p>
+
+<h3>4. Unawareness of the keyword &amp; concept of &ldquo;static&rdquo;</h3>
+
+<p>The concepts behind static typed variables and methods are important in programming. <a href="http://stackoverflow.com/questions/2649213/in-laymans-terms-what-does-static-mean-in-java">This</a> article helped me a lot when I was curious.</p>
+
+<h3>5. Giving up or thinking you know it all:</h3>
+
+<blockquote><p>Stay hungry and stay foolish. &ndash; Steve Jobs</p></blockquote>
+
+<p>The biggest mistake you can make is to stop learning. <strong>If you are always intrigued and striving to learn, you will steamroll through the above and many more problems when time comes.</strong> If you try to get by with putting in the bare minimum, i.e. programming your school labs and nothing else, you are missing out on honing a valuable skill. This point applies not just to students, but to everyone.</p>
+
+<p>Here is a famous quote from Zed Shaw, the author of the Mongrel Webserver and the &ldquo;Learn X the hard way&rdquo; books.</p>
+
+<blockquote><p>An IDE, or &ldquo;Integrated Development Environment&rdquo; will turn you stupid. They are the worst tools if you want to be a good programmer because they hide what&rsquo;s going on from you, and your job is to know what&rsquo;s going on. &ndash; Zed Shaw</p></blockquote>
+
+<p>If you have any suggestions for another programming mistake, feel free to comment and we will add your suggestions to the list!</p>
+
+<p>Good luck on finals!</p>
+]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Kingdom Connectivity - Graph theory problem</title>
+    <author>
+      <name>Lucas Ou-Yang</name>
+      <uri>http://codelucas.com</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://codelucas.com/kingdom-connectivity/"/>
+    <id>http://codelucas.com/kingdom-connectivity</id>
+    <updated>2013-04-12T00:00:00-07:00</updated>
+    <summary type="html"><![CDATA[Today I will write about a problem found on HackerRank. King Charles recently opened up a compeltely new kingdom! This kingdom has many cities connected by one-way roads. To ensure high connectivity, two cities are sometimes directly connected by even more than one road. King Charles has made one of the cities in the new...]]></summary>
+    <content type="html" xml:base="http://codelucas.com/kingdom-connectivity/"><![CDATA[<p>Today I will write about a problem found on <a href="https://www.hackerrank.com">HackerRank</a>.</p>
+
+<blockquote><p>King Charles recently opened up a compeltely new kingdom! This kingdom has many cities connected by one-way roads. To ensure high connectivity, two cities are sometimes directly connected by even more than one road. King Charles has made one of the cities in the new kingdom his financial capital and one city his warfare capital, and he wants high connectivity between these two capitals.</p>
+
+<p>The connectivity of a pair of cities A and B is defined as the number of different paths from city A to city B. A path may use a road more than once if possible. Two paths are considered different if they do not use exactly the same sequence of roads. There are N cities numbered 1 to N in the new kingdom and M one-way roads. City 1 is the financial capital and city N is the warfare capital.</p>
+
+<p>What is the connectivity of the financial capital and warfare capital, i.e how many different paths are there from city 1 to city N? Input Format The first line contains two integers N and M. M lines follow, each containing two integers x and y, indicating there is a road from city x to city y (1&lt;=x,y&lt;=N). Output Format Print the number of different paths from city 1 to city N modulo 1,000,000,000(10<sup>9</sup>). If there are infinitely many different paths print INFINITE PATHS (quotes are for clarity).</p></blockquote>
+
+<p>We are told that the roads are one way, so <em>the graph is directed</em>. The problem mentions nothing about the roads being cyclic or not, so we assume that <em>cycles are present</em>. Infinitely many paths can exist between two nodes. The only possibility of an infinite # of paths between two nodes is when a cycle is present within the path between the two nodes.</p>
+
+<p>We know that the graph is directed and cyclical. We need to find the # of paths between two nodes, so no weights are involved. This problem boils down to us just node hopping while bookeeping the outgoing edges. This stands out as a <a href="http://en.wikipedia.org/wiki/Dynamic_programming">Dynamic Programming</a> problem because the problem we are trying to solve can be divided into many smaller problems. Imagine a simple graph, <code>A-&gt;B-&gt;C</code>. After we compute the # of paths between B and C, we can use our answer to solve the same problem between nodes A and C!</p>
+
+<p>We will start at the source city and depth first search straight towards the destination. The <strong>base case</strong> is the destination. Once we hit the dest, we <code>return 1</code>, which stands for one path found. We perform this procedure for every child edge of every edge and add up the # of paths found on each child edge. At each turn, the weight between the current node and its adjacent nodes will be <strong>cached</strong> in a hashtable so save computations.</p>
+
+<p>Also, at each turn we are checking all the adjacent nodes and marking them as seen. If we encounter any node that is marked as seen, we are now in a cycle. If we are in a cycle <strong>and</strong> we are also on the path from the source to destination, we now have an infinite amount of paths.</p>
+
+<div class="highlight"><pre><code class="python"><span class="n">__author__</span> <span class="o">=</span> <span class="s">&#39;lucas&#39;</span>
+<span class="c"># Ending Vertex, Number of Edges</span>
+<span class="n">dest</span><span class="p">,</span> <span class="n">N</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">raw_input</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">)]</span>
+<span class="c"># DP hash, adjacency list</span>
+<span class="n">paths</span><span class="p">,</span> <span class="n">graph</span> <span class="o">=</span> <span class="p">{},</span> <span class="p">{}</span>
+<span class="n">is_hit</span><span class="p">,</span> <span class="n">is_cycle</span>  <span class="o">=</span> <span class="p">[</span><span class="bp">False</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">dest</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)],</span> <span class="p">[</span><span class="bp">False</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">dest</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span>
+
+<span class="k">def</span> <span class="nf">init</span><span class="p">():</span>
+    <span class="k">global</span> <span class="n">is_hit</span><span class="p">,</span> <span class="n">is_cycle</span><span class="p">,</span> <span class="n">dest</span><span class="p">,</span> <span class="n">N</span><span class="p">,</span> <span class="n">paths</span>
+    <span class="n">is_hit</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+    <span class="n">find_paths</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">dest</span><span class="p">)</span>
+    <span class="k">print</span> <span class="n">paths</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">find_paths</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">dest</span><span class="p">):</span>
+    <span class="k">global</span> <span class="n">is_hit</span><span class="p">,</span> <span class="n">is_cycle</span><span class="p">,</span> <span class="n">paths</span><span class="p">,</span> <span class="n">graph</span>
+    <span class="c"># Base case, if we hit the destination</span>
+    <span class="c"># return a path length of 1</span>
+    <span class="k">if</span> <span class="n">start</span> <span class="o">==</span> <span class="n">dest</span><span class="p">:</span> <span class="k">return</span> <span class="mi">1</span>
+    <span class="c"># In the case that our start point isn&#39;t</span>
+    <span class="c"># in the graph, return 0 possible paths</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">graph</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">start</span><span class="p">):</span> <span class="k">return</span> <span class="mi">0</span>
+
+    <span class="k">for</span> <span class="n">edge</span> <span class="ow">in</span> <span class="n">graph</span><span class="p">[</span><span class="n">start</span><span class="p">]:</span>
+        <span class="k">if</span> <span class="n">is_hit</span><span class="p">[</span><span class="n">edge</span><span class="p">]:</span>
+            <span class="n">is_cycle</span><span class="p">[</span><span class="n">edge</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+            <span class="k">continue</span>
+
+        <span class="n">is_hit</span><span class="p">[</span><span class="n">edge</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+        <span class="c"># If the weight is stored via dynamic programing</span>
+        <span class="c"># take it, if it is not recurse and find it</span>
+        <span class="k">if</span> <span class="n">paths</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">edge</span><span class="p">):</span>
+            <span class="n">weight</span> <span class="o">=</span> <span class="n">paths</span><span class="p">[</span><span class="n">edge</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">weight</span> <span class="o">=</span> <span class="n">find_paths</span><span class="p">(</span><span class="n">edge</span><span class="p">,</span> <span class="n">dest</span><span class="p">)</span>
+
+        <span class="c"># We must have this init check here and not all</span>
+        <span class="c"># at once at the beginning because we rely on checking</span>
+        <span class="c"># if a path[key] exists to determine to use DP or not.</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">paths</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">start</span><span class="p">):</span>
+            <span class="n">paths</span><span class="p">[</span><span class="n">start</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+
+        <span class="n">paths</span><span class="p">[</span><span class="n">start</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">paths</span><span class="p">[</span><span class="n">start</span><span class="p">]</span> <span class="o">+</span> <span class="n">weight</span><span class="p">)</span> <span class="o">%</span> <span class="p">(</span><span class="mi">10</span><span class="o">**</span><span class="mi">9</span><span class="p">)</span>
+
+        <span class="c"># If the cur node is reachable via the destination</span>
+        <span class="c"># &quot;paths[start] &gt; 0&quot;, and if there is a cycle</span>
+        <span class="c"># &quot;is_hit&quot; true twice, then we are in a loop AND</span>
+        <span class="c"># that loop is on a road from start to dest, so we</span>
+        <span class="c"># now have infinite paths!</span>
+        <span class="k">if</span> <span class="n">paths</span><span class="p">[</span><span class="n">start</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">is_cycle</span><span class="p">[</span><span class="n">start</span><span class="p">]:</span>
+            <span class="k">print</span> <span class="s">&quot;INFINITE PATHS&quot;</span>
+            <span class="n">quit</span><span class="p">()</span>
+        <span class="n">is_hit</span><span class="p">[</span><span class="n">edge</span><span class="p">]</span> <span class="o">=</span> <span class="bp">False</span>
+    <span class="k">return</span> <span class="n">paths</span><span class="p">[</span><span class="n">start</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">N</span><span class="p">)):</span>
+    <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">raw_input</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">)]</span>
+    <span class="k">if</span> <span class="n">a</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">graph</span><span class="p">:</span>
+        <span class="n">graph</span><span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">b</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">graph</span><span class="p">[</span><span class="n">a</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+
+<span class="n">init</span><span class="p">()</span>
+</code></pre></div>
+
+
+<p>I hope this example and explanation helps you guys with visualizing graph problems more. They can be a bit tricky sometimes, but in my opinion, graph problems are the most satisfying to solve out of all algorithmic challenges!</p>
+
+<p>Later tonight or tomorrow, I will make a long delayed post about Wintria, my startup, and my Summer internship!</p>
+]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Pass by value &amp; pass by reference</title>
+    <author>
+      <name>Lucas Ou-Yang</name>
+      <uri>http://codelucas.com</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://codelucas.com/pass-by-value-pass-by-reference/"/>
+    <id>http://codelucas.com/pass-by-value-pass-by-reference</id>
+    <updated>2013-03-02T00:00:00-08:00</updated>
+    <summary type="html"><![CDATA[Hi, this blog post is intended to highlight the details and subtleties of passing by value and reference. The three languages which we will talk about are Python, Java, and C++. Python and Java are strictly pass by value, while C++ allows for both. Important: Before going technical over these two passing protocols, we need...]]></summary>
+    <content type="html" xml:base="http://codelucas.com/pass-by-value-pass-by-reference/"><![CDATA[<p>Hi, this blog post is intended to highlight the details and subtleties of passing by value and reference.</p>
+
+<p>The three languages which we will talk about are Python, Java, and C++. Python and Java are strictly pass by value, while C++ allows for both.</p>
+
+<!-- We will first talk about passing by value. For many newer and modern languages, there seems to be a trend of strict pass by value restrictions. PHP, Python, Go, Java, and many more languages are all pass by value! -->
+
+
+<p><strong>Important:</strong> Before going technical over these two passing protocols, we need to distinguish two types of variables in programming languages, <em>value types</em> and <em>reference types</em>, because a variable&rsquo;s type does affect how it is passed &amp; interpreted.</p>
+
+<div class="highlight"><pre><code class="java"><span class="c1">// Value type in Java, there is no layer between the variable </span>
+<span class="c1">// and the value in memory</span>
+<span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span><span class="o">;</span>
+
+<span class="c1">// Reference type in Java, the variable name &quot;car&quot; is actually </span>
+<span class="c1">// not the object in memory, it&#39;s  a reference pointing to the </span>
+<span class="c1">// address in memory of an object. Because Car is an obj instance, </span>
+<span class="c1">// not a primitive (int, chat, ...)</span>
+<span class="n">Car</span> <span class="n">car</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Car</span><span class="o">(</span><span class="s">&quot;foo&quot;</span><span class="o">);</span> 
+</code></pre></div>
+
+
+<p><img src="/images/Value-vs-Reference-Type.jpg" alt="Graphical representation of a reference type and a value type" /></p>
+
+<p><strong>Passing by value</strong> means whenever a value or reference type is being passed through a method, the passed ref/value is cloned into an identical value. If it&rsquo;s a value type, an identical value is created. If the passed parameter is a reference type, the reference gets cloned, not the object it&rsquo;s pointing at. However, the new reference is pointing at the original object still!. This is very important to understand.</p>
+
+<p>In the following graphical images, circles and arrows refer to references and boxes refer to objects in memory. Red indicates that the reference is a clone from the pass by value operation.</p>
+
+<div class="highlight"><pre><code class="java"><span class="c1">// Remember, Java is strictly pass by value!</span>
+<span class="kd">class</span> <span class="nc">Car</span> <span class="o">{</span>
+    <span class="n">String</span> <span class="n">var</span> <span class="o">=</span> <span class="s">&quot;&quot;</span><span class="o">;</span>
+    <span class="kd">public</span> <span class="nf">Car</span> <span class="o">(</span><span class="n">String</span> <span class="n">var</span><span class="o">)</span> <span class="o">{</span> 
+        <span class="k">this</span><span class="o">.</span><span class="na">var</span> <span class="o">=</span> <span class="n">var</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">setCarVar</span> <span class="o">(</span><span class="n">Car</span> <span class="n">car</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">car</span><span class="o">.</span><span class="na">var</span> <span class="o">=</span> <span class="s">&quot;bar&quot;</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">refNewCar</span> <span class="o">(</span><span class="n">Car</span> <span class="n">car</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">car</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Car</span><span class="o">(</span><span class="s">&quot;bar&quot;</span><span class="o">);</span>
+   <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p>In the following example, we are passing by value the reference to a car object called <code>car</code>. It is default initialized with <code>"foo"</code>, so the <code>var</code> String property of the object is <code>"foo"</code> after creation. In the <code>setCarVar(...)</code> method, we take the <code>car</code> instance, and change it&rsquo;s <code>var</code> variable into the String <code>bar</code>. Despite this being pass by value, the change still takes effect because the reference was cloned, <b>not the actual object</b>. The reference is still pointing towards the original object!</p>
+
+<div class="highlight"><pre><code class="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span> <span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">Car</span> <span class="n">car</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Car</span><span class="o">(</span><span class="s">&quot;foo&quot;</span><span class="o">);</span>
+    <span class="n">Car</span><span class="o">.</span><span class="na">setCarVar</span><span class="o">(</span><span class="n">car</span><span class="o">);</span>
+
+    <span class="c1">// This will print out &quot;bar&quot;</span>
+    <span class="c1">// the property change from setCarVar took effect!</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">car</span><span class="o">.</span><span class="na">var</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p><img src="/images/Pass-by-Val-varChange.jpg" alt="Pass by Value PT 1" /></p>
+
+<p><img src="/images/Pass-by-Val-varChange-2.jpg" alt="Pass by Value PT 2" /></p>
+
+<p>Take a look at this new example, we use a new method, <code>refNewCar(...)</code>. This method differs from the original because it does not change the car&rsquo;s <code>var</code> property, it completely points the input reference towards a new car object. This is very important! Because the car reference is pointing now at a new car object (not original), all changes made to this object will not affect the original! This is much better explained with graphical images.</p>
+
+<div class="highlight"><pre><code class="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span> <span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">Car</span> <span class="n">car</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Car</span><span class="o">(</span><span class="s">&quot;foo&quot;</span><span class="o">);</span>
+    <span class="n">Car</span><span class="o">.</span><span class="na">refNewCar</span><span class="o">(</span><span class="n">car</span><span class="o">);</span>
+
+    <span class="c1">// This will print out &quot;foo&quot;</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">car</span><span class="o">.</span><span class="na">var</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p><img src="/images/Pass-by-Val-redirect.jpg" alt="Pass by Value Redirect" /></p>
+
+<p>Just one more fun example for pass by value. Manipulating array index values via methods. Reference variables which point to arrays also give programmers the ability to change index values with pass by value. This is similar to our first example, after passing by value, our reference variable is cloned, however it&rsquo;s still pointing at the same array, which means we can make manipulations. Let&rsquo;s have this example be in python.</p>
+
+<div class="highlight"><pre><code class="java"><span class="n">def</span> <span class="nf">changeFirstE</span> <span class="o">(</span><span class="n">arr</span><span class="o">):</span>
+    <span class="n">arr</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span> <span class="o">=</span> <span class="s">&quot;bar&quot;</span>
+
+<span class="n">def</span> <span class="nf">main</span><span class="o">():</span>
+    <span class="n">arr</span> <span class="o">=</span> <span class="o">[</span><span class="s">&quot;foo&quot;</span><span class="o">,</span> <span class="s">&quot;zzz&quot;</span><span class="o">,</span> <span class="s">&quot;lucas&quot;</span><span class="o">,</span> <span class="s">&quot;.&quot;</span><span class="o">,</span> <span class="s">&quot;hi&quot;</span><span class="o">]</span>
+    <span class="n">print</span> <span class="n">arr</span>
+    <span class="nf">changeFirstE</span><span class="o">(</span><span class="n">arr</span><span class="o">)</span>
+    <span class="n">print</span> <span class="n">arr</span>
+</code></pre></div>
+
+
+<p>For the pass by value section of this post, I have only used reference types because they are much trickier to understand as opposed to value types. For a value type, via pass by value, the value is just duplicated. Any changes to the value won&rsquo;t affect the original value. For pass by references it&rsquo;s not the same though!</p>
+
+<p>Finally, we can begin the passing by reference section. For pass by reference, inputted value and reference types are NOT duplicated. A new reference is now pointing at that original reference or value. Changes made to that reference will affect the object/reference being pointed at. The implications are much better explained with concrete examples than with text.</p>
+
+<p>The pass by reference code will be presented in C++. We will be using value types for simplicity.</p>
+
+<div class="highlight"><pre><code class="java"><span class="kt">void</span> <span class="nf">setValue</span> <span class="o">(</span><span class="kt">int</span> <span class="o">&amp;</span><span class="n">y</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="mi">8</span><span class="o">;</span>
+<span class="o">}</span>
+ 
+<span class="kt">int</span> <span class="nf">main</span><span class="o">()</span> <span class="o">{</span>
+    <span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span><span class="o">;</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;x = &quot;</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="o">;</span>
+    <span class="c1">// outputs 10</span>
+
+    <span class="n">setValue</span><span class="o">(</span><span class="n">x</span><span class="o">);</span>
+
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;x = &quot;</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="o">;</span>
+    <span class="c1">// outputs 8, we are referencing a new value</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="o">;</span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p>The main takeaway for pass by references is that after pointing the input reference to a new object, the changes stay. The object reference will now stay pointed at that new object. If you are passing by a value type, the value will also change if it is pointed towards a new value.</p>
+
+<p>The ampersand y <code>&amp;y</code> in the method signature of <code>setValue(...)</code> denotes a new reference which points to the value type of the object in memory, which is initialized to 10. Instead of duplicating a value or reference, we are now just simply referencing it with a new reference. We are using a new reference to point to the <b>original</b> value type, and we are setting it to a new object in memory. This means all changes to the object, or even resetting the reference to a new objects, have permanent results.</p>
+
+<p>If we wanted to mimic our above example with <code>Car car</code>, and the <code>refNewCar(...)</code> setup, the graphic below will represent the subtle change. Having our car reference a new object will result in the reference permanently pointing towards a new object.</p>
+
+<p>Congratulations, you have read through my lengthy guide to parameter passing and variable types! I hope this has helped you guys, please share this article with your friends if it really did help you!</p>
+
+<p>Well, that&rsquo;s the end of this post for now, my next blog post will be much more exciting. I&rsquo;ve compiled lots of analytics data on my new project &amp; start-up, <a href="http://wintria.com">Wintria</a>, a lot of related stuff will be discussed in the next entry.</p>
+
+<p>Be sure to contact me or comment if you have any questions about the implementations above, thanks!</p>
+]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Fun with primes - Euler Problems 7 &amp; 10</title>
+    <author>
+      <name>Lucas Ou-Yang</name>
+      <uri>http://codelucas.com</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://codelucas.com/euler-problem-7-and-10-fun-primes/"/>
+    <id>http://codelucas.com/euler-problem-7-and-10-fun-primes</id>
+    <updated>2012-12-20T00:00:00-08:00</updated>
+    <summary type="html"><![CDATA[Hello, I haven&rsquo;t made a blog post in a while now; a lot has happened since the Google interview. All of that will be discussed in the future posts. Winter break has started, and there are some cool CS &amp; Math problems i&rsquo;d like to talk about: The Euler Problems. All problems answered on my...]]></summary>
+    <content type="html" xml:base="http://codelucas.com/euler-problem-7-and-10-fun-primes/"><![CDATA[<p>Hello, I haven&rsquo;t made a blog post in a while now; a lot has happened since the Google interview. All of that will be discussed in the future posts.</p>
+
+<p>Winter break has started, and there are some cool CS &amp; Math problems i&rsquo;d like to talk about: <a href="http://projecteuler.net/problems">The Euler Problems</a>. All problems answered on my site will be done in either Java or Python. The ones which we will talk about today are going to be related to primes.</p>
+
+<p>Problem 10:</p>
+
+<blockquote><p>The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17. Find the sum of all the primes below two million.</p></blockquote>
+
+<p>Upon reading this problem, we can see that there are many &ldquo;bad&rdquo; solutions which however are very easy to implement. These solutions wont actually work due to the huge number requirement of <em>two million</em>. If the question was: &ldquo;find me the sum of all primes up to 100 or 1000&rdquo;, we would be fine. Not for 2 million though. For computing that many numbers, we need a somewhat solid algorithm.</p>
+
+<p>Lets take a look at one of the &ldquo;bad solutions&rdquo; first. We must first define what a prime actually is, it&rsquo;s an integer which is only divisible by 1 and itself and it starts from two and goes up (the positive primes).</p>
+
+<p><strong>High level implementation</strong>: Iterate from 2 all the way to two million, check if each number is a prime or not. If it is, add it to our growing sum.<em>
+</em></p>
+
+<p>Well, we know what a prime actually is from above, lets first implement it with the slowest and easiest solution thinkable.</p>
+
+<div class="highlight"><pre><code class="java"><span class="kt">long</span> <span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+<span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">2</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">2000000</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="c1">// O(n^2)      </span>
+    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">2</span><span class="o">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">i</span><span class="o">;</span> <span class="n">j</span><span class="o">++)</span> <span class="c1">// O(n)        </span>
+         <span class="k">if</span> <span class="o">(</span><span class="n">i</span> <span class="o">%</span> <span class="n">j</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span>
+              <span class="n">sum</span> <span class="o">+=</span> <span class="n">i</span><span class="o">;</span>
+</code></pre></div>
+
+
+<p>Look at the code above, we are going integer by integer, from two all the way to two million.
+For each of those integers, we are checking if it&rsquo;s divisible by <i>every</i> number from two all the way up until the number itself! It&rsquo;s a O(n<sup>2</sup>) implementation, ew.</p>
+
+<p>There are some trivial but immediate fixes which we can add, the first is based on the fact that even numbers <em>can&rsquo;t </em>be prime. So we can replace</p>
+
+<div class="highlight"><pre><code class="java"><span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">2</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">2000000</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span>
+
+<span class="c1">// With...</span>
+<span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">3</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">2000000</span><span class="o">;</span> <span class="n">i</span> <span class="o">+=</span> <span class="mi">2</span><span class="o">)</span>
+<span class="c1">// Don&#39;t forget to manually tag 2 on the result</span>
+<span class="c1">// because we know it&#39;s prime anyways.</span>
+</code></pre></div>
+
+
+<p>Enough of that though! Lets delve into some of the more interesting implementations:</p>
+
+<p>With some more context about how primes work, we can really speed things up. For example, whether or not 2 is prime, we know that all greater factors of two <em>are not. </em>This rule follows for 3, 4, 5, etc.. So, for each number we test if is prime or not, we can eliminate all future factors so we can tell our for loop to skip these numbers, we already know that they are prime. Here is the implementation: (To avoid confusion, a BitSet is essentially a list of true and false (0, 1) values).</p>
+
+<div class="highlight"><pre><code class="java"><span class="kt">long</span> <span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+<span class="c1">// List of true &amp; false values</span>
+<span class="c1">// They are all default false!</span>
+<span class="n">BitSet</span> <span class="n">bs</span> <span class="o">=</span> <span class="k">new</span> <span class="n">BitSet</span><span class="o">(</span><span class="mi">2000000</span><span class="o">);</span> 
+
+<span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">2</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">2000000</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>            
+     <span class="k">if</span><span class="o">(</span><span class="n">bs</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">i</span><span class="o">))</span> <span class="c1">// If bs is true, skip that number!      </span>
+         <span class="k">continue</span><span class="o">;</span>         
+     <span class="k">else</span>
+         <span class="n">sum</span> <span class="o">+=</span> <span class="n">i</span><span class="o">;</span>
+     <span class="c1">// Jump through the factors of the number we are on, </span>
+     <span class="c1">// set the #&#39;s to true so we can skip them in the future.</span>
+     <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="n">i</span><span class="o">;</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="mi">2000000</span><span class="o">;</span> <span class="n">j</span> <span class="o">+=</span> <span class="n">i</span><span class="o">)</span>                                
+         <span class="n">bs</span><span class="o">.</span><span class="na">set</span><span class="o">(</span><span class="n">j</span><span class="o">);</span>  <span class="c1">// To true          </span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p>What&rsquo;s very cool about this implementation is that it&rsquo;s O(nlog(n)) time complexity, versus the O(n<sup>2</sup>) above, so it&rsquo;s significantly faster, especially if our n is 2 million. The optimized operation you see above solved Euler problem #10 in 0.27 seconds, the first implementation would have taken <em>many</em> minutes. Also, the answer is 142,913,828,922.</p>
+
+<p>We can apply the above logic for Euler problem number 7, I won&rsquo;t go too in depth for this one.</p>
+
+<p>Problem 7:</p>
+
+<blockquote><p>By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13. What is the 10,001st prime number?</p></blockquote>
+
+<p>To solve this, implement the same solution above, but keep a counter that increments every time we encounter a prime number. Once we hit 10,001, record down that prime and we are done!</p>
+
+<p>104,743 is the answer.</p>
+
+<p>Primes are fun, the two problems were cool in the sense that anyone can find a solution, but a better solution takes time to think and plan out.</p>
+
+<p>Also, there are some roadblocks which some of you may encounter. Like, when I first tried these problems, I had <code>int counter = 0;</code> instead of <code>long counter = 0;</code>, which caused a big error because the biggest integer is roughly 2.14 billion, and the summation of the primes to 2 million is actually much higher, and java never produced any run-time warnings, the answer was just an incorrect number :p.</p>
+
+<p>But yeah, hope you all enjoyed this! Be sure to comment or contact me if you have any questions on the implementations above.</p>
+]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Euler Problem 16 - Creative Arrays</title>
+    <author>
+      <name>Lucas Ou-Yang</name>
+      <uri>http://codelucas.com</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://codelucas.com/euler-problem-16-creative-arrays/"/>
+    <id>http://codelucas.com/euler-problem-16-creative-arrays</id>
+    <updated>2012-12-20T00:00:00-08:00</updated>
+    <summary type="html"><![CDATA[Euler problem 16 215 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26. What is the sum of the digits of the number 21000? In the below example, we will solve this in Java. A common initial approach to this problem involves trying to...]]></summary>
+    <content type="html" xml:base="http://codelucas.com/euler-problem-16-creative-arrays/"><![CDATA[<p><a href="http://projecteuler.net/problems">Euler problem</a> 16</p>
+
+<blockquote><p>2<sup>15</sup> = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26. What is the sum of the digits of the number 2<sup>1000</sup>?</p></blockquote>
+
+<p>In the below example, we will solve this in Java. A common initial approach to this problem involves trying to compute 2<sup>1000</sup>, storing the value as a number, and then converting the number into a string and adding each digit one by one. However, this won&rsquo;t work for most compiled langauges. Remember that the primitive data types <code>long</code> or <code>double</code> are 8 bytes, (64 bits). We are left at a 2<sup>63</sup>-1 max number if signed. 2<sup>1000</sup> will greatly exceed the storage space within a double or a long.</p>
+
+<p>However! We can pre-allocate a bunch of room in an array, and manually build the number 2<sup>1000</sup> within the array, with each array index slot holding <strong>one</strong> digit. For example, instead of
+<code>long var1 = 100;</code>
+we would have
+<code>int[] var1 = {0, 0, 1};</code>
+to represent 100. Visually this looks backwards but within an array the indices are 0, 1, 2 so the numbers are right side up.</p>
+
+<p>To do this, we need some logic to check if a number goes over 10, if it does we just carry over the one. My implementation is provided below:</p>
+
+<div class="highlight"><pre><code class="java"> 
+<span class="c1">// There will be 300 digits maximum, for 2^1000</span>
+<span class="kd">final</span> <span class="kt">int</span> <span class="n">DIGIT_SIZE</span> <span class="o">=</span> <span class="mi">500</span><span class="o">;</span>
+<span class="c1">// This value is the &quot;n&quot; in the 2^n we are summing </span>
+<span class="kd">final</span> <span class="kt">int</span> <span class="n">EXPONENT_TO</span> <span class="o">=</span> <span class="mi">1000</span><span class="o">;</span> 
+
+<span class="kt">int</span><span class="o">[]</span> <span class="n">holder</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">DIGIT_SIZE</span><span class="o">];</span>
+
+<span class="c1">// We begin by setting a sentinal for everything, &quot;-1&quot;</span>
+<span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">DIGIT_SIZE</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span>
+    <span class="n">holder</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="o">;</span>
+
+<span class="n">holder</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span> <span class="c1">// Remember to set the first value to 1</span>
+<span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">EXPONENT_TO</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span> 
+            
+    <span class="c1">// Double every single digit blindly,</span>
+    <span class="c1">// that&#39;s what 2^n means in essence             </span>
+    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">holder</span><span class="o">[</span><span class="n">j</span><span class="o">]</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="o">;</span> <span class="n">j</span><span class="o">++)</span>                 
+        <span class="n">holder</span><span class="o">[</span><span class="n">j</span><span class="o">]</span> <span class="o">=</span> <span class="n">holder</span><span class="o">[</span><span class="n">j</span><span class="o">]</span> <span class="o">*</span> <span class="mi">2</span><span class="o">;</span> 
+                             
+    <span class="c1">// If our &quot;digit&quot; exceeds 9, convert         </span>
+    <span class="c1">// it into two digits and shove the tens &quot;1&quot;             </span>
+    <span class="c1">// the next slot of the array.             </span>
+    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">holder</span><span class="o">[</span><span class="n">j</span><span class="o">]</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="o">;</span> <span class="n">j</span><span class="o">++)</span> <span class="o">{</span>                
+        <span class="k">if</span> <span class="o">(</span><span class="n">holder</span><span class="o">[</span><span class="n">j</span><span class="o">]</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">holder</span><span class="o">[</span><span class="n">j</span><span class="o">]</span> <span class="o">-=</span> <span class="mi">10</span><span class="o">;</span>
+            <span class="k">if</span> <span class="o">(</span><span class="n">holder</span><span class="o">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="o">]</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="o">)</span> 
+                <span class="n">holder</span><span class="o">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="o">]</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span>
+            <span class="k">else</span> 
+                <span class="n">holder</span><span class="o">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="o">]</span> <span class="o">+=</span> <span class="mi">1</span><span class="o">;</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="c1">// Print the sums out.</span>
+<span class="kt">int</span> <span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+<span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">holder</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="o">;</span> <span class="n">i</span><span class="o">++)</span>
+    <span class="n">sum</span> <span class="o">+=</span> <span class="n">holder</span><span class="o">[</span><span class="n">i</span><span class="o">];</span>
+
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">sum</span><span class="o">);</span>
+</code></pre></div>
+
+
+<p>We are using an array of integers with pre-allocated space as a <em>custom data structure</em>, which can hold much much more than a java long or double.</p>
+
+<p>To conserve memory in cases where our numbers get <em>really</em> big, we can even initialize the array to be of type <code>byte</code>, because no value will go over 10 anyways. Oh and the answer was <code>1366</code> if anyone was curious.</p>
+]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>My first internship: M2catalyst</title>
+    <author>
+      <name>Lucas Ou-Yang</name>
+      <uri>http://codelucas.com</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://codelucas.com/first-internship-m2catalyst/"/>
+    <id>http://codelucas.com/first-internship-m2catalyst</id>
+    <updated>2012-10-06T00:00:00-07:00</updated>
+    <summary type="html"><![CDATA[A good friend from UCI has recently referred me to a mobile position at a startup that is located pretty close to campus. The company, M2Catalyst, was started fairly recently. This will be my first ever development job. The interview process was smooth and the engineers liked my java applet games and web apps so...]]></summary>
+    <content type="html" xml:base="http://codelucas.com/first-internship-m2catalyst/"><![CDATA[<p>A good friend from UCI has recently referred me to a mobile position at a startup that is located pretty close to campus. The company, <a href="http://www.m2catalyst.com/">M2Catalyst</a>, was started fairly recently.</p>
+
+<p>This will be my first ever development job. The interview process was smooth and the engineers liked my java applet games and web apps so I think I had it easy! Considering that sophomore year just started, I feel pretty lucky to have a part time job! Finally some money to pay for those server costs :)</p>
+
+<p>M2 is an android based startup and it&rsquo;s campus is only <strong>20 minutes</strong> away from my university, so it&rsquo;s rather convenient to drive or bus to. I don&rsquo;t actually know any android, so i&rsquo;m jumping in with an open mind!</p>
+]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Thoughts on building a large object oriented game</title>
+    <author>
+      <name>Lucas Ou-Yang</name>
+      <uri>http://codelucas.com</uri>
+    </author>
+    <link rel="alternate" type="text/html" href="http://codelucas.com/thoughts-on-building-object-oriented-game/"/>
+    <id>http://codelucas.com/thoughts-on-building-object-oriented-game</id>
+    <updated>2012-07-05T00:00:00-07:00</updated>
+    <summary type="html"><![CDATA[My java applet game, dubbed IslandOverlord, started out as a small Summer project, but it has grown in both physical size and emotional weight very quickly. It&rsquo;s now 7,000 lines of java code and has progressed to the point where i&rsquo;m devoting over 5-6 hours a day, with school, to work on. The fact that...]]></summary>
+    <content type="html" xml:base="http://codelucas.com/thoughts-on-building-object-oriented-game/"><![CDATA[<p>My java applet game, dubbed <a href="http://codelucas.com/pages/island-overlord.html">IslandOverlord</a>, started out as a small Summer project, but it has grown in both physical size and emotional weight very quickly. It&rsquo;s now 7,000 lines of java code and has progressed to the point where i&rsquo;m devoting over 5-6 hours a day, with school, to work on. The fact that I had to hand draw the graphics via gimp did not help :(</p>
+
+<p>I&rsquo;m also proud to say that it relies on nothing but the Java SDK! Even for graphics. The code has been open sourced, check it out <a href="https://github.com/codelucas/islandoverlord">here</a>.</p>
+
+<p>The game itself is a sims-esque game where a bunch of villagers spawn on an island and generate a society by themselves. The island&rsquo;s trees, rocks, and animals grow and spread by themselves also.</p>
+
+<p><img src="http://i1145.photobucket.com/albums/o516/lukepop/da522032.png" alt="Picture of IslandOverlord" /></p>
+
+<p>However, I think that the actual engineering and design processes behind building this game are <em>much</em> more fascinating than the game itself. Firstly, a lot of IslandOverlord&rsquo;s data structures and mechanics are based off of one of <a href="https://mojang.com/notch/">Notch</a>&rsquo;s early day games, titled <a href="https://mojang.com/notch/ld12/breaking/">BreakingTheTower</a>.</p>
+
+<p>The entire game is on an Island object, which is both <code>render()'ed</code> and <code>tick()'ed</code> every game second. On every <code>render()</code> and <code>tick()</code>, all of the entities on the Island are also rendered and ticked. Here is the OOP structure:</p>
+
+<div class="highlight"><pre><code class="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Entity</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">tick</span><span class="o">()</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">render</span><span class="o">(</span><span class="n">Graphics2D</span> <span class="n">g</span><span class="o">,</span> <span class="kt">double</span> <span class="n">alpha</span><span class="o">)</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">distance</span><span class="o">(</span><span class="n">Entity</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+    <span class="o">...</span>
+<span class="o">}</span>
+
+<span class="c1">// Everything is an Entity because everything has to be drawn (rendered) and</span>
+<span class="c1">// ticked (moved) every game second. Beyond that? Things get more complex.</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Animal</span> <span class="kd">extends</span> <span class="n">Entity</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Tree</span> <span class="kd">extends</span> <span class="n">Entity</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Person</span> <span class="kd">extends</span> <span class="n">Entity</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Mineral</span> <span class="kd">extends</span> <span class="n">Entity</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+
+<span class="c1">// Minerals can be mined, Meteors also need a mine() functionality</span>
+<span class="c1">// so extend the Mineral class. In the natural world, meteors are minerals!</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Meteor</span> <span class="kd">extends</span> <span class="n">Mineral</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+
+<span class="c1">// And now the island, where life happens...</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Island</span> <span class="o">{</span>
+    <span class="o">...</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">tick</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="k">this</span><span class="o">.</span><span class="na">entities</span><span class="o">.</span><span class="na">size</span><span class="o">();</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+            <span class="n">entities</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">i</span><span class="o">).</span><span class="na">tick</span><span class="o">();</span>
+            <span class="k">if</span><span class="o">(!</span><span class="n">entities</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">i</span><span class="o">).</span><span class="na">isAlive</span><span class="o">())</span> <span class="o">{</span>
+                <span class="o">...</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+    <span class="o">...</span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p>The island itself is just a circular picture that can be rotated with a users camera. The impression of rivers and lakes on the island is created with transparent pixels which allow the blue background to seep though. I also borrowed Notch&rsquo;s neat hack where he uses some bit manipulaiton to tell if an entity is standing on a transparent pixel (water) or not.</p>
+
+<div class="highlight"><pre><code class="java"><span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">isOnGround</span><span class="o">(</span><span class="kt">double</span> <span class="n">x</span><span class="o">,</span> <span class="kt">double</span> <span class="n">y</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">x</span> <span class="o">/=</span> <span class="mf">1.5</span><span class="o">;</span>
+    <span class="n">y</span> <span class="o">/=</span> <span class="mf">1.5</span><span class="o">;</span>
+    <span class="kt">int</span> <span class="n">xp</span> <span class="o">=</span> <span class="o">(</span><span class="kt">int</span><span class="o">)</span> <span class="o">(</span><span class="n">x</span> <span class="o">+</span> <span class="mi">128</span><span class="o">);</span>
+    <span class="kt">int</span> <span class="n">yp</span> <span class="o">=</span> <span class="o">(</span><span class="kt">int</span><span class="o">)</span> <span class="o">(</span><span class="n">y</span> <span class="o">+</span> <span class="mi">128</span><span class="o">);</span>
+
+    <span class="c1">// If coords are out of range of pixel img, it&#39;s out of question</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">xp</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">yp</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">xp</span> <span class="o">&gt;=</span> <span class="mi">256</span> <span class="o">||</span> <span class="n">yp</span> <span class="o">&gt;=</span> <span class="mi">256</span><span class="o">)</span> 
+        <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+
+    <span class="c1">// If coords are on a transparent pixel, it&#39;s on &quot;water&quot;</span>
+    <span class="k">return</span> <span class="o">(</span><span class="n">pixels</span><span class="o">[</span><span class="n">yp</span> <span class="o">&lt;&lt;</span> <span class="mi">8</span> <span class="o">|</span> <span class="n">xp</span><span class="o">]</span> <span class="o">&gt;&gt;&gt;</span> <span class="mi">24</span><span class="o">)</span> <span class="o">&gt;</span> <span class="mi">128</span><span class="o">;</span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p>Well, that&rsquo;s all I have to say on the topic of IslandOverlord for now! I have released this game to a few of my friends and the public reception so far has been good!</p>
+
+<p><strong>The feeling of people you know actually using stuff that you have built is incredible</strong>. This is a feeling that I want to experience many more times in the future.</p>
+]]></content>
+  </entry>
+  
+
+</feed>

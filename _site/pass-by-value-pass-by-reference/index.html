@@ -1,0 +1,327 @@
+<!doctype html>
+<html>
+<head>
+
+  <!--
+  
+  Lucas Ou-Yang
+  http://codelucas.com
+  
+  "I saw the angel in the marble and carved until I set him free." - Michelangelo
+
+  -->
+  
+  <title>Pass by value & pass by reference &raquo; codelucas.com</title>
+  <meta property="og:title" content="Pass by value & pass by reference &raquo; codelucas.com" />
+
+  <meta name="description" content="Hi! My name is Lucas, i'm passionate about software & art. I build web applications and distance run in my spare time.">
+  <meta property="og:description" content="Hi! My name is Lucas, i'm passionate about software & art. I build web applications and distance run in my spare time." />
+
+  <meta property="og:type" content="article" />
+  <meta property="article:tag" content="programming" /><meta property="article:tag" content="algorithms" />
+  <meta property="og:image" content="http://codelucas.com/images/logo.png" />
+
+  <meta property="article:author" content="http://codelucas.com/about/" />
+  <meta property="fb:admins" content="lucas.ouyang.7" />
+  <!-- <meta property="fb:app_id" content="" /> -->
+  <link rel="author" href="https://plus.google.com/108352969036344290601" />
+  <link rel="icon" type="image/png" href="/favicon.ico">
+  <!-- Fonts, 600 is pseudo bold -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="canonical" href="http://codelucas.com/pass-by-value-pass-by-reference/" />
+  <meta property="og:url" content="http://codelucas.com/pass-by-value-pass-by-reference/" />
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- <link rel="alternate" type="application/atom+xml" title="codelucas.com" href="" /> -->
+
+  <link rel="stylesheet" href="/css/compiled/style.css" />
+
+  <script type="text/javascript" src="//use.typekit.net/lvb8hht.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+<body class="post">
+
+  <header id="header">
+  <h1><a href="/">codelucas</a></h1>
+  </header>
+  
+  <div id="container">
+
+    <section class="content clearfix">
+      <div class="postHeader">
+
+  <h1>
+    <a href="/pass-by-value-pass-by-reference/">Pass by value & pass by reference</a>
+  </h1>
+
+  <div class="byline">
+    <span>By <a href="/about/" title="Lucas Ou-Yang">Lucas Ou-Yang</a></span>
+    <time datetime="2013-03-02">March  2, 2013</time>
+    Tagged with
+    <ul class="tags">
+      
+      <li><a href="/tag/programming/">programming</a></li>
+      
+      <li><a href="/tag/algorithms/">algorithms</a></li>
+      
+    </ul>
+  </div>
+
+</div>
+
+<article>
+
+  <p>Hi, this blog post is intended to highlight the details and subtleties of passing by value and reference.</p>
+
+<p>The three languages which we will talk about are Python, Java, and C++. Python and Java are strictly pass by value, while C++ allows for both.</p>
+
+<!-- We will first talk about passing by value. For many newer and modern languages, there seems to be a trend of strict pass by value restrictions. PHP, Python, Go, Java, and many more languages are all pass by value! -->
+
+
+<p><strong>Important:</strong> Before going technical over these two passing protocols, we need to distinguish two types of variables in programming languages, <em>value types</em> and <em>reference types</em>, because a variable&rsquo;s type does affect how it is passed &amp; interpreted.</p>
+
+<div class="highlight"><pre><code class="java"><span class="c1">// Value type in Java, there is no layer between the variable </span>
+<span class="c1">// and the value in memory</span>
+<span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span><span class="o">;</span>
+
+<span class="c1">// Reference type in Java, the variable name &quot;car&quot; is actually </span>
+<span class="c1">// not the object in memory, it&#39;s  a reference pointing to the </span>
+<span class="c1">// address in memory of an object. Because Car is an obj instance, </span>
+<span class="c1">// not a primitive (int, chat, ...)</span>
+<span class="n">Car</span> <span class="n">car</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Car</span><span class="o">(</span><span class="s">&quot;foo&quot;</span><span class="o">);</span> 
+</code></pre></div>
+
+
+<p><img src="/images/Value-vs-Reference-Type.jpg" alt="Graphical representation of a reference type and a value type" /></p>
+
+<p><strong>Passing by value</strong> means whenever a value or reference type is being passed through a method, the passed ref/value is cloned into an identical value. If it&rsquo;s a value type, an identical value is created. If the passed parameter is a reference type, the reference gets cloned, not the object it&rsquo;s pointing at. However, the new reference is pointing at the original object still!. This is very important to understand.</p>
+
+<p>In the following graphical images, circles and arrows refer to references and boxes refer to objects in memory. Red indicates that the reference is a clone from the pass by value operation.</p>
+
+<div class="highlight"><pre><code class="java"><span class="c1">// Remember, Java is strictly pass by value!</span>
+<span class="kd">class</span> <span class="nc">Car</span> <span class="o">{</span>
+    <span class="n">String</span> <span class="n">var</span> <span class="o">=</span> <span class="s">&quot;&quot;</span><span class="o">;</span>
+    <span class="kd">public</span> <span class="nf">Car</span> <span class="o">(</span><span class="n">String</span> <span class="n">var</span><span class="o">)</span> <span class="o">{</span> 
+        <span class="k">this</span><span class="o">.</span><span class="na">var</span> <span class="o">=</span> <span class="n">var</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">setCarVar</span> <span class="o">(</span><span class="n">Car</span> <span class="n">car</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">car</span><span class="o">.</span><span class="na">var</span> <span class="o">=</span> <span class="s">&quot;bar&quot;</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">refNewCar</span> <span class="o">(</span><span class="n">Car</span> <span class="n">car</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">car</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Car</span><span class="o">(</span><span class="s">&quot;bar&quot;</span><span class="o">);</span>
+   <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p>In the following example, we are passing by value the reference to a car object called <code>car</code>. It is default initialized with <code>"foo"</code>, so the <code>var</code> String property of the object is <code>"foo"</code> after creation. In the <code>setCarVar(...)</code> method, we take the <code>car</code> instance, and change it&rsquo;s <code>var</code> variable into the String <code>bar</code>. Despite this being pass by value, the change still takes effect because the reference was cloned, <b>not the actual object</b>. The reference is still pointing towards the original object!</p>
+
+<div class="highlight"><pre><code class="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span> <span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">Car</span> <span class="n">car</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Car</span><span class="o">(</span><span class="s">&quot;foo&quot;</span><span class="o">);</span>
+    <span class="n">Car</span><span class="o">.</span><span class="na">setCarVar</span><span class="o">(</span><span class="n">car</span><span class="o">);</span>
+
+    <span class="c1">// This will print out &quot;bar&quot;</span>
+    <span class="c1">// the property change from setCarVar took effect!</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">car</span><span class="o">.</span><span class="na">var</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p><img src="/images/Pass-by-Val-varChange.jpg" alt="Pass by Value PT 1" /></p>
+
+<p><img src="/images/Pass-by-Val-varChange-2.jpg" alt="Pass by Value PT 2" /></p>
+
+<p>Take a look at this new example, we use a new method, <code>refNewCar(...)</code>. This method differs from the original because it does not change the car&rsquo;s <code>var</code> property, it completely points the input reference towards a new car object. This is very important! Because the car reference is pointing now at a new car object (not original), all changes made to this object will not affect the original! This is much better explained with graphical images.</p>
+
+<div class="highlight"><pre><code class="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span> <span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">Car</span> <span class="n">car</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Car</span><span class="o">(</span><span class="s">&quot;foo&quot;</span><span class="o">);</span>
+    <span class="n">Car</span><span class="o">.</span><span class="na">refNewCar</span><span class="o">(</span><span class="n">car</span><span class="o">);</span>
+
+    <span class="c1">// This will print out &quot;foo&quot;</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">car</span><span class="o">.</span><span class="na">var</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p><img src="/images/Pass-by-Val-redirect.jpg" alt="Pass by Value Redirect" /></p>
+
+<p>Just one more fun example for pass by value. Manipulating array index values via methods. Reference variables which point to arrays also give programmers the ability to change index values with pass by value. This is similar to our first example, after passing by value, our reference variable is cloned, however it&rsquo;s still pointing at the same array, which means we can make manipulations. Let&rsquo;s have this example be in python.</p>
+
+<div class="highlight"><pre><code class="java"><span class="n">def</span> <span class="nf">changeFirstE</span> <span class="o">(</span><span class="n">arr</span><span class="o">):</span>
+    <span class="n">arr</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span> <span class="o">=</span> <span class="s">&quot;bar&quot;</span>
+
+<span class="n">def</span> <span class="nf">main</span><span class="o">():</span>
+    <span class="n">arr</span> <span class="o">=</span> <span class="o">[</span><span class="s">&quot;foo&quot;</span><span class="o">,</span> <span class="s">&quot;zzz&quot;</span><span class="o">,</span> <span class="s">&quot;lucas&quot;</span><span class="o">,</span> <span class="s">&quot;.&quot;</span><span class="o">,</span> <span class="s">&quot;hi&quot;</span><span class="o">]</span>
+    <span class="n">print</span> <span class="n">arr</span>
+    <span class="nf">changeFirstE</span><span class="o">(</span><span class="n">arr</span><span class="o">)</span>
+    <span class="n">print</span> <span class="n">arr</span>
+</code></pre></div>
+
+
+<p>For the pass by value section of this post, I have only used reference types because they are much trickier to understand as opposed to value types. For a value type, via pass by value, the value is just duplicated. Any changes to the value won&rsquo;t affect the original value. For pass by references it&rsquo;s not the same though!</p>
+
+<p>Finally, we can begin the passing by reference section. For pass by reference, inputted value and reference types are NOT duplicated. A new reference is now pointing at that original reference or value. Changes made to that reference will affect the object/reference being pointed at. The implications are much better explained with concrete examples than with text.</p>
+
+<p>The pass by reference code will be presented in C++. We will be using value types for simplicity.</p>
+
+<div class="highlight"><pre><code class="java"><span class="kt">void</span> <span class="nf">setValue</span> <span class="o">(</span><span class="kt">int</span> <span class="o">&amp;</span><span class="n">y</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="mi">8</span><span class="o">;</span>
+<span class="o">}</span>
+ 
+<span class="kt">int</span> <span class="nf">main</span><span class="o">()</span> <span class="o">{</span>
+    <span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span><span class="o">;</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;x = &quot;</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="o">;</span>
+    <span class="c1">// outputs 10</span>
+
+    <span class="n">setValue</span><span class="o">(</span><span class="n">x</span><span class="o">);</span>
+
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;x = &quot;</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="o">;</span>
+    <span class="c1">// outputs 8, we are referencing a new value</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="o">;</span>
+<span class="o">}</span>
+</code></pre></div>
+
+
+<p>The main takeaway for pass by references is that after pointing the input reference to a new object, the changes stay. The object reference will now stay pointed at that new object. If you are passing by a value type, the value will also change if it is pointed towards a new value.</p>
+
+<p>The ampersand y <code>&amp;y</code> in the method signature of <code>setValue(...)</code> denotes a new reference which points to the value type of the object in memory, which is initialized to 10. Instead of duplicating a value or reference, we are now just simply referencing it with a new reference. We are using a new reference to point to the <b>original</b> value type, and we are setting it to a new object in memory. This means all changes to the object, or even resetting the reference to a new objects, have permanent results.</p>
+
+<p>If we wanted to mimic our above example with <code>Car car</code>, and the <code>refNewCar(...)</code> setup, the graphic below will represent the subtle change. Having our car reference a new object will result in the reference permanently pointing towards a new object.</p>
+
+<p>Congratulations, you have read through my lengthy guide to parameter passing and variable types! I hope this has helped you guys, please share this article with your friends if it really did help you!</p>
+
+<p>Well, that&rsquo;s the end of this post for now, my next blog post will be much more exciting. I&rsquo;ve compiled lots of analytics data on my new project &amp; start-up, <a href="http://wintria.com">Wintria</a>, a lot of related stuff will be discussed in the next entry.</p>
+
+<p>Be sure to contact me or comment if you have any questions about the implementations above, thanks!</p>
+
+
+<!--
+
+    <p>(If you liked this, you might like <a href="/top-5-programming-mistakes/">
+    Programming Mistakes that intro CS students make</a>.)</p>
+ 
+-->
+
+</article>
+
+<section class="meta">
+  <h3>
+    Discussion & Media
+    <a class="rss" href="http://feeds.feedburner.com/" title="Subscribe to the codelucas.com Feed">
+      <img src="/images/rss.png" alt="RSS Feed Icon" />
+    </a>
+  </h3>
+
+  <section class="copy">
+    <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=USERNAME_HERE', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+      <p>
+        <a href="https://twitter.com/codelucas" class="avatar">
+          <img src="/images/selfie3_small.jpg" height="50" width="50" alt="Lucas Ou-Yang" />
+        </a>
+        Hey, thanks for reading! I'm <a href="/about/">Lucas Ou-Yang</a>, I love making things. 
+        I am currently working on <a href="http://github.com/codelucas/newspaper">Newspaper</a>, 
+        an open source python library for article news extraction, and 
+        <a href="http://antchatter.com">Antchatter.com</a> a geolocation enhanced chatroom 
+        for college kids. 
+        
+        I am also a co-founder of <a href="http://wintria.com">Wintria.com</a>. 
+      </p>
+
+      
+      <p>
+        If you enjoyed this article, you should follow me on <a href="http://facebook.com/lucas.ouyang.7">Facebook</a> or <a href="https://twitter.com/lucasouyang">Twitter</a><!-- or sign up to get an email whenever I write something new:
+
+        <input type="email" name="email" placeholder="email@email.com"/>
+        <input type="hidden" value="codelucas" name="uri"/>
+        <input type="hidden" name="loc" value="en_US"/>
+        <input type="submit" value="Subscribe" />-->
+      </p>
+    </form>
+
+    <p>
+      Share this article with your friends:
+    </p>
+
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://codelucas.com/pass-by-value-pass-by-reference/" data-text="Pass by value &amp; pass by reference" data-via="lucasouyang" data-size="large" data-related="lucasouyang">Tweet</a>
+
+    <div class="fb-like" data-href="http://codelucas.com/pass-by-value-pass-by-reference/" data-send="false" data-width="320" data-show-faces="true"></div>
+
+  </section>
+
+
+  
+    <a class="prev" href="/euler-problem-7-and-10-fun-primes/" title="Previous Post: Fun with primes - Euler Problems 7 & 10">Fun with primes - Euler Problems 7 & 10</a>
+  
+  
+    <a class="next" href="/kingdom-connectivity/" title="Next Post: Kingdom Connectivity - Graph theory problem">Kingdom Connectivity - Graph theory problem</a>
+  
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = 'codelucas';
+      var disqus_developer = (window.location.hostname == 'localhost') ? 1 : 0;
+      var disqus_url = 'http://codelucas.com/pass-by-value-pass-by-reference/';
+
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+    </section>
+
+    
+
+  </div>
+  <center>
+      <!--<div class="byline" style="margin-bottom:10px;">"I saw the angel in the marble and carved until I set him free." - Michelangelo</div>-->
+
+      <div class="byline" style="margin-bottom:10px;">The theme is a modified version of <a href="http://feross.org">Feross's blog</a></div>
+  </center>
+
+  <script src="/js/libraries.js"></script>
+  <script src="/js/script.js"></script>
+
+  
+
+  
+
+  
+
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=223190377735910";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Twitter -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-37131973-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+</body>
+</html>
