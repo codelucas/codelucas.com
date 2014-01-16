@@ -99,3 +99,34 @@ title: Quotes
 <!-- -->
 > I saw the angel in the marble and carved until I set him free. -- Michelangelo
 
+<!-- -->
+> Never underestimate the importance of making money making music.
+
+> Let go of any weird taboos you have about it.
+
+> Money is nothing more than neutral proof that you're adding value to people's lives.
+
+> Making sure you're making money is just a way of making sure you're doing something of value to others.
+
+> Remember that this usually comes from doing the things that most people don't do.
+
+> For example : how much does the world pay people to play video games? Nothing, because everyone does it.
+
+> How much does the world pay people to make video games? A ton, because very few can do it, and lots of people want it.
+
+> ...
+
+> Be one of the few that is clever enough to make money making music instead of pretending it doesn't matter.
+
+> Be one of the few that has the guts to do something shocking.
+
+> Be one of the few that takes your lessons here as a starting point, and pushes yourself to do more with what you learn.
+
+> Be one of the few that knows how to help yourself, instead of expecting for others to do it for you.
+
+> Be one of the few that does much more than is required.
+
+> And most importantly, be one of the few that stays in the shed to practice, while everyone else is surfing the net, flirting on Facebook, and watching TV.
+
+> -- Derek Sivers, "6 things to know before Berklee Music School"
+
