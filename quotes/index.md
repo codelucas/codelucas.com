@@ -100,7 +100,7 @@ title: Quotes
 > I saw the angel in the marble and carved until I set him free. -- Michelangelo
 
 <!-- -->
-> Never underestimate the importance of making money making music.
+> Never underestimate the importance of making money from making music.
 
 > Let go of any weird taboos you have about it.
 
@@ -116,7 +116,7 @@ title: Quotes
 
 > ...
 
-> Be one of the few that is clever enough to make money making music instead of pretending it doesn't matter.
+> Be one of the few that is clever enough to make money by making music instead of pretending it doesn't matter.
 
 > Be one of the few that has the guts to do something shocking.
 
