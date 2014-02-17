@@ -96,3 +96,4 @@ Technical Notes
 - [sqlalchemy relationships](http://docs.sqlalchemy.org/en/rel_0_7/orm/relationships.html)
 - [configuring supervisor with nginx & python apps](http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/)
 - [removing elements while iterating a list in python](http://stackoverflow.com/questions/1207406/remove-items-from-a-list-while-iterating-in-python/1207461#1207461)
+- [DHH laying down the law of life](http://www.youtube.com/watch?v=jzERXJgi5vQ&t=61m0s)
