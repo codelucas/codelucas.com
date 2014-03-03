@@ -1,0 +1,27 @@
+---
+layout: layout
+title: Lucas's Blog Posts
+class: about
+
+---
+
+<h2>My blog! Mostly on the topics of software, art, life, and things...</h2>
+
+<div class="left">
+  <ul class="listing">
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}/">{{ post.title }}</a>
+      <time datetime="{{post.date | date: "%Y-%m-%d"}}">
+        {{ post.date | date: "%B %e, %Y" }}{% if post.github %}.
+        Code on <a href="{{ post.github }}">GitHub</a>.
+        {% endif %}
+      </time>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div>
+
+<div class="right">
+</div>
