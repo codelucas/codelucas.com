@@ -3,7 +3,8 @@ $experimental-support-for-khtml: false;
 @import "compass/css3/font-face";
 
 // Fonts
-// @include font-face("Aleo", font-files("Aleo-Regular.woff", woff, "Aleo-Regular.otf", otf));
+// @include font-face("Aleo", font-files("Aleo-Regular.woff", 
+// woff, "Aleo-Regular.otf", otf));
 
 $serif: "Open Sans", sans-serif;
 $serif-caps: "Open Sans", sans-serif;
@@ -21,11 +22,9 @@ $break3: 950px;
 $break4: 1100px;
 
 // Colors
-$mainColor: #00A3FF;
+$mainColor: #1C9AE0; // baby blue: #00A3FF;
 $headerBgColor: #f8f8f8;
 $blueGray: #7c858e;
-
-// $red: #666; 
 
 $white: #FFF;
 $lightestGray: #EEE;

@@ -2,12 +2,10 @@
 <html>
 <head>
   <!--
-  
   Lucas Ou-Yang
   http://codelucas.com
   
   "I saw the angel in the marble and carved until I set him free." - Michelangelo
-
   -->
   {% capture meta_desc %}{% if page.summary %}{{ page.summary }}{% else %}Hi! My name is Lucas, i'm passionate about software & art. I build web applications and distance run in my spare time.{% endif %}{% endcapture %}
   <title>{{ page.title }} &raquo; codelucas.com</title>
@@ -17,26 +15,28 @@
   <meta property="og:description" content="{{ meta_desc }}" />
 
   <meta property="og:type" content="article" />
-  {% if page.tags %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag | replace: '-', ' ' }}" />{% endfor %}{% endif %}
-  <meta property="og:image" content="http://codelucas.com/images/logo.png" />
+  {% if page.tags %}{% for tag in page.tags %}<meta property="article:tag" 
+    content="{{ tag | replace: '-', ' ' }}" />{% endfor %}{% endif %}
+  <meta property="og:image" content="http://codelucas.com/images/lucasou.png" />
 
   <meta property="article:author" content="http://codelucas.com/about/" />
   <meta property="fb:admins" content="lucas.ouyang.7" />
   <link rel="author" href="https://plus.google.com/108352969036344290601" />
   <link rel="icon" type="image/png" href="/favicon.ico">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' 
+    rel='stylesheet' type='text/css'>
 
   {% if page.class == "post" %}
-  <link rel="canonical" href="http://codelucas.com{{ page.url }}/" />
-  <meta property="og:url" content="http://codelucas.com{{ page.url }}/" />
+      <link rel="canonical" href="http://codelucas.com{{ page.url }}/" />
+      <meta property="og:url" content="http://codelucas.com{{ page.url }}/" />
   {% elsif page.class == "home" %}
-  <link rel="canonical" href="http://codelucas.com/" />
-  <meta property="og:url" content="http://codelucas.com/" />
+      <link rel="canonical" href="http://codelucas.com/" />
+      <meta property="og:url" content="http://codelucas.com/" />
   {% endif %}
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- <link rel="alternate" type="application/atom+xml" title="codelucas.com" href="" /> -->
+  <!--<link rel="alternate" type="application/atom+xml" title="codelucas.com" href="" />-->
 
   <link rel="stylesheet" href="/css/compiled/style.css" />
   <script type="text/javascript" src="//use.typekit.net/lvb8hht.js"></script>
@@ -44,7 +44,6 @@
 
 </head>
 <body class="{{ page.class }}">
-
   {% if page.class != "home" %}
     <header id="header">
       <div id="navcontainer">
@@ -56,8 +55,6 @@
           <li><a href="/misc">Misc</a></li>
         </ul>
       </div>
-      <!--<h1><a href="/">{% if page.class == "resume" %}
-        Lucas Ou-Yang{% else %}codelucas{% endif %}</a></h1>-->
     </header>
   {% else %}
     <div class="bg-image bg-image-one text-center">
@@ -85,20 +82,16 @@
   {% endif %}
 
   <div id="container">
-
     <section class="content clearfix">
       {{ content }}
     </section>
-
-    {% if page.class == "home" %}
-      <!-- <a href="https://github.com/codelucas" id="github">Fork me on GitHub</a> -->
-    {% endif %}
-
   </div>
+
   <center>
-      <div class="byline" style="margin-bottom:10px;">
-          "I saw the angel in the marble and carved until I set him free." - Michelangelo</div>
-    
+    <div class="byline" style="margin-bottom:10px;">
+      "I saw the angel in the marble and carved until I set him free." 
+      - Michelangelo
+    </div>
   </center>
 
   <!--
@@ -134,7 +127,6 @@
 
     <!-- Twitter -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
   {% endif %}
 
   <!-- Google Analytics -->
@@ -144,7 +136,5 @@
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
-
-
 </body>
 </html>

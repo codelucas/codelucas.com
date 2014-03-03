@@ -299,7 +299,7 @@ img {
     }
     #{$focus} {
       // color: $blueGray; 
-      border-bottom: 1px solid $mainColor; // uncomment if you want hover underline
+      border-bottom: 1px solid black;// $mainColor; // uncomment if you want hover underline
       font-style: italic;
     }
   }
@@ -776,4 +776,7 @@ section {
   display: inline;
   list-style-type: none;
   padding-right: 20px;
+  a {
+    color: black;
+  }
 }

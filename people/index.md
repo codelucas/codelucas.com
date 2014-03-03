@@ -19,3 +19,5 @@ class: about
 - [Jason Tanner](http://jasontanner.herokuapp.com/)
 - [Nithin Jilla](http://www.nithinjilla.com/)
 - [Ceasar Bautista](http://ceasarbautista.com/)
+- [Jonas Alejo](https://www.facebook.com/jonas.alejo.5)
+    Helped make the "Lucas OU" logo on this webpage!
