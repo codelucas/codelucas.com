@@ -150,6 +150,7 @@ abbr[title] { border-bottom: 1px dotted $lightGray; }
 // Non-semantic helper classes
 
 .red { color: $mainColor; } // I'm using Feross's template, his primary color was red, mine is pink
+.black { color: black; }
 .strong { font-weight: bold; }
 
 
@@ -726,7 +727,7 @@ section {
 
 .bg-image-one {
   // height: 80%;
-  background-image: url("https://dl.dropboxusercontent.com/u/103212767/Forest%20background.jpg");
+  background-image: url("/images/forest.jpg");
 }
 
 .crossed-seperator {
