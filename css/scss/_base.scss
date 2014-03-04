@@ -22,7 +22,9 @@ $break3: 950px;
 $break4: 1100px;
 
 // Colors
-$mainColor: #1C9AE0; // baby blue: #00A3FF;
+$mainColor: #1C9AE0; 
+$darkMainColor: darken($mainColor, 10%);
+
 $headerBgColor: #f8f8f8;
 $blueGray: #7c858e;
 
