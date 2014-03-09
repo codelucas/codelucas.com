@@ -99,3 +99,4 @@ Technical Notes
 - [DHH laying down the law of life](http://www.youtube.com/watch?v=jzERXJgi5vQ&t=61m0s)
 - [Tour of the linux filesystem](http://tuxradar.com/content/take-linux-filesystem-tour/)
 - [Suggested font pairings - Google](https://www.google.com/fonts/specimen/PT+Serif#pairings)
+- [Make python faster without trying that much](http://lukauskas.co.uk/articles/2014/02/12/how-to-make-python-faster-without-trying-that-much/)
