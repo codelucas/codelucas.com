@@ -51,11 +51,13 @@ body {
   float: left;
   width: 60%;
 }
+
 .right {
   float: right;
   width: 35%;
   overflow-x: hidden;
 }
+
 .left, .right {
   @media only screen and (max-width: $break1 + 200) {
     float: none;
@@ -92,12 +94,14 @@ h1, h2, h3, h4 {
     }
   }
 }
+
 h1 { font-size: 1.8em; margin: 0.8em 0 0.2em 0; }
 h2 { font-size: 1.5em; margin: 1.2em 0 0.6em 0; }
 h3 { font-size: 1.3em; margin: 1.2em 0 0.6em 0; color: $lightGray; }
 h4 { font-size: 1.1em; margin: 1.2em 0 0.6em 0; color: $lightGray; }
 
 // Links in h1 should not affect style
+
 .content h1 a {
   #{$link} {
     color: $darkerGray;
@@ -167,108 +171,6 @@ img {
   padding: 3px;
   border: 1px solid $lightestGray;
 }
-
-
-// Ads
-
-/* Code that changes the ad to horizontal orientation are defined as mixins so that we
-   can use them multiple times (i.e. on the home page, as well on the post page with
-   a media query)
-*/
-
-.carbonad {
-  background: $adColor !important;
-  border: 1px solid $adBorderColor !important;
-  
-  img {
-    margin: 0;
-    max-width: none;
-    padding: 11px 0 0 11px;
-    border: 0;
-  }
-
-  @mixin horiz() {
-    height: 100px !important;
-    padding: 10px !important;
-    position: static !important;
-    margin: 15px auto !important;
-    width: 260px !important;
-    & img {
-      margin: 0;
-      padding: 0;
-    }
-  }
-  .home &, .about & {
-    @include horiz();
-  }
-  .post & {
-    position: absolute !important;
-    margin-top: -30px !important;
-    margin-left: ($postWidth + 30px) !important;
-    z-index: 5;
-
-    @media only screen and (max-width: $break4) {
-      margin-left: ($postWidthSmall + 25px) !important;
-    }
-
-    @media only screen and (max-width: $break3) {
-      @include horiz();
-    }
-  }
-}
-
-.carbonad-image {
-  @mixin horiz() {
-    margin: 0 10px 0 0 !important;
-    padding: 0 !important;
-  }
-  .home &, .about & {
-    @include horiz();
-  }
-  .post & {
-    @media only screen and (max-width: $break3) {
-      @include horiz();
-    }
-  }
-}
-
-.carbonad-text, .carbonad-tag {
-  @mixin horiz() {
-    margin: 2px 0 0 0 !important;
-    padding: 0 !important;
-  }
-  .home &, .about & {
-    @include horiz();
-  }
-  .post & {
-    @media only screen and (max-width: $break3) {
-      @include horiz();
-    }
-  }
-}
-
-.carbonad-text {
-  color: $lightGray !important;
-  a { color: $gray !important; }
-}
-
-.carbonad-tag {
-  color: $lightGray !important;
-  a { color: $lightGray !important; }
-
-  @mixin horiz() {
-    margin-top: 15px !important;
-  }
-  .home &, .about & {
-    @include horiz();
-  }
-  .post & {
-    @media only screen and (max-width: $break3) {
-      @include horiz();
-    }
-  }
-}
-
 
 // Header
 
@@ -343,7 +245,6 @@ img {
   }
 
 }
-
 
 // Homepage layout
 
@@ -660,6 +561,7 @@ ul.listing {
 
 
 // print-specific styles
+
 @media print {
   /* colors (black on white) */
   body, h1, h2, h3, h4, .content h1 a, .highlight {
@@ -691,8 +593,8 @@ section {
   padding: 50px 0;
 }
 
-homeSection {
-  padding: 0 0;
+.kill-padding {
+  padding: 0 !important;
 }
 
 .navbar-elegant {
@@ -727,12 +629,11 @@ homeSection {
   position: relative;
   background-position: center center;
   background-size: cover;
-  height: 300px;
+  height: 200px;
   text-align: center;
 }
 
 .bg-image-one {
-  // height: 80%;
   background-image: url("/images/forest.jpg");
 }
 
@@ -763,6 +664,9 @@ homeSection {
 }
 
 .sectitle {
+  h1 {
+    border-bottom: none;
+  }
   text-align: center;
   margin-bottom: 40px;
 }
@@ -770,8 +674,8 @@ homeSection {
 .main-logo {
   display: inline-block;
   float: none;
-  margin-top: 100px;
-  max-width: 150px;
+  margin-top: 30px;
+  max-width: 120px;
 }
 
 .lead {
@@ -784,5 +688,90 @@ homeSection {
   padding-right: 20px;
   a {
     color: black;
+  }
+}
+
+// home page table layouts
+
+paragraph.chunk {
+  width: 100%;
+  overflow: hidden;
+
+  .first-col {
+    margin-left: 9% !important;
+  }
+
+  .col {
+    float: left;
+    margin-left: 6%;
+  }
+
+  section {
+    margin-top: 10px;
+    padding: 13px 0 0 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  h2 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0;
+    color: $darkerGray;
+    border-bottom: none !important;
+  }
+
+  a {
+    color: $darkGray;
+  }
+
+  a:hover, a:focus {
+    color: $mainColor;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: 250px;
+  }
+
+  lh {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+  }
+
+  lh:first-child {
+    margin-top: 0;
+  }
+
+  lh:after {
+    content: ':';
+  }
+
+  li span {
+    color: #D32626;
+  }
+}
+
+@media (max-width: 770px) {
+  paragraph.chunk {
+    position: static;
+    margin: 0;
+    padding: 0 15px 15px 15px;
+
+    .col {
+      float: none;
+      margin: 0;
+    }
+
+    .first-col {
+      margin: 0 !important;
+      float: none;
+    }
   }
 }

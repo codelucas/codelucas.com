@@ -36,7 +36,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--<link rel="alternate" type="application/atom+xml" title="codelucas.com" href="" />-->
+  <!--<link rel="alternate" type="application/atom+xml" title="lucasou.com" href="" />-->
 
   <link rel="stylesheet" href="/css/compiled/style.css" />
   <script type="text/javascript" src="//use.typekit.net/lvb8hht.js"></script>
@@ -48,16 +48,16 @@
     <header id="header">
       <div id="navcontainer">
         <ul id="navlist">
-          <li><a href="/about">About</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="/projects">Projects</a></li>
           <li><a href="/blog/">Blog</a></li>
           <li><a href="/resume/">Resume</a></li>
-          <li><a href="/misc">Misc</a></li>
         </ul>
       </div>
     </header>
   {% else %}
     <div class="bg-image bg-image-one text-center">
+      <!--
       <header class="homeHeader" id="header">
       <div id="navcontainer">
         <ul id="navlist">
@@ -65,19 +65,21 @@
           <li><a href="/projects">Projects</a></li>
           <li><a href="/blog/">Blog</a></li>
           <li><a href="/resume/">Resume</a></li>
-          <li><a href="/misc">Misc</a></li>
         </ul>
       </div>
       </header>
+      -->
 
       <img src="/images/lucasou.png" class="img-responsive main-logo"/>
 
+      <!-- The gray lining on bottom of tree image -->
       <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" 
         height="100" viewbox="0 0 100 100" preserveaspectratio="none" 
         class="crossed-seperator crossed-seperator-bottom">
         <path d="M0 100 L100 100 L0 0 Z" class="one"></path>
         <path d="M0 100 L100 100 L100 0 Z" class="two"></path>
       </svg>
+      <!-- gray lining -->
     </div>
   {% endif %}
 
@@ -93,12 +95,14 @@
     {% endif %}
   </div>
 
+  {% if page.class != "home" %}
   <center>
     <div class="byline" style="margin-bottom:10px;">
       "I saw the angel in the marble and carved until I set him free." 
       - Michelangelo
     </div>
   </center>
+  {% endif %}
 
   <!--
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
