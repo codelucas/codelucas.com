@@ -1,6 +1,9 @@
 _site
 drafts
 
+# Ignore paid fonts.
+*.otf
+
 .DS_Store
 
 .sass-cache

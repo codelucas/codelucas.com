@@ -1,6 +1,8 @@
-# [codelucas.com](http://codelucas.com) Blog
+# [lucasou.com](http://lucasou.com) Blog
 
-This blog was heavily inspired by [Feross's Blog](http://feross.org). I will add more specifics later.
+This is the code for the personal website for myself, Lucas Ou.
+This blog was heavily inspired by [Feross's Blog](http://feross.org). 
+I will add more specifics later.
 
 ## How it's built
 
@@ -15,3 +17,12 @@ Also note the `_posts` and `posts` directories. `_posts` is a directory for our 
 The `server` directory holds all of our server configurations and the `_site` directory holds the actual Jekyll compiled website! Hence we link our server roots to that directory.
 
 This site uses nginx for its http server.
+
+### Requirements
+
+- [Jekyll](http://jekyllrb.com/), static website generator & framework
+- [Compass](http://compass-style.org/), css compiling
+- [make](https://www.gnu.org/software/make/), program to aid execution flow
+- [nginx server](http://wiki.nginx.org/Main), our HTTP webserver
+
+Need to get in contact or have trouble? Email me at lucasyangpersonal@gmail.com.

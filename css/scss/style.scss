@@ -310,6 +310,7 @@ img {
 // display the menu nested inside the bg image.
 
 .homeHeader {
+  padding: 5px 0 5px 0 !important;
   position: absolute;
   top: 20px;
   width: 100%;
@@ -690,6 +691,10 @@ section {
   padding: 50px 0;
 }
 
+homeSection {
+  padding: 0 0;
+}
+
 .navbar-elegant {
   left: 0;
   right: 0;
@@ -722,7 +727,7 @@ section {
   position: relative;
   background-position: center center;
   background-size: cover;
-  height: 700px;
+  height: 300px;
   text-align: center;
 }
 
@@ -732,7 +737,7 @@ section {
 }
 
 .crossed-seperator {
-  height: 100px;
+  height: 50px;
   margin: 0;
   padding: 0;
   path.one {
@@ -765,8 +770,8 @@ section {
 .main-logo {
   display: inline-block;
   float: none;
-  margin-top: 150px;
-  max-width: 300px;
+  margin-top: 100px;
+  max-width: 150px;
 }
 
 .lead {

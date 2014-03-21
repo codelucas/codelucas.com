@@ -100,3 +100,5 @@ Technical Notes
 - [Tour of the linux filesystem](http://tuxradar.com/content/take-linux-filesystem-tour/)
 - [Suggested font pairings - Google](https://www.google.com/fonts/specimen/PT+Serif#pairings)
 - [Make python faster without trying that much](http://lukauskas.co.uk/articles/2014/02/12/how-to-make-python-faster-without-trying-that-much/)
+- [Bootflat - a free bootstrap flat framework](http://bootflat.github.io/)
+- [Designing a RESTful API with flask & python](http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)

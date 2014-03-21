@@ -13,6 +13,12 @@ javascripts_dir = "/js/compiled"
 # To enable relative paths to assets via compass helper functions. Uncomment:
 relative_assets = true
 
+# A "../../" is automatically appended to this directory because
+# our compass _base.css is nested two directories deep to begin with.
+# In our _base.css, we simply font-face(... via relative paths within our 
+# font folder.
+fonts_dir = "fonts"
+
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 # line_comments = false
 

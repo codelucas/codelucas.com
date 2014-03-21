@@ -3,12 +3,13 @@ $experimental-support-for-khtml: false;
 @import "compass/css3/font-face";
 
 // Fonts
-// @include font-face("Aleo", font-files("Aleo-Regular.woff", 
-// woff, "Aleo-Regular.otf", otf));
+@include font-face("Proxima Nova", font-files("ProximaNova/ProximaNova-Regular.otf", otf));
+@include font-face("Garamond Pro", font-files(
+        "GaramPrePro/Garamond Premier Pro/GaramondPremrPro.otf", otf));
 
-$serif: "Open Sans", sans-serif;
-$serif-caps: "Open Sans", sans-serif;
-$sans-serif: "Open Sans", sans-serif;
+$serif: "Garamond Pro", sans-serif;
+$serif-caps: "Garamond Pro", sans-serif;
+$sans-serif: "Proxima Nova", sans-serif;
 
 // Post width
 $fullWidth: 1000px;
