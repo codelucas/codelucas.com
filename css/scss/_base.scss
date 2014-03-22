@@ -3,9 +3,17 @@ $experimental-support-for-khtml: false;
 @import "compass/css3/font-face";
 
 // Fonts
-@include font-face("Proxima Nova", font-files("ProximaNova/ProximaNova-Regular.otf", otf));
-@include font-face("Garamond Pro", font-files(
-        "GaramPrePro/Garamond Premier Pro/GaramondPremrPro.otf", otf));
+@include font-face("Proxima Nova", font-files("ProximaNova/ProximaNova-Regular.otf", otf),
+  false);
+@include font-face("Proxima Nova", font-files("ProximaNova/ProximaNova-Semibold.otf", otf), 
+  false, bold);
+@include font-face("Proxima Nova", font-files("ProximaNova/ProximaNova-Light.otf", otf), 
+  false, lighter);
+@include font-face("Proxima Nova", font-files("ProximaNova/ProximaNova-RegularItalic.otf", otf), 
+  false, normal, italic);
+
+// @include font-face("Garamond Pro", font-files(
+//        "GaramPrePro/Garamond Premier Pro/GaramondPremrPro.otf", otf));
 
 $serif: "Garamond Pro", sans-serif;
 $serif-caps: "Garamond Pro", sans-serif;

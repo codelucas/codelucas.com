@@ -3,14 +3,13 @@ layout: layout
 title: Great People
 class: about
 ---
-<br>
+
+##People, whom I look up to, work with, talk with..
+
 
 - [Peter Norvig](http://norvig.com) 
-    Famously wrote a 21 line python spell checker. Director @ Google.
 - [Feross Aboukhadijeh](http://feross.org/)
-    Killer web developer. Most of my projects are inspired by something he made.
 - [Zed Shaw](http://zedshaw.com/#/start) 
-    # TODO everyone else's blurb
 - [Kenneth Reitz](http://kennethreitz.org/)
 - [Andrew Gower](https://twitter.com/AndrewCGower)
 - [Notch](https://mojang.com/notch/)

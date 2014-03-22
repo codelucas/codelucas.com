@@ -49,7 +49,7 @@
     <header id="header">
       <div id="navcontainer">
         <ul id="navlist">
-          <li><a href="/">Home</a></li>
+            <!--<li><a href="/">Home</a></li>-->
           <li><a href="/projects">Projects</a></li>
           <li><a href="/blog/">Blog</a></li>
           <li><a href="/resume/">Resume</a></li>
@@ -58,19 +58,6 @@
     </header>
   {% else %}
     <div class="bg-image bg-image-one text-center">
-      <!--
-      <header class="homeHeader" id="header">
-      <div id="navcontainer">
-        <ul id="navlist">
-          <li><a href="/about">About</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/resume/">Resume</a></li>
-        </ul>
-      </div>
-      </header>
-      -->
-
       <!--<img src="/images/lucasou.png" class="img-responsive main-logo"/>-->
 
       <!-- The gray lining on bottom of tree image -->
@@ -104,6 +91,17 @@
     </div>
   </center>
   {% endif %}
+
+  <a href="/"><img class="icon icon-one" 
+      src="/images/lucasou.png"
+      onmouseover="this.src='/images/ou.png';"
+      onmouseout="this.src='/images/lucasou.png';">
+  </a>
+  <a href="/"><img class="icon icon-two" 
+      src="/images/selfie.jpg"
+      onmouseover="this.src='/images/ou.png';"
+      onmouseout="this.src='/images/selfie.jpg';">
+  </a>
 
   <!--
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
