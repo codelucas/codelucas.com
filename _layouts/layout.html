@@ -92,15 +92,15 @@
   </center>
   {% endif %}
 
-  <a href="/"><img class="icon icon-one" 
+  <a href="/"><img id="icon-one" class="icon icon-one" 
       src="/images/lucasou.png"
       onmouseover="this.src='/images/ou.png';"
       onmouseout="this.src='/images/lucasou.png';">
   </a>
-  <a href="/"><img class="icon icon-two" 
+  <a href="/"><img id="icon-two" class="icon icon-two" 
       src="/images/selfie.jpg"
-      onmouseover="this.src='/images/ou.png';"
-      onmouseout="this.src='/images/selfie.jpg';">
+      onmouseover="document.getElementById('icon-one').src='/images/ou.png';"
+      onmouseout="document.getElementById('icon-one').src='/images/lucasou.png';">
   </a>
 
   <!--
