@@ -102,3 +102,5 @@ Technical Notes
 - [Make python faster without trying that much](http://lukauskas.co.uk/articles/2014/02/12/how-to-make-python-faster-without-trying-that-much/)
 - [Bootflat - a free bootstrap flat framework](http://bootflat.github.io/)
 - [Designing a RESTful API with flask & python](http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
+- [how to build a URL shortener](http://stackoverflow.com/questions/742013/how-to-code-a-url-shortener)
+- [getting started with docker environments](http://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/)
