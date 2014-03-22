@@ -4,7 +4,7 @@ title: "Home of Lucas Ou"
 class: home
 ---
 <div class="sectitle">
-  <h1>Lucas Ou-Yang</h1>
+  <h1>Lucas Ou</h1>
   <p class="lead">
     Web engineer, distance runner.
     <br>
@@ -12,14 +12,14 @@ class: home
 
   </p>
 </div>
-<section class="content kill-padding clearfix">
+<section class="content clearfix">
   <paragraph class="chunk">
-    <div class="col first-col">
+    <div class="col">
       <section>
         <h2>Apps & startups</h2>
         <ul>
           <li><a href="http://shorten.tv" title="">Shorten.tv - <span>new!</span></a></li>
-          <li><a href="http://winria.com" title="">Wintria - <span>hot!</span></a></li>
+          <li><a href="http://wintria.com" title="">Wintria Inc. - <span>hot!</span></a></li>
           <li><a href="https://github.com/codelucas/darehut.com" title="">Darehut.com</a></li>
           <li><a href="http://antchatter.com" title="">Antchatter</a></li>
         </ul>
@@ -42,6 +42,16 @@ class: home
           <li><a href="https://github.com/codelucas/vsummarize" title="Video summarization tool">vSummarize</a></li>
         </ul>
       </section>
+      <section>
+        <h2>Also find me on</h2>
+        <ul>
+          <li><a href="https://github.com/codelucas">Github</a></li>
+          <li><a href="https://twitter.com/LucasOuYang">Twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/lucasouyang">LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/lucas.ouyang.7">Facebook</a></li>
+          <li><a href="http://www.quora.com/Lucas-Ou">Quora</a></li>
+        </ul>
+      </section>
     </div> 
     <div class="col">
       <section>
@@ -60,7 +70,7 @@ class: home
       <ul>
         {% for post in site.posts limit:5 %}
           <li>
-            <a href="{{ post.url }}/">{{ post.title limit:10 }}</a>
+            <a href="{{ post.url }}/">{{ post.title | truncate:37 }}</a>
           </li>
         {% endfor %}
       </ul>

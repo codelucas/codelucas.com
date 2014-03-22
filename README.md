@@ -8,7 +8,7 @@ I will add more specifics later.
 
 All my posts are written in Markdown. The blog is powered by [Jekyll](http://github.com/mojombo/jekyll), a static site generator that takes Markdown blog posts and converts them into HTML files.
 
-Note the `other_static` folder, all non image, txt, and code files go in here. For example, `.jar` files or `.mp3` music would go in this folder.
+Note the `storage` folder, all non image, txt, and code files go in here. For example, `.jar` files or `.mp3` music would go in this folder.
 
 Also note the `_posts` and `posts` directories. `_posts` is a directory for our markdown blog posts. In Jekyll, it is a special directory which is identified as a holder for all blog posts. 
 

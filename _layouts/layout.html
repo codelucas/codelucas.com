@@ -5,7 +5,8 @@
   Lucas Ou
   http://lucasou.com
   
-  "I saw the angel in the marble and carved until I set him free." - Michelangelo
+  "I saw the angel in the marble and carved until I set him free." 
+  - Michelangelo
   -->
   {% capture meta_desc %}{% if page.summary %}{{ page.summary }}{% else %}Hi! My name is Lucas, i'm passionate about software & art. I build web applications and distance run in my spare time.{% endif %}{% endcapture %}
   <title>{{ page.title }} &raquo; lucasou.com</title>
@@ -22,7 +23,7 @@
   <meta property="article:author" content="http://lucasou.com/about/" />
   <meta property="fb:admins" content="lucas.ouyang.7" />
   <link rel="author" href="https://plus.google.com/108352969036344290601" />
-  <link rel="icon" type="image/png" href="/favicon.ico">
+  <link rel="icon" type="image/png" href="/images/favicon.ico">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' 
     rel='stylesheet' type='text/css'>
 
@@ -70,7 +71,7 @@
       </header>
       -->
 
-      <img src="/images/lucasou.png" class="img-responsive main-logo"/>
+      <!--<img src="/images/lucasou.png" class="img-responsive main-logo"/>-->
 
       <!-- The gray lining on bottom of tree image -->
       <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" 
@@ -89,9 +90,9 @@
         {{ content }}
       </section>
     {% else %}
-      <homeSection class="content clearfix">
+      <section class="content clearfix">
         {{ content }}
-      </homeSection>
+      </section>
     {% endif %}
   </div>
 

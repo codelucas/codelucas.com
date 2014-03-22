@@ -338,7 +338,6 @@ img {
 .resume {
   h1 {
     border-bottom: 0;
-    margin-top: 0;
     text-align: center;
   }
 
@@ -590,11 +589,7 @@ ul.listing {
 
 
 section {
-  padding: 50px 0;
-}
 
-.kill-padding {
-  padding: 0 !important;
 }
 
 .navbar-elegant {
@@ -668,7 +663,6 @@ section {
     border-bottom: none;
   }
   text-align: center;
-  margin-bottom: 40px;
 }
 
 .main-logo {
@@ -696,10 +690,6 @@ section {
 paragraph.chunk {
   width: 100%;
   overflow: hidden;
-
-  .first-col {
-    margin-left: 9% !important;
-  }
 
   .col {
     float: left;
@@ -736,7 +726,7 @@ paragraph.chunk {
     margin: 0;
     padding: 0;
     list-style: none;
-    max-width: 250px;
+    max-width: 300px;
   }
 
   lh {
@@ -766,12 +756,7 @@ paragraph.chunk {
 
     .col {
       float: none;
-      margin: 0;
-    }
-
-    .first-col {
-      margin: 0 !important;
-      float: none;
+      margin: 0 0 0 15px;
     }
   }
 }
