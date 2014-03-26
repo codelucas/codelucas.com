@@ -13,10 +13,10 @@ class: about
 - [Kenneth Reitz](http://kennethreitz.org/)
 - [Andrew Gower](https://twitter.com/AndrewCGower)
 - [Notch](https://mojang.com/notch/)
+- [Tony Baik](http://baiktony.com)
 - [Gio Borje](http://www.giocc.com/)
 - [Michael Vu](http://michaelqvu.com/)
 - [Jason Tanner](http://jasontanner.herokuapp.com/)
 - [Nithin Jilla](http://www.nithinjilla.com/)
-- [Ceasar Bautista](http://ceasarbautista.com/)
+- [Ceasar Bautista](https://github.com/ceasar)
 - [Jonas Alejo](https://www.facebook.com/jonas.alejo.5)
-    Helped make the "Lucas OU" logo on this webpage!

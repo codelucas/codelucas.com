@@ -104,3 +104,4 @@ Technical Notes
 - [Designing a RESTful API with flask & python](http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
 - [how to build a URL shortener](http://stackoverflow.com/questions/742013/how-to-code-a-url-shortener)
 - [getting started with docker environments](http://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/)
+- [Deploy django with mod_wsgi (apache)](https://docs.djangoproject.com/en/dev/howto/deployment/wsgi/modwsgi/)
