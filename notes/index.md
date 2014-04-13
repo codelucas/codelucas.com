@@ -105,3 +105,11 @@ Technical Notes
 - [how to build a URL shortener](http://stackoverflow.com/questions/742013/how-to-code-a-url-shortener)
 - [getting started with docker environments](http://serversforhackers.com/articles/2014/03/20/getting-started-with-docker/)
 - [Deploy django with mod_wsgi (apache)](https://docs.djangoproject.com/en/dev/howto/deployment/wsgi/modwsgi/)
+- [Setup ELB with WSO2 Application Server](https://docs.wso2.org/display/ELB203/Setup+ELB+with+WSO2+Application+Server)
+- [The stack that power instagram, *omg they use gunicorn :3*](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances-dozens-of)
+
+<!--- -->
+
+> My opinion, then and now, is that C and other languages without memory checks are unsuitable for writing secure code. Plainly unsuitable. They need to be restricted to writing a small core system, preferably small enough that it can be checked using formal (proof-based) methods, and all the rest, including all application logic, should be written using managed code (such as C#, Java) ...  The fact is that no programmer is good enough to write code which is free from such vulnerabilities ... in languages without bounds checks ... All non-bounds-checked languages expose multiple levels of the computer to the program, and you are kidding yourself if you think you can handle this better than the OpenSSL team. -- HackerNews on The HeartBleed OpenSSL Bug.
+
+-[XKCD Heartbleed explanation](http://xkcd.com/1354/)
