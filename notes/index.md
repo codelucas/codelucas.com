@@ -112,6 +112,6 @@ Technical Notes
 
 > My opinion, then and now, is that C and other languages without memory checks are unsuitable for writing secure code. Plainly unsuitable. They need to be restricted to writing a small core system, preferably small enough that it can be checked using formal (proof-based) methods, and all the rest, including all application logic, should be written using managed code (such as C#, Java) ...  The fact is that no programmer is good enough to write code which is free from such vulnerabilities ... in languages without bounds checks ... All non-bounds-checked languages expose multiple levels of the computer to the program, and you are kidding yourself if you think you can handle this better than the OpenSSL team. -- HackerNews on The HeartBleed OpenSSL Bug.
 
--[XKCD Heartbleed explanation](http://xkcd.com/1354/)
--[How to make a networked mobile app feel fast and local](https://tech.dropbox.com/2014/04/building-carousel-part-i-how-we-made-our-networked-mobile-app-feel-fast-and-local/)
--[Better bash scripting in 15 minutes](http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html)
+- [XKCD Heartbleed explanation](http://xkcd.com/1354/)
+- [How to make a networked mobile app feel fast and local](https://tech.dropbox.com/2014/04/building-carousel-part-i-how-we-made-our-networked-mobile-app-feel-fast-and-local/)
+- [Better bash scripting in 15 minutes](http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html)
