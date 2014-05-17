@@ -115,3 +115,8 @@ Technical Notes
 - [XKCD Heartbleed explanation](http://xkcd.com/1354/)
 - [How to make a networked mobile app feel fast and local](https://tech.dropbox.com/2014/04/building-carousel-part-i-how-we-made-our-networked-mobile-app-feel-fast-and-local/)
 - [Better bash scripting in 15 minutes](http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html)
+- [An Opinionated Guide to Modern Java P1](http://blog.paralleluniverse.co/2014/05/01/modern-java/)
+- [An Opinionated Guide to Modern Java P2](http://blog.paralleluniverse.co/2014/05/08/modern-java-pt2/)
+- [Python-like list comprehension in java](http://stackoverflow.com/questions/899138/python-like-list-comprehension-in-java)
+- [8 OSX command line utilities everyone should know](http://www.mitchchn.me/2014/os-x-terminal/)
+- [Dockerizing a python webapp](http://blogs.aws.amazon.com/application-management/post/Tx1ZLAHMVBEDCOC/Dockerizing-a-Python-Web-App)
