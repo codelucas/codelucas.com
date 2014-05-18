@@ -120,3 +120,7 @@ Technical Notes
 - [Python-like list comprehension in java](http://stackoverflow.com/questions/899138/python-like-list-comprehension-in-java)
 - [8 OSX command line utilities everyone should know](http://www.mitchchn.me/2014/os-x-terminal/)
 - [Dockerizing a python webapp](http://blogs.aws.amazon.com/application-management/post/Tx1ZLAHMVBEDCOC/Dockerizing-a-Python-Web-App)
+- [The NLTK book](http://www.nltk.org/book/) 
+- [Interviw with Jonah Peretti of Buzzfeed & Huffpost](https://www.youtube.com/watch?v=OnON9pIm9OE) 
+- [12 free data mining books](http://christonard.com/12-free-data-mining-books/) 
+- [Linus Torvalds rant on C++](http://thread.gmane.org/gmane.comp.version-control.git/57643/focus=57918) 
