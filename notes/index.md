@@ -124,3 +124,4 @@ Technical Notes
 - [Interviw with Jonah Peretti of Buzzfeed & Huffpost](https://www.youtube.com/watch?v=OnON9pIm9OE) 
 - [12 free data mining books](http://christonard.com/12-free-data-mining-books/) 
 - [Linus Torvalds rant on C++](http://thread.gmane.org/gmane.comp.version-control.git/57643/focus=57918) 
+- [New York times innovation report](http://www.scribd.com/doc/224608514/The-Full-New-York-Times-Innovation-Report) 
