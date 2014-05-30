@@ -16,7 +16,8 @@ Here are the <u>Top 5 most Alarming Programming mistakes that Intro to CS majors
 Big IDE's, like Eclipse and Visual Studios, are commonly required in college classes. They make the process of writing code quicker but unfortunatly hide a lot of details from the user. When you press the "play" button on Eclipse, you only see the output from your program on the surface when internally much more is happening.
 
 ![Glorious play button of eclipse](/images/play_button.png)
-<center>The glorious play button of eclipse... It makes your code work.</center>
+<center><span class="img-subtitle">The glorious play button of eclipse... 
+    It makes your code work.</span></center>
 
 A good way to get started, and what helped me, was to put the GUI and the IDE away for smaller scale projects. If you are on Windows, download [Cygwin](http://www.cygwin.com/install.html) and use [vim](http://www.vim.org/) or [emacs](http://www.gnu.org/software/emacs/) as a text editor. If your language needs to be compiled, manually compile it, and then run it. You will be exposed to a deeper level of what is going on, and in a healthy way. *Mac and Linux users, you guys are spoiled. You can immediately start by opening up Terminal*.
 
