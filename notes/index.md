@@ -125,3 +125,5 @@ Technical Notes
 - [12 free data mining books](http://christonard.com/12-free-data-mining-books/) 
 - [Linus Torvalds rant on C++](http://thread.gmane.org/gmane.comp.version-control.git/57643/focus=57918) 
 - [New York times innovation report](http://www.scribd.com/doc/224608514/The-Full-New-York-Times-Innovation-Report) 
+- [What is TCP and how does it work?](http://www.jguru.com/faq/view.jsp?EID=14663) 
+- [A hacker's guide to git](http://wildlyinaccurate.com/a-hackers-guide-to-git) 
