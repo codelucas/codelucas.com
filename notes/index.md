@@ -127,3 +127,5 @@ Technical Notes
 - [New York times innovation report](http://www.scribd.com/doc/224608514/The-Full-New-York-Times-Innovation-Report) 
 - [What is TCP and how does it work?](http://www.jguru.com/faq/view.jsp?EID=14663) 
 - [A hacker's guide to git](http://wildlyinaccurate.com/a-hackers-guide-to-git) 
+- [Why use www. instead of a naked domain?](http://www.yes-www.org/why-use-www/) 
+- [Why GoLang is not Good](http://yager.io/programming/go.html) 
