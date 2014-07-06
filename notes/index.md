@@ -129,3 +129,4 @@ Technical Notes
 - [A hacker's guide to git](http://wildlyinaccurate.com/a-hackers-guide-to-git) 
 - [Why use www. instead of a naked domain?](http://www.yes-www.org/why-use-www/) 
 - [Why GoLang is not Good](http://yager.io/programming/go.html) 
+- [What is a linker, and what are dynamic and static linking?](https://kb.iu.edu/d/akqn)
