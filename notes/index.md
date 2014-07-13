@@ -130,3 +130,5 @@ Technical Notes
 - [Why use www. instead of a naked domain?](http://www.yes-www.org/why-use-www/) 
 - [Why GoLang is not Good](http://yager.io/programming/go.html) 
 - [What is a linker, and what are dynamic and static linking?](https://kb.iu.edu/d/akqn)
+- [Python multithreading vs multithreading in depth](http://sebastianraschka.com/Articles/2014_multiprocessing_intro.html#Multi-Threading-vs.-Multi-Processing)
+- [My Twisted World - Elliot Rodger](http://abclocal.go.com/three/kabc/kabc/My-Twisted-World.pdf)
