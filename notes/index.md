@@ -132,3 +132,5 @@ Technical Notes
 - [What is a linker, and what are dynamic and static linking?](https://kb.iu.edu/d/akqn)
 - [Python multithreading vs multithreading in depth](http://sebastianraschka.com/Articles/2014_multiprocessing_intro.html#Multi-Threading-vs.-Multi-Processing)
 - [My Twisted World - Elliot Rodger](http://abclocal.go.com/three/kabc/kabc/My-Twisted-World.pdf)
+- [Markov Chains - Explained](http://techeffigy.wordpress.com/2014/06/30/markov-chains-explained/)
+- [Understanding IP Addresses, Subnets, and CIDR Notation](https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking)
