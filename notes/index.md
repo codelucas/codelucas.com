@@ -134,3 +134,5 @@ Technical Notes
 - [My Twisted World - Elliot Rodger](http://abclocal.go.com/three/kabc/kabc/My-Twisted-World.pdf)
 - [Markov Chains - Explained](http://techeffigy.wordpress.com/2014/06/30/markov-chains-explained/)
 - [Understanding IP Addresses, Subnets, and CIDR Notation](https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking)
+- [Git auto set-upstream](http://stackoverflow.com/questions/6089294/why-do-i-need-to-do-set-upstream-all-the-time/9753268#9753268)
+- [The Technology - Paul Buchheit](http://paulbuchheit.blogspot.com/2014/07/the-technology.html)
