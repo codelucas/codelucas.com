@@ -136,3 +136,8 @@ Technical Notes
 - [Understanding IP Addresses, Subnets, and CIDR Notation](https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking)
 - [Git auto set-upstream](http://stackoverflow.com/questions/6089294/why-do-i-need-to-do-set-upstream-all-the-time/9753268#9753268)
 - [The Technology - Paul Buchheit](http://paulbuchheit.blogspot.com/2014/07/the-technology.html)
+- [What is a Hacker?](http://www.cs.berkeley.edu/~bh/hacker.html)
+- [Why use "closure"?](http://howtonode.org/why-use-closure)
+- [Understanding Python decorators](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/)
+- [Python decorator library](https://wiki.python.org/moin/PythonDecoratorLibrary#C.2B-.2B-.2FJava-keyword-like_function_decorators)
+- [FSMs in Python](http://engineering.quora.com/Persistent-Finite-State-Machines-in-Python)
