@@ -7,16 +7,7 @@ title: Quotes
 > January 1st is my favorite day of the year. Quiet, reflective, and full of potential. If only we could make this our every day. -- Jack Dorsey, Twitter Cofounder
 
 <!-- -->
-> The fool didn't know it was impossible, so he did it. -- A fool
-
-<!-- -->
-> A ship is safe in harbor, but that's not what ships are for. -- William G.T. Shedd
-
-<!-- -->
 > Somewhere in the world someone is training when you are not. When you race him, he will win. -- Tom Fleming
-
-<!-- -->
-> Everybody pities the weak; jealousy you have to earn. -- Arnold Schwarzengger
 
 <!-- -->
 > ...for whatever you're doing, there's usually only one place where the top people go. 
@@ -37,6 +28,9 @@ title: Quotes
 
 <!-- -->
 > To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment. -- Ralph Waldo Emerson
+
+<!-- -->
+> Everybody pities the weak; jealousy you have to earn. -- Arnold Schwarzengger
 
 <!-- -->
 > Wherever smart people work, doors are unlocked. -- Steve Wozniak, Apple
@@ -130,3 +124,16 @@ title: Quotes
 
 > -- Derek Sivers, "6 things to know before Berklee Music School"
 
+<!-- -->
+> GNU/Linux systems should not be referred to as just "Linux". Linux is
+> just the kernel when GNU consists of most of the tools running
+> above it. GNU stands for "GNU is not UNIX"
+
+<!-- -->
+> POSIX, an acronym for "Portable Operating System Interface", is 
+> a family of standards for maintaining compatibility between operating systems. 
+> POSIX defines the API, along with shells and interfaces, for compatibility with 
+> variants of Unix and other operating systems.
+
+<!--- -->
+> My opinion, then and now, is that C and other languages without memory checks are unsuitable for writing secure code. Plainly unsuitable. They need to be restricted to writing a small core system, preferably small enough that it can be checked using formal (proof-based) methods, and all the rest, including all application logic, should be written using managed code (such as C#, Java) ...  The fact is that no programmer is good enough to write code which is free from such vulnerabilities ... in languages without bounds checks ... All non-bounds-checked languages expose multiple levels of the computer to the program, and you are kidding yourself if you think you can handle this better than the OpenSSL team. -- HackerNews on The HeartBleed OpenSSL Bug.
