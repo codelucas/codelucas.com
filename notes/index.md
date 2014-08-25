@@ -56,7 +56,7 @@ Notes
 - [Markov Chains - Explained](http://techeffigy.wordpress.com/2014/06/30/markov-chains-explained/)
 - [Understanding IP Addresses, Subnets, and CIDR Notation](https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking)
 - [What is a linker, and what are dynamic and static linking?](https://kb.iu.edu/d/akqn)
-- [Python multithreading vs multithreading in depth](http://sebastianraschka.com/Articles/2014_multiprocessing_intro.html#Multi-Threading-vs.-Multi-Processing)
+- [Python: multi-threading vs multi-processing in depth](http://sebastianraschka.com/Articles/2014_multiprocessing_intro.html#Multi-Threading-vs.-Multi-Processing)
 - [Why use www. instead of a naked domain?](http://www.yes-www.org/why-use-www/) 
 - [Why use "closure"?](http://howtonode.org/why-use-closure)
 - [FSMs in Python](http://engineering.quora.com/Persistent-Finite-State-Machines-in-Python)
@@ -64,7 +64,7 @@ Notes
 - [Python decorator library](https://wiki.python.org/moin/PythonDecoratorLibrary#C.2B-.2B-.2FJava-keyword-like_function_decorators)
 
 ### News & journalism
-- [Interviw with Jonah Peretti of Buzzfeed & Huffpost](https://www.youtube.com/watch?v=OnON9pIm9OE) 
+- [Interview with Jonah Peretti of Buzzfeed & Huffpost](https://www.youtube.com/watch?v=OnON9pIm9OE) 
 - [New York times innovation report](http://www.scribd.com/doc/224608514/The-Full-New-York-Times-Innovation-Report) 
 
 ### Comical
