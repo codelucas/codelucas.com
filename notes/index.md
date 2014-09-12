@@ -17,6 +17,8 @@ Notes
 - [The MacBook Air could easily be the only machine](http://37signals.com/svn/posts/858-the-macbook-air-could-easily-be-the-only-machine)
 - [Airbnb cofounder's inspiring speech](http://www.youtube.com/watch?v=Ya0I6oz7q9U)
 - [The perils of mixing open source and money](http://david.heinemeierhansson.com/2013/the-perils-of-mixing-open-source-and-money.html)
+- [How to clean your retainer](http://www.wikihow.com/Clean-Your-Retainer)
+- [Why It Doesn't Matter How You Feel About Your Friends](http://storylineblog.com/2014/09/04/why-it-doesnt-matter-how-you-feel-about-your-friends/)
 
 ### Technical
 - [What happens when you visit a website?](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/)
@@ -62,6 +64,7 @@ Notes
 - [FSMs in Python](http://engineering.quora.com/Persistent-Finite-State-Machines-in-Python)
 - [Understanding Python decorators (and much more)](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/)
 - [Python decorator library](https://wiki.python.org/moin/PythonDecoratorLibrary#C.2B-.2B-.2FJava-keyword-like_function_decorators)
+- [A POSIX Queue Implementation](http://zinascii.com/2014/a-posix-queue-implementation.html)
 
 ### News & journalism
 - [Interview with Jonah Peretti of Buzzfeed & Huffpost](https://www.youtube.com/watch?v=OnON9pIm9OE) 
