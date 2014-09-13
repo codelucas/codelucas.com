@@ -65,6 +65,7 @@ Notes
 - [Understanding Python decorators (and much more)](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/)
 - [Python decorator library](https://wiki.python.org/moin/PythonDecoratorLibrary#C.2B-.2B-.2FJava-keyword-like_function_decorators)
 - [A POSIX Queue Implementation](http://zinascii.com/2014/a-posix-queue-implementation.html)
+- [VisualGo - visualising data structures and algorithms through animation](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html)
 
 ### News & journalism
 - [Interview with Jonah Peretti of Buzzfeed & Huffpost](https://www.youtube.com/watch?v=OnON9pIm9OE) 
