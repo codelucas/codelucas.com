@@ -1,4 +1,4 @@
-exclude: [config.rb, nginx.conf, Makefile, README.md, build.sh, .gitignore, .gitmodules, server]
+exclude: [config.rb, nginx.conf, Makefile, README.md, .gitignore, .gitmodules, server]
 include: ['pages']
 # destination: /home/lucas/www/
 # source: /home/
