@@ -3,7 +3,7 @@ include: ['pages']
 # destination: /home/lucas/www/
 # source: /home/
 markdown: rdiscount
-pygments: true
+highlighter: pygments
 permalink: /:title
 rdiscount:
   extensions: [smart]
