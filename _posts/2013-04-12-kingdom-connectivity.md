@@ -1,13 +1,10 @@
 ---
 layout: post
-title: "Kingdom Connectivity - Graph theory problem"
+title: "Kingdom Connectivity"
 tags:
 - algorithms
-- graphtheory
-- hackerrank
+- graph_theory
 ---
-
-Today I will write about a problem found on [HackerRank](https://www.hackerrank.com). 
 
 > King Charles recently opened up a compeltely new kingdom! This kingdom has many cities connected by one-way roads. To ensure high connectivity, two cities are sometimes directly connected by even more than one road. King Charles has made one of the cities in the new kingdom his financial capital and one city his warfare capital, and he wants high connectivity between these two capitals. 
 
@@ -15,16 +12,16 @@ Today I will write about a problem found on [HackerRank](https://www.hackerrank.
 
 > What is the connectivity of the financial capital and warfare capital, i.e how many different paths are there from city 1 to city N? Input Format The first line contains two integers N and M. M lines follow, each containing two integers x and y, indicating there is a road from city x to city y (1<=x,y<=N). Output Format Print the number of different paths from city 1 to city N modulo 1,000,000,000(10^9). If there are infinitely many different paths print INFINITE PATHS (quotes are for clarity).
 
+The roads are one way, so the graph is **directed**. The problem mentions nothing about the roads being cyclic or not, so we assume that **cycles are present**. Infinitely many paths can exist between two nodes (when a cycle is present).
 
-We are told that the roads are one way, so *the graph is directed*. The problem mentions nothing about the roads being cyclic or not, so we assume that *cycles are present*. Infinitely many paths can exist between two nodes. The only possibility of an infinite # of paths between two nodes is when a cycle is present within the path between the two nodes.
+We know that the graph is directed and cyclical. We need to find the number of paths between two nodes, so no weights are involved. This problem boils down to node hopping while bookeeping the outgoing edges. This stands out as a <a href="http://en.wikipedia.org/wiki/Dynamic_programming">Dynamic Programming</a> problem because the problem we are trying to solve can be divided into many smaller sub-problems. Imagine a simple graph, `A->B->C`. After computing the number of paths between B and C,
+we can use the answer to solve the same problem between nodes A and C! 
 
-We know that the graph is directed and cyclical. We need to find the # of paths between two nodes, so no weights are involved. This problem boils down to us just node hopping while bookeeping the outgoing edges. This stands out as a <a href="http://en.wikipedia.org/wiki/Dynamic_programming">Dynamic Programming</a> problem because the problem we are trying to solve can be divided into many smaller problems. Imagine a simple graph, `A->B->C`. After we compute the # of paths between B and C, we can use our answer to solve the same problem between nodes A and C! 
+In our implementation, we start at the source city and depth first search towards the destination. The **base case** is the destination. We `return 1` after reaching the destination, this stands for one path found. This is repeated for every child edge and the values are summed up. Values are cached to save computations.
 
-We will start at the source city and depth first search straight towards the destination. The **base case** is the destination. Once we hit the dest, we `return 1`, which stands for one path found. We perform this procedure for every child edge of every edge and add up the # of paths found on each child edge. At each turn, the weight between the current node and its adjacent nodes will be **cached** in a hashtable so save computations. 
+Adjacent nodes are being marked as seen for cycle detection. If a cycle is found on the path between the source and desination, there exists an infinite number of paths!
 
-Also, at each turn we are checking all the adjacent nodes and marking them as seen. If we encounter any node that is marked as seen, we are now in a cycle. If we are in a cycle **and** we are also on the path from the source to destination, we now have an infinite amount of paths.
-
-{% highlight python %}__author__ = 'lucas'
+{% highlight python %}
 # Ending Vertex, Number of Edges
 dest, N = [int(x) for x in raw_input().strip().split(' ')]
 # DP hash, adjacency list
@@ -87,6 +84,3 @@ for i in range(int(N)):
 
 init()
 {% endhighlight %}
-I hope this example and explanation helps you guys with visualizing graph problems more. They can be a bit tricky sometimes, but in my opinion, graph problems are the most satisfying to solve out of all algorithmic challenges!
-
-Later tonight or tomorrow, I will make a long delayed post about Wintria, my startup, and my Summer internship!
