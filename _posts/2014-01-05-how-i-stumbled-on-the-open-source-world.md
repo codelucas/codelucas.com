@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How I stumbled on the open source world"
+title: "Stumbling on the open source world"
 tags:
 - programming
 - open source
