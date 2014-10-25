@@ -49,23 +49,25 @@ class: post
         <a href="https://twitter.com/codelucas" class="avatar">
           <img src="/images/selfie.jpg" height="50" width="50" alt="Lucas Ou-Yang" />
         </a>
-        Hey, thanks for reading! I'm <a href="/about/">Lucas Ou-Yang</a>, I love making things. 
+        Hey, thanks for reading! I'm <a href="/about/">Lucas Ou-Yang</a>, and I love making things. 
         I am currently working on <a href="http://github.com/codelucas/newspaper">Newspaper</a>, 
-        an open source python library for article news extraction, and 
-        <a href="http://antchatter.com">Antchatter.com</a> a geolocation enhanced chatroom 
-        for college kids. 
-        
-        I am also a co-founder of <a href="http://wintria.com">Wintria.com</a>. 
+        an open source python library for article news extraction. I have a bachelors in CS and live
+        in San Francisco. Although I am happily employed, I'm open for consulting work.
       </p>
 
-      {% if page.hn %}<p>You can discuss, upvote, or poke fun at this post over at <a href="{{ page.hn }}">Hacker News</a>.</p>{% endif %}
-      <p>
-        If you enjoyed this article, you should follow me on <a href="http://facebook.com/lucas.ouyang.7">Facebook</a> or <a href="https://twitter.com/lucasouyang">Twitter</a><!-- or sign up to get an email whenever I write something new:
+      {% if page.hn %}<p>You can discuss, upvote, or poke fun at this post 
+      over at <a href="{{ page.hn }}">Hacker News</a>.</p>{% endif %}
 
-        <input type="email" name="email" placeholder="email@email.com"/>
-        <input type="hidden" value="codelucas" name="uri"/>
-        <input type="hidden" name="loc" value="en_US"/>
-        <input type="submit" value="Subscribe" />-->
+      <p>
+        If you enjoyed this article, you should follow me on
+        <a href="http://facebook.com/lucas.ouyang.7">Facebook</a> or 
+        <a href="https://twitter.com/lucasouyang">Twitter</a>
+        <!-- or sign up to get an email whenever I write something new:
+          <input type="email" name="email" placeholder="email@email.com"/>
+          <input type="hidden" value="codelucas" name="uri"/>
+          <input type="hidden" name="loc" value="en_US"/>
+          <input type="submit" value="Subscribe" />
+        -->
       </p>
     </form>
 
@@ -83,6 +85,7 @@ class: post
   {% if page.previous.url %}
     <a class="prev" href="{{ page.previous.url }}/" title="Previous Post: {{ page.previous.title }}">{{ page.previous.title }}</a>
   {% endif %}
+
   {% if page.next.url %}
     <a class="next" href="{{ page.next.url }}/" title="Next Post: {{ page.next.title }}">{{ page.next.title }}</a>
   {% endif %}
