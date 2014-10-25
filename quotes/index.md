@@ -9,9 +9,19 @@ title: Quotes
 > -- Jack Dorsey, Twitter Cofounder
 
 <!-- -->
+> There is no perfect next move ... have a bias toward action.
+
+> -- Kevin Systrom, Instagram
+
+<!-- -->
 > No, I don't believe in luck.
 
 > -- John Nash, A Beautiful Mind
+
+<!-- -->
+> A cynical young person is almost the saddest sight to see, because it means that he or she has gone from knowing nothing to believing nothing.
+
+> -- Maya Angelou
 
 <!-- -->
 > ...for whatever you're doing, there's usually only one place where the top people go. 
@@ -68,6 +78,11 @@ title: Quotes
 > Never underestimate the importance of making money from making music. Let go of any weird taboos you have about it. Money is nothing more than neutral proof that you're adding value to people's lives. Making sure you're making money is just a way of making sure you're doing something of value to others.
 
 > -- Derek Sivers, "6 things to know before Berklee Music School"
+
+<!-- -->
+> I highly believe that financial reward is a strong indicator of the impact that you're having on the world.
+
+> -- Dustin Moskovitz
 
 <!-- -->
 > Be curious. Read widely. Try new things. I think a lot of what people call intelligence just boils down to curiosity.
