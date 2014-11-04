@@ -19,8 +19,6 @@ compass:
 publish:
 	rm -rf _site js/compiled css/compiled
 	compass compile --output-style compressed
-	jekyll build --lsi
+	jekyll build
 	
-# Use these commands if pushing changes from local
-# rsync -a -v -e "ssh -p 444" --delete _site nginx.conf lucas@laguna:/home/lucas/www/codelucas.com/
-# rsync -a -v -e "ssh -p 444" --delete _site nginx.conf _server lucas@laguna:/home/lucas/www/codelucas.com/
+# We are not using the --lsi feature
