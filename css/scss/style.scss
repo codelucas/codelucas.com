@@ -175,9 +175,7 @@ img {
 // Header
 
 #header {
-  height: 43px;// 70px;
-  text-align: center;
-  background-color: $headerBgColor;
+  height: 43px;
   padding: 5px 0 5px 0;
 
   @media only screen and (max-width: $break1) {
@@ -197,14 +195,12 @@ img {
     }
   }
   a { 
-    color: $mainColor; 
+    color: $mainColor;
     #{$link} {
       text-decoration: none;
     }
     #{$focus} {
-      // color: $blueGray; 
-      // border-bottom: 1px solid black; // $mainColor; 
-      font-style: italic;
+      color: $mainColor;
     }
   }
 }
@@ -701,6 +697,11 @@ img.icon-two {
 
 .lead {
   color: $lightGray;
+}
+
+#navlist {
+  margin-left: 87px;
+  font-weight: 600;
 }
 
 #navlist li {
