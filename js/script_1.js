@@ -8,6 +8,7 @@ function addCommasToInteger(x) {
   return x
 }
 
+/*
 $(document).ready(function () {
   // If this is homepage, get view count for all posts
   if ($('body').hasClass('home')) {
@@ -43,6 +44,7 @@ $(document).ready(function () {
     })
   }
 })
+*/
 
 $(window).load(function () {
 

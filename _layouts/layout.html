@@ -27,11 +27,11 @@
     rel='stylesheet' type='text/css'>
 
   {% if page.class == "post" %}
-      <link rel="canonical" href="http://lucasou.com{{ page.url }}/" />
-      <meta property="og:url" content="http://lucasou.com{{ page.url }}/" />
+    <link rel="canonical" href="http://lucasou.com{{ page.url }}/" />
+    <meta property="og:url" content="http://lucasou.com{{ page.url }}/" />
   {% elsif page.class == "home" %}
-      <link rel="canonical" href="http://lucasou.com/" />
-      <meta property="og:url" content="http://lucasou.com/" />
+    <link rel="canonical" href="http://lucasou.com/" />
+    <meta property="og:url" content="http://lucasou.com/" />
   {% endif %}
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,9 +39,6 @@
   <!--<link rel="alternate" type="application/atom+xml" title="lucasou.com" href="" />-->
 
   <link rel="stylesheet" href="/css/compiled/style_1.css" />
-  <script type="text/javascript" src="//use.typekit.net/lvb8hht.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
 </head>
 <body class="{{ page.class }}">
   {% if page.class != "home" %}
@@ -102,11 +99,8 @@
       onmouseout="document.getElementById('icon-one').src='/images/lucasou.png';">
   </a>
 
-  <!--
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <script src="/js/bootstrap.min.js "></script>
-  <script src="/js/script.js"></script>
-  -->
+  <script src="/js/libraries.js"></script>
+  <script src="/js/script_1.js"></script>
 
   {% if page.script %}
     <!-- Page-specific script -->
