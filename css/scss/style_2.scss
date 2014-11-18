@@ -71,7 +71,6 @@ body {
 a {
   #{$link} {
     color: $mainColor;
-    // text-decoration: underline;
     text-decoration: none;
   }
   #{$focus} {
@@ -83,7 +82,7 @@ a {
 h1, h2, h3, h4 {
   color: $darkerGray;
   line-height: 1.2em;
-  border-bottom: 1px solid $lighterGray;
+  border-bottom: 1px solid $lightestGray;
 
   a {
     #{$link} {
@@ -99,6 +98,9 @@ h1 { font-size: 1.8em; margin: 0.8em 0 0.2em 0; }
 h2 { font-size: 1.5em; margin: 1.2em 0 0.6em 0; }
 h3 { font-size: 1.3em; margin: 1.2em 0 0.6em 0; color: $lightGray; }
 h4 { font-size: 1.1em; margin: 1.2em 0 0.6em 0; color: $lightGray; }
+.postHeader {
+  text-align: center;
+}
 
 // Links in h1 should not affect style
 
@@ -273,6 +275,7 @@ img {
 .byline {
   color: $lightGray;
   font-size: 0.75em;
+  text-align: center;
 }
 
 // Add bullets between byline items
