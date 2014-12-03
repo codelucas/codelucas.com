@@ -1,7 +1,7 @@
 ---
 layout: layout
 title: Technical Notes
-class: about
+class: wide
 ---
 
 Notes

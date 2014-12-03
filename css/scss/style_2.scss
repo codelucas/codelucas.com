@@ -39,7 +39,7 @@ body {
     max-width: $postWidth;
   }
 
-  .home &, .about &, .resume & {
+  .home &, .wide &, .resume & {
     max-width: $fullWidth;
   }
 }
