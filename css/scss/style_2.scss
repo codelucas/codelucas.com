@@ -7,8 +7,6 @@ html {
 }
 
 body {
-  // border-top: 6px solid $mainColor;
-  // border-bottom: 30px solid $mainColor;
   background-color: $bgColor;
   color: $darkerGray;
   font-family: $sans-serif;
@@ -17,7 +15,6 @@ body {
   font-size: 17px;
   line-height: 1.5em;
   margin: 0;
-  // margin-top: -40px; // uncomment if you want to use a banner
   padding: 0;
 
   @media only screen and (max-width: $break4) {
@@ -114,7 +111,7 @@ h4 { font-size: 1.1em; margin: 1.2em 0 0.6em 0; color: $lightGray; }
 article {
   p {
     font-size: 1.1em;
-    line-height: 1.65em; 
+    line-height: 1.48em; 
   }
 }
 
@@ -156,7 +153,7 @@ abbr[title] { border-bottom: 1px dotted $lightGray; }
 
 // Non-semantic helper classes
 
-.red { color: $mainColor; } // I'm using Feross's template, his primary color was red, mine is pink
+.red { color: $mainColor; }
 .black { color: black; }
 .strong { font-weight: bold; }
 

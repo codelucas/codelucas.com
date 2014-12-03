@@ -7,11 +7,11 @@ $experimental-support-for-khtml: false;
   false);
 @include font-face("Proxima Nova", font-files("ProximaNova/ProximaNova-Semibold.otf", otf), 
   false, bold);
-@include font-face("Proxima Nova", font-files("ProximaNova/ProximaNova-Light.otf", otf), 
-  false, lighter);
 @include font-face("Proxima Nova", font-files("ProximaNova/ProximaNova-RegularItalic.otf", otf), 
   false, normal, italic);
 
+//@include font-face("Proxima Nova", font-files("ProximaNova/ProximaNova-Light.otf", otf), 
+//  false, lighter);
 // @include font-face("Garamond Pro", font-files(
 //        "GaramPrePro/Garamond Premier Pro/GaramondPremrPro.otf", otf));
 
@@ -21,8 +21,8 @@ $sans-serif: "Proxima Nova", sans-serif;
 
 // Post width
 $fullWidth: 1000px;
-$postWidth: 650px;
-$postWidthSmall: 600px;
+$postWidth: 550px;
+$postWidthSmall: 500px;
 
 // Media query break points
 $break1: 480px;
