@@ -1,11 +1,8 @@
 ---
 layout: layout
 title: Technical Notes
-class: wide
 ---
 
-Notes
-===============
 *An assortment of random notes that I find worth keeping and re-reading.*
 
 ### Misc
