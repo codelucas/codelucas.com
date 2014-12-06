@@ -15,7 +15,8 @@ title: Technical Notes
 - [Airbnb cofounder's inspiring speech](http://www.youtube.com/watch?v=Ya0I6oz7q9U)
 - [The perils of mixing open source and money](http://david.heinemeierhansson.com/2013/the-perils-of-mixing-open-source-and-money.html)
 - [How to clean your retainer](http://www.wikihow.com/Clean-Your-Retainer)
-- [Why It Doesn't Matter How You Feel About Your Friends](http://storylineblog.com/2014/09/04/why-it-doesnt-matter-how-you-feel-about-your-friends/)
+- [Why it doesn't matter how you feel about your friends](http://storylineblog.com/2014/09/04/why-it-doesnt-matter-how-you-feel-about-your-friends/)
+- [The top idea in your mind](http://www.paulgraham.com/top.html)
 
 ### Technical
 - [What happens when you visit a website?](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/)
@@ -63,6 +64,7 @@ title: Technical Notes
 - [Python decorator library](https://wiki.python.org/moin/PythonDecoratorLibrary#C.2B-.2B-.2FJava-keyword-like_function_decorators)
 - [A POSIX Queue Implementation](http://zinascii.com/2014/a-posix-queue-implementation.html)
 - [VisualGo - visualising data structures and algorithms through animation](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html)
+- [Cache is the new RAM](http://blog.memsql.com/cache-is-the-new-ram/)
 
 ### News & journalism
 - [Interview with Jonah Peretti of Buzzfeed & Huffpost](https://www.youtube.com/watch?v=OnON9pIm9OE) 
