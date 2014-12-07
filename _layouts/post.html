@@ -26,21 +26,24 @@ class: post
 
   {{ content }}
 
-<!--
-{% if site.related_posts %}
+  <!--
+  {% if site.related_posts %}
     <p>(If you liked this, you might like <a href="{{ site.related_posts[0].url }}/">
-    {{ site.related_posts[0].title }}</a>.)</p>
-{% endif %} 
--->
+      {{ site.related_posts[0].title }}</a>.)</p>
+  {% endif %} 
+  -->
 
 </article>
 
 <section class="meta">
   <h3>
-    Discussion & Media
+    <!-- Discussion & Media -->
+    <!--
+    TODO: Uncomment this when ready to add RSS feed
     <a class="rss" href="http://feeds.feedburner.com/" title="Subscribe to the codelucas.com Feed">
       <img src="/images/rss.png" alt="RSS Feed Icon" />
     </a>
+    -->
   </h3>
 
   <section class="copy">
@@ -49,10 +52,10 @@ class: post
         <a href="https://twitter.com/codelucas" class="avatar">
           <img src="/images/selfie.jpg" height="50" width="50" alt="Lucas Ou-Yang" />
         </a>
-        Hey, thanks for reading! I'm <a href="/about/">Lucas Ou-Yang</a>, and I love making things. 
+        Hey, thanks for reading! I'm <a href="/about/">Lucas Ou-Yang</a> and I love making things. 
         I am currently working on <a href="http://github.com/codelucas/newspaper">Newspaper</a>, 
-        an open source python library for article news extraction. I have a bachelors in CS and live
-        in San Francisco. Although I am happily employed, I'm open for consulting work.
+        an open source library for news extraction. I'm happily employed, have a bachelors in
+        CS, and live in the San Francisco Bay.
       </p>
 
       {% if page.hn %}<p>You can discuss, upvote, or poke fun at this post 
@@ -71,9 +74,7 @@ class: post
       </p>
     </form>
 
-    <p>
-      Share this article with your friends:
-    </p>
+    <p>Share this article with your friends:</p>
 
     <a href="https://twitter.com/share" class="twitter-share-button" 
         data-url="http://{% if page.old %}www.{% endif %}codelucas.com{{ page.url }}/"
