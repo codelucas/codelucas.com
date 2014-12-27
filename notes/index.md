@@ -17,6 +17,11 @@ title: Technical Notes
 - [How to clean your retainer](http://www.wikihow.com/Clean-Your-Retainer)
 - [Why it doesn't matter how you feel about your friends](http://storylineblog.com/2014/09/04/why-it-doesnt-matter-how-you-feel-about-your-friends/)
 - [The top idea in your mind](http://www.paulgraham.com/top.html)
+- [What is a straw man argument?](http://www.quickanddirtytips.com/education/grammar/what-is-a-straw-man-argument)
+- [Buy experiences, not things](http://www.theatlantic.com/business/archive/2014/10/buy-experiences/381132/?single_page=true)
+- [Parable of the Polygons](http://ncase.me/polygons/)
+- [Sharp, 5-Point Business Memo by Evan Spiegel](http://www.businessinsider.com/snapchat-ceo-evan-spiegels-email-memo-2014-12?utm_content=buffer3992e&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
+- [Einstein: The Negro Question (1946)](http://www.onbeing.org/program/albert-einstein-the-negro-question-1946)
 
 ### Technical
 - [What happens when you visit a website?](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/)
@@ -65,6 +70,8 @@ title: Technical Notes
 - [A POSIX Queue Implementation](http://zinascii.com/2014/a-posix-queue-implementation.html)
 - [VisualGo - visualising data structures and algorithms through animation](http://www.comp.nus.edu.sg/~stevenha/visualization/index.html)
 - [Cache is the new RAM](http://blog.memsql.com/cache-is-the-new-ram/)
+- [How does SSL & TLS work?](http://security.stackexchange.com/questions/20803/how-does-ssl-tls-work)
+- [Create your own Heroku on EC2](http://blog.clearbit.co/ec2-heroku?hn)
 
 ### News & journalism
 - [Interview with Jonah Peretti of Buzzfeed & Huffpost](https://www.youtube.com/watch?v=OnON9pIm9OE) 
