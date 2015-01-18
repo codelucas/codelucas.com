@@ -22,6 +22,9 @@ title: Technical Notes
 - [Parable of the Polygons](http://ncase.me/polygons/)
 - [Sharp, 5-Point Business Memo by Evan Spiegel](http://www.businessinsider.com/snapchat-ceo-evan-spiegels-email-memo-2014-12?utm_content=buffer3992e&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
 - [Einstein: The Negro Question (1946)](http://www.onbeing.org/program/albert-einstein-the-negro-question-1946)
+- [Theory of Change](http://www.aaronsw.com/weblog/theoryofchange)
+- [Richard Stallman in "Hackers: Wizards of the Electronic Age"](https://www.youtube.com/watch?v=oIrXuv-JjeE)
+- [A Short Course in Ethics](http://www.aaronsw.com/weblog/ethics)
 
 ### Technical
 - [What happens when you visit a website?](http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/)
@@ -72,6 +75,7 @@ title: Technical Notes
 - [Cache is the new RAM](http://blog.memsql.com/cache-is-the-new-ram/)
 - [How does SSL & TLS work?](http://security.stackexchange.com/questions/20803/how-does-ssl-tls-work)
 - [Create your own Heroku on EC2](http://blog.clearbit.co/ec2-heroku?hn)
+- [HTML5 Web Sockets](https://www.websocket.org/quantum.html)
 
 ### News & journalism
 - [Interview with Jonah Peretti of Buzzfeed & Huffpost](https://www.youtube.com/watch?v=OnON9pIm9OE) 
