@@ -84,6 +84,18 @@ title: Quotes
 > -- Maya Angelou
 
 <!-- -->
+> Don't listen to marketing people or designers or product managers just because of their job titles. If they have good ideas, use them, but it's up to you to decide; software has to be designed by hackers who understand design, not designers who know little about software.
+
+> -- Paul Graham
+
+<!-- -->
+> Technology should increase the gap in income, but it seems to decrease other gaps. A hundred years ago, the rich led a different kind of life from ordinary people ... Now, thanks to technology, the rich live more like the average person.
+
+> The only thing technology can't cheapen is brand. Which is precisely why we hear ever more about it. Brand is the residue left as the substantive differences between the rich and poor evaporate ... In 1900, if you kept a carriage, no one asked what year or brand it was. If you had one, you were rich. And if you weren't rich, you took the omnibus or walked. Now even the poorest Americans drive cars, and it is only because we're so well trained by advertising that we can even recognize the especially expensive ones.
+
+> -- Paul Graham
+
+<!-- -->
 > For whatever you're doing, there's usually only one place where the top people go. 
 > You should go there. Don't settle for anywhere else.
 
@@ -203,3 +215,8 @@ title: Quotes
 > However, it is very real. It can perform intellectual work. It can answer questions. It can affect the world by disbursing money at a bank or by controlling a robot arm in a factory. The programs we use to conjure processes are like a sorcerer's spells.
 
 > -- Abelson and Sussman, Structure and Interpretation of Computer Programs (1984)
+
+<!-- -->
+> At an art school where I once studied, the students wanted most of all to develop a personal style. But if you just try to make good things, you'll inevitably do it in a distinctive way, just as each person walks in a distinctive way. Michelangelo was not trying to paint like Michelangelo, he was just trying to paint well; he couldn't help painting like Michelangelo ... The only style worth having is the one you can't help.
+
+> -- Paul Graham
