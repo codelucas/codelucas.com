@@ -76,6 +76,9 @@ title: Technical Notes
 - [How does SSL & TLS work?](http://security.stackexchange.com/questions/20803/how-does-ssl-tls-work)
 - [Create your own Heroku on EC2](http://blog.clearbit.co/ec2-heroku?hn)
 - [HTML5 Web Sockets](https://www.websocket.org/quantum.html)
+- [Difference between unicode and UTF-8](http://stackoverflow.com/a/13212528/1660802)
+- [What is CGI?](http://stackoverflow.com/questions/2089271/i-never-really-understood-what-is-cgi)
+- [Git data transport commands](http://stackoverflow.com/a/3690796/1660802)
 
 ### News & journalism
 - [Interview with Jonah Peretti of Buzzfeed & Huffpost](https://www.youtube.com/watch?v=OnON9pIm9OE) 
