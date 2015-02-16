@@ -8,12 +8,10 @@ title: Technical Notes
 ### Misc
 - [Hotel Room](http://www.kennethreitz.org/essays/hotel-room)
 - [The Technology](http://paulbuchheit.blogspot.com/2014/07/the-technology.html)
+- [Social animal](http://www.newyorker.com/magazine/2011/01/17/social-animal)
 - [My Twisted World](http://abclocal.go.com/three/kabc/kabc/My-Twisted-World.pdf)
 - [What is a Hacker?](http://www.cs.berkeley.edu/~bh/hacker.html)
 - [How to get a job like mine](https://aaronsw.jottit.com/howtoget)
-- [The MacBook Air could easily be the only machine](http://37signals.com/svn/posts/858-the-macbook-air-could-easily-be-the-only-machine)
-- [Airbnb cofounder's inspiring speech](http://www.youtube.com/watch?v=Ya0I6oz7q9U)
-- [The perils of mixing open source and money](http://david.heinemeierhansson.com/2013/the-perils-of-mixing-open-source-and-money.html)
 - [How to clean your retainer](http://www.wikihow.com/Clean-Your-Retainer)
 - [Why it doesn't matter how you feel about your friends](http://storylineblog.com/2014/09/04/why-it-doesnt-matter-how-you-feel-about-your-friends/)
 - [The top idea in your mind](http://www.paulgraham.com/top.html)
@@ -79,6 +77,14 @@ title: Technical Notes
 - [Difference between unicode and UTF-8](http://stackoverflow.com/a/13212528/1660802)
 - [What is CGI?](http://stackoverflow.com/questions/2089271/i-never-really-understood-what-is-cgi)
 - [Git data transport commands](http://stackoverflow.com/a/3690796/1660802)
+- [How CDNs work](http://www.nczonline.net/blog/2011/11/29/how-content-delivery-networks-cdns-work/)
+- [Why did dailup modems make noise?](http://superuser.com/a/477364)
+- [How do just-in-time (JIT) compilers work?](http://stackoverflow.com/a/95679/1660802)
+
+### Finance
+- [What are stocks?](http://www.investopedia.com/university/stocks/stocks1.asp)
+- [Why do some companies pay/don't pay dividends?](http://www.investopedia.com/ask/answers/12/why-do-some-companies-pay-a-dividend.asp)
+- [Khan Academy: Core finance](https://www.khanacademy.org/economics-finance-domain/core-finance)
 
 ### News & journalism
 - [Interview with Jonah Peretti of Buzzfeed & Huffpost](https://www.youtube.com/watch?v=OnON9pIm9OE) 
