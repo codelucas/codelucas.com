@@ -1,4 +1,4 @@
-# [lucasou.com](http://lucasou.com) Blog
+# [lucasou.com](http://codelucas.com) Blog
 
 This is the code for the personal website for myself, Lucas Ou.
 This blog was heavily inspired by [Feross's Blog](http://feross.org). 
@@ -6,7 +6,7 @@ I will add more specifics later.
 
 ## How it's built
 
-(Note that my old domain "lucasou.com" expired to I re-registered it to "codelucas.com" -- it's confusing any many things are still broken..)
+*Note that my old domain lucasou.com expired, so I re-registered it to **codelucas.com***
 
 All my posts are written in Markdown. The blog is powered by [Jekyll](http://github.com/mojombo/jekyll), a static site generator that takes Markdown blog posts and converts them into HTML files.
 
