@@ -176,9 +176,9 @@ title: Quotes
 > -- Paul Graham
 
 <!-- -->
-> Today, we woke up feeling like strangers in a foreign land (in response to Trump winning the 2016 election)
+> Today, we woke up feeling like strangers in a foreign land.
 
-> -- Kevin de Leon (California Senator) and Anthony Rendon (Assembly Speaker)
+> -- Kevin de Leon (California Senator) and Anthony Rendon in response to Trump winning the 2016 electio
 
 
 <!-- -->
