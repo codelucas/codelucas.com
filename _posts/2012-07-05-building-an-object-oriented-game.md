@@ -6,8 +6,6 @@ tags:
 - java
 ---
 
-EDIT: I understand that OOP dev is nothing impressive but this was written back while I was still a CS freshman. I was pretty fascinated with the OOP paradigm at the time!
-
 My Java Applet game, dubbed [IslandOverlord](http://codelucas.com/pages/island-overlord.html), started out as a small Summer project. However, this project has grown both in both physical size and emotional weight quickly. The codebase is now 7,000 lines and the project has progressed to the point where I'm devoting over 5-6 hours a day, with school, to work on it. The fact that the graphics were hand drawn with GIMP did not help!
 
 The codebase relies on nothing but the Java SDK, even for graphics! The code has been [open sourced](https://github.com/codelucas/islandoverlord), check it out!
@@ -57,7 +55,7 @@ public class Island {
 }
 {% endhighlight %}
 
-The island itself is just a circular picture that can be rotated with a user's camera. The impression of rivers and lakes on the island is created with transparent pixels which allow the blue background of the ocean's image to seep though. I also borrowed Notch's neat hack where he uses bit manipulaiton to tell if an entity is standing on a transparent pixel (water) or not.
+The island itself is just a circular picture that can be rotated with a user's camera. The impression of rivers and lakes on the island is created with transparent pixels which allow the blue background of the ocean's image to seep$ though. I also borrowed Notch's neat hack where he uses bit manipulaiton to tell if an entity is standing on a transparent pixel (water) or not, this was helpful for things like boundary checking.
 
 {% highlight java %}
 public boolean isOnGround(double x, double y) {
@@ -75,6 +73,4 @@ public boolean isOnGround(double x, double y) {
 }
 {% endhighlight %}
 
-I've released this game to my friends at Summer school and the public reception has been great! After class ends, a lot of friends rush to me to explain all of the latest glitches that they've discovered.
-
-**The feeling of people you know actually using stuff that you have built is incredible**. This is a feeling that I want to experience many more times in the future.
+I've released this game to my friends at Summer school and the public reception has been great! After class ends, many would rush over to me to explain their experiences and all of the latest glitches that they've discovered. It made me feel happy, I hope to continue finding cool things to build and new people to share them with!

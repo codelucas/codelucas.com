@@ -64,16 +64,6 @@ title: Quotes
 > -- Aaron Swartz, [Rewriting Reddit](http://www.aaronsw.com/weblog/rewritingreddit)
 
 <!-- -->
-> There is no perfect next move ... have a bias toward action.
-
-> -- Kevin Systrom
-
-<!-- -->
-> No, I don't believe in luck.
-
-> -- John Nash, A Beautiful Mind
-
-<!-- -->
 > We keep secrets because we get to do our work free from judgement -- until we're ready to share it. We keep secrets because keeping secrets gives you space to change your mind until you're really sure that you're right.
 
 > -- Evan Spiegel
@@ -84,27 +74,11 @@ title: Quotes
 > -- Maya Angelou
 
 <!-- -->
-> Don't listen to marketing people or designers or product managers just because of their job titles. If they have good ideas, use them, but it's up to you to decide; software has to be designed by hackers who understand design, not designers who know little about software.
-
-> -- Paul Graham
-
-<!-- -->
 > Technology should increase the gap in income, but it seems to decrease other gaps. A hundred years ago, the rich led a different kind of life from ordinary people ... Now, thanks to technology, the rich live more like the average person.
 
 > The only thing technology can't cheapen is brand. Which is precisely why we hear ever more about it. Brand is the residue left as the substantive differences between the rich and poor evaporate ... In 1900, if you kept a carriage, no one asked what year or brand it was. If you had one, you were rich. And if you weren't rich, you took the omnibus or walked. Now even the poorest Americans drive cars, and it is only because we're so well trained by advertising that we can even recognize the especially expensive ones.
 
 > -- Paul Graham
-
-<!-- -->
-> For whatever you're doing, there's usually only one place where the top people go. 
-> You should go there. Don't settle for anywhere else.
-
-> -- Drew Houston
-
-<!-- -->
-> True friends stab you in the front.
-
-> -- Oscar Wilde
 
 <!-- -->
 > A male mouse and a female mouse will soon tire of mating with each other. But put new partners into the cage, and it turns out they weren't tired at all. They were just bored.
@@ -115,21 +89,6 @@ title: Quotes
 > The world is full of low IQ people that try to look intelligent and fall on their ass, and Steve, I think is a fairly high IQ person that does a great job at looking stupid, and that's probably why he's succesful at what he does.
 
 > -- Steve-O's Dad
-
-<!-- -->
-> We understand walls in terms of bricks, bricks in terms of crystals, crystals in terms of molecules, and etc.
-
-> -- Dijkstra, Turing Speech (1947)
-
-<!-- -->
-> The purpose of abstracting is not to be vague, but it is to create a new semantic level where one can be absolutely precise.
-
-> -- Dijkstra, Turing Speech (1947)
-
-<!-- -->
-> I discovered that I could be a better programmer by using only the good parts and avoiding the bad parts. After all, how can you build something good out of bad parts?
-
-> -- Douglas Crockford
 
 <!-- -->
 > Youth is the next best thing to revenue.
@@ -150,11 +109,6 @@ title: Quotes
 > I highly believe that financial reward is a strong indicator of the impact that you're having on the world.
 
 > -- Dustin Moskovitz
-
-<!-- -->
-> Be curious. Read widely. Try new things. I think a lot of what people call intelligence just boils down to curiosity.
-
-> -- Aaron Swartz
 
 <!-- -->
 > My opinion, then and now, is that C and other languages without memory checks are unsuitable for writing secure code. Plainly unsuitable. They need to be restricted to writing a small core system, preferably small enough that it can be checked using formal (proof-based) methods, and all the rest, including all application logic, should be written using managed code (such as C#, Java) ...
@@ -220,3 +174,16 @@ title: Quotes
 > At an art school where I once studied, the students wanted most of all to develop a personal style. But if you just try to make good things, you'll inevitably do it in a distinctive way, just as each person walks in a distinctive way. Michelangelo was not trying to paint like Michelangelo, he was just trying to paint well; he couldn't help painting like Michelangelo ... The only style worth having is the one you can't help.
 
 > -- Paul Graham
+
+<!-- -->
+> Today, we woke up feeling like strangers in a foreign land (in response to Trump winning the 2016 election)
+
+> -- Kevin de Leon (California Senator) and Anthony Rendon (Assembly Speaker)
+
+
+<!-- -->
+> Here is my promise to you as your mayor: We will use all the tools at our disposal to stand up for our people. If all Muslims are required to register, we will take legal action to block it. If the federal government wants our police officers to tear immigrant families apart, we will refuse to do it. If the federal government wants to deport law abiding citizens ... we will step in. If there are threats to federal funding for planned parenthood, we will insure they get the funding they need.
+
+> If Jews or Muslims or members of LGBT are victimized or attacked, we will find their attackers, we will arrest them, we will prosecute them. This is New York, nothing about us changed on election day. (in response to Trump winning the 2016 election)
+
+> -- NYC Mayer Bill de Blasio

@@ -23,5 +23,3 @@ An idea like the one above would certainly be accused by society of being an att
 But ... the forced speed limit concept is just an intermediate step to self driving cars! Self driving cars will certainly follow all traffic laws robotically, otherwise they would be far too dangerous and also blatantly illegal.
 
 What's really interesting is the mostly positive public sentiment to self driving cars. People are cool with Teslas' having complete control of the driving experience for the sake of ease and safety, but they likely would not drive a car which gives partial autonomy because they feel like their personal freedoms are being betrayed.
-
-**How come partial autonomy feels like a bigger treachery to freedom and free society than complete autonomy?**
