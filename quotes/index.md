@@ -96,19 +96,9 @@ title: Quotes
 > -- WSJ on Snapchat
 
 <!-- -->
-> I saw the angel in the marble and carved until I set him free.
-
-> -- Michelangelo
-
-<!-- -->
 > Never underestimate the importance of making money from making music. Let go of any weird taboos you have about it. Money is nothing more than neutral proof that you're adding value to people's lives. Making sure you're making money is just a way of making sure you're doing something of value to others.
 
 > -- Derek Sivers
-
-<!-- -->
-> I highly believe that financial reward is a strong indicator of the impact that you're having on the world.
-
-> -- Dustin Moskovitz
 
 <!-- -->
 > My opinion, then and now, is that C and other languages without memory checks are unsuitable for writing secure code. Plainly unsuitable. They need to be restricted to writing a small core system, preferably small enough that it can be checked using formal (proof-based) methods, and all the rest, including all application logic, should be written using managed code (such as C#, Java) ...
@@ -178,7 +168,7 @@ title: Quotes
 <!-- -->
 > Today, we woke up feeling like strangers in a foreign land.
 
-> -- Kevin de Leon (California Senator) and Anthony Rendon in response to Trump winning the 2016 electio
+> -- Kevin de Leon (California Senator) and Anthony Rendon in response to Trump winning the 2016 election
 
 
 <!-- -->
