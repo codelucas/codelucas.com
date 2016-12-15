@@ -316,7 +316,7 @@ img {
 }
 
 .meta {
-  margin-top: 75px;
+  // margin-top: 75px;
 }
 
 .copy {
@@ -399,7 +399,7 @@ a.prev, a.next {
   font-size: 1.1em;
   opacity: 0.8;
   overflow: hidden;
-  padding: 50px;
+  padding: 30px;
   position: fixed;
   text-align: center;
   text-decoration: none;
@@ -413,19 +413,19 @@ a.prev, a.next {
 
   &.hidden, &.hidden:hover { display: none; }
 
-  &:before {
-    content: "";
-    @include background(image-url('up.png'));
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 24px;
-    left: 50%;
-    margin-left: -12px;
-    position: absolute;
-    top: 25px;
-    width: 24px;
-  }
-
+  // Enable blog left/right arrow image
+  // &:before {
+  //   content: "";
+  //   @include background(image-url('up.png'));
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+  //   height: 24px;
+  //   left: 50%;
+  //   margin-left: -12px;
+  //   position: absolute;
+  //   top: 25px;
+  //   width: 24px;
+  // }
 
   @media only screen and (max-width: $break4) {
     font-size: 1.0em;
@@ -625,14 +625,18 @@ section {
 
 .bg-image {
   position: relative;
-  background-position: center center;
+  background-position: center 64%;
   background-size: cover;
-  height: 130px;
+  height: 250px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .bg-image-one {
-  background-image: url("/images/forest.jpg");
+  background-image: url("/images/miata_clouds.jpg");
 }
 
 .crossed-seperator {
@@ -640,7 +644,7 @@ section {
   margin: 0;
   padding: 0;
   path.one {
-    fill: #eee;
+    fill: #000;
   }
   path.two {
     fill: $bgColor;
@@ -699,6 +703,10 @@ img.icon-two {
   color: $lightGray;
 }
 
+.homepage-lead {
+    margin: 0.2em 0;
+}
+
 #navlist {
   margin-left: 87px;
   font-weight: 600;
@@ -748,7 +756,8 @@ div.chunk {
   }
 
   a:hover, a:focus {
-    color: $mainColor;
+    color: $black;
+    text-decoration: none;
   }
 
   ul {
