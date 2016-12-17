@@ -17,11 +17,13 @@ Being a busy and stressed out high schooler, I couldn't connect the dots at the 
 
 If you want the full context for both the question and Charlie's answer, feel free to [read it here](https://www.quora.com/What-are-some-lessons-learned-through-playing-StarCraft-that-are-useful-in-real-life/answer/Charlie-Cheever).
 
-As of now, I've never made a conscious choice towards being unconditionally kind. Not because I'm being evil or malicious, but it didn't seem worth it for me personally to go out of my way to help others, even when it's easy for me to do something to greatly help someone else. This changes now, and I encourage **you**, the reader to also rethink how you treat others in your life. Being unconditionally kind isn't just worth it because it's helpful and pleasant for the world, but it may counter-intuitively be **in your best interest**.
+As of now, I've never made a conscious choice towards being unconditionally kind. Not because I'm being evil or malicious, but it didn't seem worth it for me personally to go out of my way to help others, even when it's easy for me to do something to greatly help someone else. This changes now, and I encourage **you**, the reader to also rethink how you treat others in your life. Being kind isn't just worth it because it's helpful and pleasant for the world, but it may counter-intuitively be **in your best interest**.
+
+I also want to add that it's not enough to be occasionally kind or kind only in the public eye. Reputation matters and people can sniff out narcissism / egotism. It's not like Marge posted fliers about how much free candy she gave kids (that would have obviously come off wrong); she merely behaved the way she did and her reputation quickly spread.
 
 We all have examples of how we can help others in our lives: teachers in high-school can go out of their way to write long and considerate letters to get their students into the best schools. For me personally, being further along in my career, I get a lot of resumes from college or grad school kids looking for jobs at various tech firms. Taking 5 minutes out of my life to forward a resume can be literally life-changing to an eager student.
 
-[Click here for more on Marge](http://www.memorialobituaries.com/memorials/obits_display.cgi?action=Obit&memid=197839)
-
 ![Klahanie](/images/klahanie.jpg)
 <center><span class="img-subtitle">A quiet Klahanie afternoon</span></center>
+
+[Click here for more on Marge](http://www.memorialobituaries.com/memorials/obits_display.cgi?action=Obit&memid=197839)

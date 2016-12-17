@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building large game"
+title: "Building a large game"
 tags:
 - programming
 ---
