@@ -1,6 +1,6 @@
-# [lucasou.com](http://codelucas.com) Blog
+# [codelucas.com](http://codelucas.com) Blog
 
-This is the code for the personal website for myself, Lucas Ou.
+This is the code for the personal website for myself, Lucas Ou-Yang.
 This blog was heavily inspired by [Feross's Blog](http://feross.org). 
 I will add more specifics later.
 
