@@ -49,7 +49,7 @@ class: home
       <section>
         <h2>Blog</h2>
         <ul>
-          {% for post in site.posts limit:8 %}
+          {% for post in site.posts %}
             <li>
             {% if post.external_url %}
               <a href="{{ post.external_url }}" 

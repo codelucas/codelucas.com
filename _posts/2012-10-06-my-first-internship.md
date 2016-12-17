@@ -3,7 +3,6 @@ layout: post
 title: "My first internship"
 tags:
 - career
-- android
 ---
 
 A good friend from school referred me for a mobile position at a startup fairly close to our campus. The company, [M2Catalyst](http://www.m2catalyst.com/), was founded only a few months ago! 
