@@ -21,10 +21,28 @@ class: home
           <li><a href="https://engineering.instagram.com/search-architecture-eeb34a936d3a#.fk41uoo3h"
             title="Instagram Search Infrastructure">Instagram Search</a></li>
           <li><a href="http://wintria.com" title="">Wintria Search</a></li>
-          <li><a href="http://reddit.codelucas.com" title="">Reddit clone - <span>hot!</span></a></li>
+          <li><a href="http://reddit.codelucas.com" title="">Reddit clone</li>
           <li><a href="https://github.com/codelucas/shorten.tv" title="">Shorten.tv</a></li>
           <li><a href="http://youtu.be/BQNLj94_R3s" title="">FB // Context</a></li>
           <li><a href="http://fatty.codelucas.com" title="">Spongebob</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="col">
+      <section>
+        <h2>Blog</h2>
+        <ul>
+          {% for post in site.posts %}
+            <li>
+            {% if post.external_url %}
+              <a href="{{ post.external_url }}" 
+                onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);" >
+                {{ post.title | truncatewords:7 }}</a>
+            {% else %}
+                <a href="{{ post.url }}/">{{ post.title | truncatewords:7 }}</a>
+            {% endif %}
+            </li>
+          {% endfor %}
         </ul>
       </section>
     </div>
@@ -45,23 +63,5 @@ class: home
         </ul>
       </section>
     </div> 
-    <div class="col">
-      <section>
-        <h2>Blog</h2>
-        <ul>
-          {% for post in site.posts %}
-            <li>
-            {% if post.external_url %}
-              <a href="{{ post.external_url }}" 
-                onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);" >
-                {{ post.title | truncatewords:7 }}</a>
-            {% else %}
-                <a href="{{ post.url }}/">{{ post.title | truncatewords:7 }}</a>
-            {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      </section>
-    </div>
-  </div>
+ </div>
 </section>
