@@ -668,7 +668,11 @@ section {
 
 img.icon {
   position: fixed;
-  // position: absolute;
+  // override if screen is small
+  @media only screen and (max-width: $break2) {
+    font-size: 15px;
+    position: absolute;
+  }
   height: 50px;
   width: 50px;
   top: 0;
