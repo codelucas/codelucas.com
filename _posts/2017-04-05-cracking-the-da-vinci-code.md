@@ -195,6 +195,7 @@ We already know that the existing candidates in the 1,458 anagrams are all valid
 How about a strategy that filters out the candidates that have meaningless phrases. Can "VOID NONE RADICAL" or "VON RADIO ICELAND" possibly mean anything? The text isn't valid English once again. The of words "von", "radio", "iceland", "void", and "none" are all real English words but combined they are meaningless.
 
 Several solutions to semantic filtering come up:
+
 - Perform [NLP](https://en.wikipedia.org/wiki/Natural_language_processing) analysis on every phrase, remove all the phrases that aren't in the form of <u>valid English grammar</u>.
 - Perform NLP analysis but do it in the form of common [bigram or trigram](https://en.wikipedia.org/wiki/Bigram) filtering, keep the anagrams that are <u>collocated trigrams</u>. *Collocations are expressions of multiple words which commonly co-occur. For example: "New York" or "going to".*
 Use [IDF](https://nlp.stanford.edu/IR-book/html/htmledition/inverse-document-frequency-1.html) and keep anagrams which have documents with high IDF scores. (we can't use [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) since the TF in this case wouldn't make sense, a list of permutations isn't a document).
