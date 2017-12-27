@@ -189,3 +189,9 @@ title: Quotes
 > If Jews or Muslims or members of LGBT are victimized or attacked, we will find their attackers, we will arrest them, we will prosecute them. This is New York, nothing about us changed on election day. (in response to Trump winning the 2016 election)
 
 > -- NYC Mayer Bill de Blasio
+
+
+<!-- -->
+> The minute that you begin to follow your senses, and not your itinerary, you may begin to find pleasure in many things you would ordinarily overlook. The many sights, smells, sceneries of Paris.
+
+> -- Anthony Bourdain
