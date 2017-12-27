@@ -32,7 +32,7 @@ title: Quotes
 > -- Achilles to Briseis, Troy
 
 <!-- -->
-> What Bode was saying was this: Knowledge and productivity are like compound interest. Given two people of approximately the same ability and one person who works ten percent more than the other, the latter will more than twice outproduce the former. The more you know, the more you learn; the more you learn, the more you can do; the more you can do, the more the opportunity — it is very much like compound interest. I don't want to give you a rate, but it is a very high rate. Given two people
+> What Bode was saying was this: Knowledge and productivity are like compound interest. Given two people of approximately the same ability and one person who works ten percent more than the other, the latter will more than twice outproduce the former. The more you know, the more you learn; the more you learn, the more you can do; the more you can do, the more the opportunity -- it is very much like compound interest. I don't want to give you a rate, but it is a very high rate. Given two people
 > with exactly the same ability, the one person who manages day in and day out to get in one more hour of thinking will be tremendously more productive over a lifetime. I took Bode's remark to heart; I spent a good deal more of my time for some years trying to work a bit harder and I found, in fact, I could get more work done. I don't like to say it in front of my wife, but I did sort of neglect her sometimes; I needed to study. You have to neglect things if you intend to get what you want done.
 
 > -- Richard Hamming
