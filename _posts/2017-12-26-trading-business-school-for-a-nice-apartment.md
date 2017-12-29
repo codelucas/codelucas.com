@@ -16,7 +16,7 @@ I moved into a skyscraper of glass and steel in the center of the city. Life is 
 
 A few days ago I was carrying a guitar in the elevator when headed towards my girlfriend's place for the night. A stranger in the same elevator looked at me, at the guitar, and then casually told me that he managed a large record studio and that I was welcome to come in to audition sometime. Sadly I'm a terrible musician but what an opportunity!
 
-Also, last week when I was out grabbing coffee in our lobby I ran into a chipper middle-aged man who was complaining about his sink faucet not having enough water pressure. We ended up briefly chatting and I discovered that he was the CEO of a large restaurant franchise in Southwestern America. He gave me career advice and invited me to eat at his restaurant. We exchanged contact information and went off on our separate ways.
+Also, last week when I was out grabbing coffee in our lobby I ran into a talkative middle-aged man who was complaining about his sink faucet not having enough water pressure. We ended up briefly chatting and I discovered that he was the CEO of a large restaurant franchise in Southwestern America. He gave me career advice and invited me to eat at his restaurant. We exchanged contact information and went off on our separate ways.
 
 At this point I was convinced that living in a nice apartment and networking properly can get you just as far, if not further, than something like business school or networking events. You are amongst the people who've already done well and are successful, not just the people who are ambitious.
 

@@ -37,9 +37,9 @@ class: home
             {% if post.external_url %}
               <a href="{{ post.external_url }}" 
                 onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);" >
-                {{ post.title | truncatewords:7 }}</a>
+                {{ post.title | truncatewords:8 }}</a>
             {% else %}
-                <a href="{{ post.url }}/">{{ post.title | truncatewords:7 }}</a>
+                <a href="{{ post.url }}/">{{ post.title | truncatewords:8 }}</a>
             {% endif %}
             </li>
           {% endfor %}
