@@ -36,6 +36,10 @@ This one can be generalized. For example, you can coerce someone into doing some
 <!-- -->
 > **Dunning-Kruger effect**: The tendency for unskilled individuals to overestimate their own ability and the tendency for experts to underestimate their own ability.
 
+Bitcoin. People even coined a mocking nickname "Dunning-Krugerrands" for Bitcoins, LOL.
+
+<hr>
+
 <!-- -->
 > **Framing effect**: Drawing different conclusions from the same information, depending on how that information is presented
 
