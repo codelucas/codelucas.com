@@ -80,6 +80,7 @@ title: Technical Notes
 - [How CDNs work](http://www.nczonline.net/blog/2011/11/29/how-content-delivery-networks-cdns-work/)
 - [Why did dailup modems make noise?](http://superuser.com/a/477364)
 - [How do just-in-time (JIT) compilers work?](http://stackoverflow.com/a/95679/1660802)
+- [Eternal September](https://en.wikipedia.org/wiki/Eternal_September)
 
 ### Finance
 - [What are stocks?](http://www.investopedia.com/university/stocks/stocks1.asp)
