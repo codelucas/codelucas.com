@@ -4,9 +4,11 @@ title: Quotes
 ---
 
 <!-- -->
-> January 1st is my favorite day of the year. Quiet, reflective, and full of potential. If only we could make this our every day.
+> Happiness is never grand.
 
-> -- Jack Dorsey
+> Actual happiness always looks pretty squalid in comparison with the overcompensations for misery. And, of course, stability isn't nearly as spectacular as instability. And being contented has none of the glamour of a good fight against misfortune, none of the picturesqueness of a struggle with temptation, or a fatal overthrow by passion or doubt. Happiness is never grand.
+
+> -- Brave New World
 
 <!-- -->
 > Most inventors and engineers I've met are like me ... they live in their heads. They're almost like artists. In fact, the very best of them are artists. And artists work best alone ... I'm going to give you some advice that might be hard to take. That advice is: Work alone ... Not on a committee. Not on a team.
@@ -39,7 +41,7 @@ title: Quotes
 
 <!-- -->
 > Another trait, it took me a while to notice. I noticed the following facts about people who work with the door open or the door closed. I notice that if you have the door to your office closed, you get more work done today and tomorrow, and you are more productive than most. But 10 years later somehow you don't know quite know what problems are worth working on; all the hard work you do is sort of tangential in importance. He who works with the door open gets all kinds of interruptions, but
-> he also occasionally gets clues as to what the world is and what might be important. Now I cannot prove the cause and effect sequence because you might say, "The closed door is symbolic of a closed mind." I don't know. But I can say there is a pretty good correlation between those who work with the doors open and those who ultimately do important things, although people who work with doors closed often work harder. Somehow they seem to work on slightly the wrong thing — not much, but enough that they miss fame.
+> he also occasionally gets clues as to what the world is and what might be important. Now I cannot prove the cause and effect sequence because you might say, "The closed door is symbolic of a closed mind." I don't know. But I can say there is a pretty good correlation between those who work with the doors open and those who ultimately do important things, although people who work with doors closed often work harder. Somehow they seem to work on slightly the wrong thing - not much, but enough that they miss fame.
 
 > -- Richard Hamming
 
@@ -111,20 +113,6 @@ title: Quotes
 > Never underestimate the importance of making money from making music. Let go of any weird taboos you have about it. Money is nothing more than neutral proof that you're adding value to people's lives. Making sure you're making money is just a way of making sure you're doing something of value to others.
 
 > -- Derek Sivers
-
-<!-- -->
-> My opinion, then and now, is that C and other languages without memory checks are unsuitable for writing secure code. Plainly unsuitable. They need to be restricted to writing a small core system, preferably small enough that it can be checked using formal (proof-based) methods, and all the rest, including all application logic, should be written using managed code (such as C#, Java) ...
-
-> The fact is that no programmer is good enough to write code which is free from such vulnerabilities ... in languages without bounds checks ... All non-bounds-checked languages expose multiple levels of the computer to the program, and you are kidding yourself if you think you can handle this better than the OpenSSL team.
-
-> -- HackerNews on The HeartBleed OpenSSL Bug
-
-<!-- -->
-> You've got potential, kid, more potential than any wizard I've ever seen, but you've got to learn how to use it, you know? Be a bit sweeter to them, learn some spells to clean up that mess you call hair. Above all, you need to hide your evilness better -- not too well, but better.
-
-> Nice well-groomed boys get girls, and Dark Wizards also get girls, but nice well-groomed boys suspected of being secretly Dark get more girls than you can imagine.
-
-> -- Harry Potter and the Methods of Rationality
 
 <!-- -->
 > When engineers working on the very first iPod completed the prototype, they presented their work to Steve Jobs for his approval. Jobs played with the device, scrutinized it, weighed it in his hands, and promptly rejected it. It was too big.
