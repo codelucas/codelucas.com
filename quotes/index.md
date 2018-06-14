@@ -46,6 +46,11 @@ title: Quotes
 > -- Richard Hamming
 
 <!-- -->
+> Here emerges a new class of men devoted to the art of war, and in their souls emerges a new principle, spiritedness. The warriors must be men who like to fight, who are capable of anger, who rush to the defense of their city and of justice. ... unlike hunger, thirst, sexual desire, etc., are all related to a goal and their meaning simple. The goal of spiritedness is much harder to discern. The founders of modern economic science ... denied the existence of spiritedness because only men who pursue self preservation and gratification of bodily desire can be counted on to act according to principles of economic "rationality".
+
+> -- Allan Bloom, The Republic of Plato (Interpretive Essay)
+
+<!-- -->
 > Prestige is just fossilized inspiration. If you do anything well enough, you'll make it prestigious. Plenty of things we now consider prestigious were anything but at first. Jazz comes to mind -- though almost any established art form would do. 
 
 > So just do what you like, and let prestige take care of itself.
