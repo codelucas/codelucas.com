@@ -16,6 +16,13 @@ title: Quotes
 > -- Steve Wozniak
 
 <!-- -->
+> *With respect to Asian American guys who think K-pop is bad for their image*:
+
+> What their main insecurity is that they themselves have invested wholeheartedly into this traditional American idea of masculinity, only to find out that nobody really wants it, especially if it's a knock-off version. Like an Asian guy trying to do a white masculinity performance. What people really like are these BTS guys, who don't even bother to learn English, and they're just completely showcasing their Koreanness. And that's what people actually respect more.
+
+> -- Oxford Kondo, [Plan A Magazine](https://planamag.com/)
+
+<!-- -->
 > It was from Lady Wilde that Oscar learned that identity is a kind of fiction, and that being oneself is a form of playacting.
 
 > -- David Friedman, [Wilde in America](http://www.nytimes.com/2014/12/07/books/review/wilde-in-america-by-david-m-friedman.html)
@@ -61,6 +68,21 @@ title: Quotes
 > The less confident you are, the more serious you have to act.
 
 > -- Paul Graham
+
+<!-- -->
+> Seriousness is always related to roles ... We are more likely to be serious with police officers when we find them uniformed or performing their mandated roles than when we find them in the process of changing into their uniforms. Seriousness always has to do with an established script, an ordering of affairs completed somewhere outside our range of influence. We are playful when we engage others at the level of our choice, when there is no telling in advance where our relationship with them will come out -- when, in fact, no one has an outcome to be imposed on the relationship, apart from the decision to continue it.
+
+> -- James Carse, Finite and Infinite Games
+
+<!-- -->
+> Most radically proposed, ... either philosophy or tyranny is the best way of life. Other solutions are halfway measures. If philosophy did not exist, tyranny would be the desideratum which only a lack of vigor would cause one to reject.
+
+> -- Allan Bloom, The Republic of Plato
+
+<!-- -->
+> A hidden kinship between the tyrant and the philosopher. There are certain kinds of things, (for example, incest) which a gentleman is not even willing to think about, let alone do ... the tyrant is willing both to think about them and to do them when wide awake. The philosopher ... is at least willing to think about them, and they hold none of the peculiar horror for him that they do for the gentleman. This is because both the tyrant and the philosopher depreciate law or convention in their quest for nature.
+
+> -- Allan Bloom, The Republic of Plato
 
 <!-- -->
 > What's so great about Lisp? And if Lisp is so great, why doesn't everyone use it? Lisp is so great not because of some magic quality visible only to devotees, but because it is simply the most powerful language available. And the reason everyone doesn't use it is that programming languages are not merely technologies, but habits of mind as well, and nothing changes slower...
@@ -175,6 +197,11 @@ title: Quotes
 
 > -- Kevin de Leon (California Senator) and Anthony Rendon in response to Trump winning the 2016 election
 
+<!-- -->
+
+> Race matters in America. It matters more than nuclear war. The concept of a post-racial American utopia has been shattered permanently, and Asian Americans have no choice but to wake up to the realities of racism, xenophobia, and sociopolitical marginalization ... The starting point for Plan A Magazine is the knowledge that we Asians are not as we've been labeled. We have strong convictions, deep feelings, and creative responses to the problem of American racism. We can shape the future that will emerge out of this morass, but we cannot be silent.
+
+> -- [Plan A Magazine](https://planamag.com/)
 
 <!-- -->
 > Here is my promise to you as your mayor: We will use all the tools at our disposal to stand up for our people. If all Muslims are required to register, we will take legal action to block it. If the federal government wants our police officers to tear immigrant families apart, we will refuse to do it. If the federal government wants to deport law abiding citizens ... we will step in. If there are threats to federal funding for planned parenthood, we will insure they get the funding they need.
