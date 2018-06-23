@@ -137,6 +137,13 @@ title: Quotes
 > -- WSJ on Snapchat
 
 <!-- -->
+> Like a finite game, a society is numerically, spatially, and temporally limited. Its citizenship is precisely defined, its boundaries are inviolable, and its past is enshrined. The power of citizens in a society is determined by their ranking in games that have been played. A society preserves its memories of past winners ... The power of a society is determined by its victory over other societies in still larger finite games. Its most treasured memories are those of the heroes fallen in victorious battles with other societies ... The power in a society is guaranteed and enhanced by the power of a society.
+
+> Society they understand as the sum of those relations that are under some form of public constraint, culture as whatever we do to each other by undirected choice. If society is all that a people feels it must do, culture "is the realm of the variable, free, not necessarily universal".
+
+> -- Finite and Infinite Games, James Carse
+
+<!-- -->
 > Never underestimate the importance of making money from making music. Let go of any weird taboos you have about it. Money is nothing more than neutral proof that you're adding value to people's lives. Making sure you're making money is just a way of making sure you're doing something of value to others.
 
 > -- Derek Sivers
