@@ -122,9 +122,9 @@ title: Quotes
 > -- Paul Graham
 
 <!-- -->
-> A male mouse and a female mouse will soon tire of mating with each other. But put new partners into the cage, and it turns out they weren't tired at all. They were just bored.
+> And it is in this quest for universal principles that the theoretical man first meets the opposition of the unphilosophic men who make up a city. They are not loyal to cities in general but to their own city; they love not men in general, but this particular man or woman; they are not interested in the nature of species, but their own fates ... for the practical man the particular things to which he is attached are the real things, and he will resist any attempt to go beyond them to "the more general case" which will destroy their character and his capacity to possess them as his very own.
 
-> -- Ezra Klein
+> -- Allan Bloom, The Republic of Plato
 
 <!-- -->
 > The world is full of low IQ people that try to look intelligent and fall on their ass, and Steve, I think is a fairly high IQ person that does a great job at looking stupid, and that's probably why he's succesful at what he does.
@@ -154,6 +154,11 @@ title: Quotes
 > The engineers explained that they had to reinvent inventing to create the iPod, and that it was simply impossible to make it any smaller. Jobs was quiet for a moment. Finally he stood, walked over to an aquarium, and dropped the iPod in the tank. After it touched bottom, bubbles floated to the top.
 
 > "Those are air bubbles," he snapped. "That means there's space in there. Make it smaller."
+
+<!-- -->
+> Explanation is an antagonistic encounter that succeeds by defeating an opponent ... Storytellers do not convert their listeners; they do not move them into the territory of a superior truth ... they offer only vision. Storytelling is therefore not combative; it does not succeed or fail. A story can not be obeyed.
+
+> -- Finite and Infinite Games, James Carse
 
 <!-- -->
 > Print has one supreme flaw: ink is indelible. An ink-and-paper design is static-it must display all its data, all the time. However, a reader typically only cares about a subset relevant to her current situation. The designer is faced with the challenge of organizing the data so that hopefully mutually-relevant subsets are grouped together, and the reader has the challenge of visually or physically navigating through the entire data space to find the group of interest.
