@@ -36,19 +36,32 @@ title: Quotes
 > -- Jared Leto, on gaining 70 pounds vs. wearing a fat suit for the leading role of Chapter 27
 
 <!-- -->
+> On their way back across the Channel, Bernard insisted on stopping his propeller
+and hovering on his helicopter screws within a hundred feet of the waves.
+The weather had taken a change for the worse; a south-westerly wind had
+sprung up, the sky was cloudy.
+
+> "Look," he commanded.
+
+> "But it's horrible," said Lenina, shrinking back from the window. She was appalled
+by the rushing emptiness of the night, by the black foam-flecked water
+heaving beneath them, by the pale face of the moon, so haggard and distracted
+among the hastening clouds.
+
+> "It makes me feel as though..." he hesitated, searching for words with which to
+express himself, "as though I were more me, if you see what I mean. More on my own,
+not so completely a part of something else. Not just a cell in the social body.
+Doesn't it make you feel like that, Lenina?"
+
+> -- Brave New World
+
+<!-- -->
 > The Gods envy us. They envy us because we're mortal, because any moment might be our last. Everything is more beautiful because we're doomed. You will never be lovelier than you are now. We will never be here again.
 
 > -- Achilles to Briseis, Troy
 
 <!-- -->
-> What Bode was saying was this: Knowledge and productivity are like compound interest. Given two people of approximately the same ability and one person who works ten percent more than the other, the latter will more than twice outproduce the former. The more you know, the more you learn; the more you learn, the more you can do; the more you can do, the more the opportunity -- it is very much like compound interest. I don't want to give you a rate, but it is a very high rate. Given two people
-> with exactly the same ability, the one person who manages day in and day out to get in one more hour of thinking will be tremendously more productive over a lifetime. I took Bode's remark to heart; I spent a good deal more of my time for some years trying to work a bit harder and I found, in fact, I could get more work done. I don't like to say it in front of my wife, but I did sort of neglect her sometimes; I needed to study. You have to neglect things if you intend to get what you want done.
-
-> -- Richard Hamming
-
-<!-- -->
-> Another trait, it took me a while to notice. I noticed the following facts about people who work with the door open or the door closed. I notice that if you have the door to your office closed, you get more work done today and tomorrow, and you are more productive than most. But 10 years later somehow you don't know quite know what problems are worth working on; all the hard work you do is sort of tangential in importance. He who works with the door open gets all kinds of interruptions, but
-> he also occasionally gets clues as to what the world is and what might be important. Now I cannot prove the cause and effect sequence because you might say, "The closed door is symbolic of a closed mind." I don't know. But I can say there is a pretty good correlation between those who work with the doors open and those who ultimately do important things, although people who work with doors closed often work harder. Somehow they seem to work on slightly the wrong thing - not much, but enough that they miss fame.
+> What Bode was saying was this: Knowledge and productivity are like compound interest. Given two people of approximately the same ability and one person who works ten percent more than the other, the latter will more than twice outproduce the former. The more you know, the more you learn; the more you learn, the more you can do; the more you can do, the more the opportunity -- it is very much like compound interest. I don't want to give you a rate, but it is a very high rate. Given two people with exactly the same ability, the one person who manages day in and day out to get in one more hour of thinking will be tremendously more productive over a lifetime.
 
 > -- Richard Hamming
 
@@ -61,11 +74,6 @@ title: Quotes
 > Prestige is just fossilized inspiration. If you do anything well enough, you'll make it prestigious. Plenty of things we now consider prestigious were anything but at first. Jazz comes to mind -- though almost any established art form would do. 
 
 > So just do what you like, and let prestige take care of itself.
-
-> -- Paul Graham
-
-<!-- -->
-> The less confident you are, the more serious you have to act.
 
 > -- Paul Graham
 
@@ -227,3 +235,23 @@ title: Quotes
 > The minute that you begin to follow your senses, and not your itinerary, you may begin to find pleasure in many things you would ordinarily overlook. The many sights, smells, sceneries of Paris.
 
 > -- Anthony Bourdain
+
+<!-- -->
+> The best thing a man can do for his culture when he is rich is to endeavor to carry out those schemes which he entertained when he was poor.
+
+> -- Henry David Thoreau, Civil Disobedience
+
+<!-- -->
+> And then there's Netflix's April 2017 tweet "Sleep is my greatest enemy." Understanding this mentality is critical to understanding what Netflix does and why. It isn't fighting to win a timeslot, an overnight rating, or an advertiser. It's after every minute of leisure time available -- an economic term that refers to all time not spent working. The magnitude of this ambition is without comparison in media -- and it follows that the spend and investment losses required to realize this ambition would be similarly shocking.
+
+> -- Matthew Ball, Netflix stock analyst
+
+<!-- -->
+> Mark My Words...! This drill, will open a hole in the universe. And that hole will be a path for those behind us. The dreams of those who have fallen! The hopes of those who will follow! Those two sets of dreams weave together into a double helix, drilling a path towards tomorrow! And THAT'S Tengen Toppa! That's Gurren-Lagann! My drill is the drill, that creates the HEAVENS!
+
+> -- Simon, Tengen Toppa Gurren Lagann
+
+<!-- -->
+> "Don't put all your eggs in one basket", everyone has been told. As we said, even the best venture investors have a portfolio, but investors who understand the power law make as few investments as possible.
+
+> -- Peter Thiel
