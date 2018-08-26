@@ -255,3 +255,25 @@ Doesn't it make you feel like that, Lenina?"
 > "Don't put all your eggs in one basket", everyone has been told. As we said, even the best venture investors have a portfolio, but investors who understand the power law make as few investments as possible.
 
 > -- Peter Thiel
+
+<!-- -->
+> There is but little virtue in the action of masses of men. When the majority shall at length vote for the abolition of slavery, it will be because they are indifferent to slavery, or because there is but little slavery left to be abolished by their vote.
+
+> Unjust laws exist: shall we be content to obey them, or shall we endeavor to amend them, and obey them until we have succeeded, or shall we transgress them at once? Men generally, under such a government as this, think that they ought to wait until they have persuaded the majority to alter them.
+
+> -- Henry David Thoreau, Civil Disobedience
+
+<!-- -->
+> You're a lucky man! Stay in the goddamn bar business! Hang on to your money! I can't tell you how many times I've seen even wildly successful men fall victim to this kind of delusional power grab, this sudden urge to expand the empire -- only to find their personal Stalingrad waiting for them.
+
+> -- Anthony Bourdain, Kitchen Confidential
+
+<!-- -->
+> So long as it remains out of touch with the rest of the world, an ideal society can remain a viable society. Pala was viable until about 1905. Then, in less than a single generation, the world completely changed. Movies, cars, airplanes, radio. Mass production, mass slaughter, mass communication, and above all, plain mass.
+
+> -- Aldous Huxley, Island
+
+<!-- -->
+> Will questioned with that innocent air of total ignorance which he had found by long experience to be the best way of eliciting information from the simpleminded and the self important.
+
+> -- Aldous Huxley, Island
