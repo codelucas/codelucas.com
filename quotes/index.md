@@ -277,3 +277,17 @@ Doesn't it make you feel like that, Lenina?"
 > Will questioned with that innocent air of total ignorance which he had found by long experience to be the best way of eliciting information from the simpleminded and the self important.
 
 > -- Aldous Huxley, Island
+
+
+<!-- -->
+> This is one way to enforce a norm, punish those who do not support it ... The simulation of the norms game shows that relying on individuals to punish defections may not be enough to maintain a norm ... and the existence of a metanorm can be an effective way to get a norm started and protect it once established. By linking vengefulness against nonpunishers with vengefulness against defectors, the metanorm provides a mechanism by which the norm against defection becomes self-policing.
+
+> -- Robert Axelrod, An Evolutionary Approach to Norms
+
+<!-- -->
+> Being a contrarian will inevitably sometimes make you unpopular or lonely.  Accepting this solitary state of affairs at times is essential since it is mathematically provable that you cannot outperform the crowd if you are the crowd.
+
+> In the longer term you will ironically be more popular as long as you are right enough in your contrarian views. Of course, being a contrarian and wrong is not helpful and it is magnitude of correctness and not frequency of correctness that should be tracked on your scorecard.
+
+> -- Tren, 25iq
+
