@@ -28,14 +28,6 @@ title: Quotes
 > -- David Friedman, [Wilde in America](http://www.nytimes.com/2014/12/07/books/review/wilde-in-america-by-david-m-friedman.html)
 
 <!-- -->
-> Interviewer: "You could have simply worn a fat suit to give the character his chunky feeling. Why did you decide to go whole hog (so to speak) and actually gain the weight?"
-
-> Jared Leto: "I really wanted to inhabit this guy's skin, and that affected the way I stood, walked and moved. I wanted to make it clear that this was someone who felt very isolated from people, who shyed away from human contact. Also, being overweight, I felt the rejection and mockery of people who didn't know that I was just playing a part. Their response to me as an overweight and unattractive guy just made me realize how isolated he felt, how unloved and how untouched by human beings.
-> I kind of turned into a sculpture."
-
-> -- Jared Leto, on gaining 70 pounds vs. wearing a fat suit for the leading role of Chapter 27
-
-<!-- -->
 > On their way back across the Channel, Bernard insisted on stopping his propeller
 and hovering on his helicopter screws within a hundred feet of the waves.
 The weather had taken a change for the worse; a south-westerly wind had
@@ -83,34 +75,9 @@ Doesn't it make you feel like that, Lenina?"
 > -- James Carse, Finite and Infinite Games
 
 <!-- -->
-> Most radically proposed, ... either philosophy or tyranny is the best way of life. Other solutions are halfway measures. If philosophy did not exist, tyranny would be the desideratum which only a lack of vigor would cause one to reject.
-
-> -- Allan Bloom, The Republic of Plato
-
-<!-- -->
 > A hidden kinship between the tyrant and the philosopher. There are certain kinds of things, (for example, incest) which a gentleman is not even willing to think about, let alone do ... the tyrant is willing both to think about them and to do them when wide awake. The philosopher ... is at least willing to think about them, and they hold none of the peculiar horror for him that they do for the gentleman. This is because both the tyrant and the philosopher depreciate law or convention in their quest for nature.
 
 > -- Allan Bloom, The Republic of Plato
-
-<!-- -->
-> What's so great about Lisp? And if Lisp is so great, why doesn't everyone use it? Lisp is so great not because of some magic quality visible only to devotees, but because it is simply the most powerful language available. And the reason everyone doesn't use it is that programming languages are not merely technologies, but habits of mind as well, and nothing changes slower...
-
-> I'll begin with a shockingly controversial statement: programming languages vary in power.
-
-> Few would dispute, at least, that high level languages are more powerful than machine language. Most programmers today would agree that you do not, ordinarily, want to program in machine language. Instead, you should program in a high-level language, and have a compiler translate it into machine language for you.
-
-> Everyone knows it's a mistake to write your whole program by hand in machine language. What's less often understood is that there is a more general principle here: that if you have a choice of several languages, it is, all other things being equal, a mistake to program in anything but the most powerful one.
-
-> -- Paul Graham, [The Blub Paradox](http://www.paulgraham.com/avg.html)
-
-<!-- -->
-> Over at reddit.com, we rewrote the site from Lisp to Python in the past week. It was pretty much done in one weekend. The others knew Lisp...and they knew Python...and yet they decided liked Python better for this project. The Python version had less code that ran faster and was far easier to read and maintain.
-
-> The idea that there is something better than Lisp is apparently inconceivable to some, judging from comments on the reddit blog. The Lispers instead quickly set about trying to find the real reason behind the switch.
-
-> One assumed it must have been divine intervention, since "there seems to be no other reason for switching to an inferior language." Another figured something else must be going on: "Could this be...a lie? To throw off competition? It's not as though Paul Graham hasn't hinted at this tactic in his essays..." 
-
-> -- Aaron Swartz, [Rewriting Reddit](http://www.aaronsw.com/weblog/rewritingreddit)
 
 <!-- -->
 > We keep secrets because we get to do our work free from judgement -- until we're ready to share it. We keep secrets because keeping secrets gives you space to change your mind until you're really sure that you're right.
@@ -123,13 +90,6 @@ Doesn't it make you feel like that, Lenina?"
 > -- Maya Angelou
 
 <!-- -->
-> Technology should increase the gap in income, but it seems to decrease other gaps. A hundred years ago, the rich led a different kind of life from ordinary people ... Now, thanks to technology, the rich live more like the average person.
-
-> The only thing technology can't cheapen is brand. Which is precisely why we hear ever more about it. Brand is the residue left as the substantive differences between the rich and poor evaporate ... In 1900, if you kept a carriage, no one asked what year or brand it was. If you had one, you were rich. And if you weren't rich, you took the omnibus or walked. Now even the poorest Americans drive cars, and it is only because we're so well trained by advertising that we can even recognize the especially expensive ones.
-
-> -- Paul Graham
-
-<!-- -->
 > And it is in this quest for universal principles that the theoretical man first meets the opposition of the unphilosophic men who make up a city. They are not loyal to cities in general but to their own city; they love not men in general, but this particular man or woman; they are not interested in the nature of species, but their own fates ... for the practical man the particular things to which he is attached are the real things, and he will resist any attempt to go beyond them to "the more general case" which will destroy their character and his capacity to possess them as his very own.
 
 > -- Allan Bloom, The Republic of Plato
@@ -138,11 +98,6 @@ Doesn't it make you feel like that, Lenina?"
 > The world is full of low IQ people that try to look intelligent and fall on their ass, and Steve, I think is a fairly high IQ person that does a great job at looking stupid, and that's probably why he's succesful at what he does.
 
 > -- Steve-O's Dad
-
-<!-- -->
-> Youth is the next best thing to revenue.
-
-> -- WSJ on Snapchat
 
 <!-- -->
 > Like a finite game, a society is numerically, spatially, and temporally limited. Its citizenship is precisely defined, its boundaries are inviolable, and its past is enshrined. The power of citizens in a society is determined by their ranking in games that have been played. A society preserves its memories of past winners ... The power of a society is determined by its victory over other societies in still larger finite games. Its most treasured memories are those of the heroes fallen in victorious battles with other societies ... The power in a society is guaranteed and enhanced by the power of a society.
@@ -157,23 +112,16 @@ Doesn't it make you feel like that, Lenina?"
 > -- Derek Sivers
 
 <!-- -->
-> When engineers working on the very first iPod completed the prototype, they presented their work to Steve Jobs for his approval. Jobs played with the device, scrutinized it, weighed it in his hands, and promptly rejected it. It was too big.
-
-> The engineers explained that they had to reinvent inventing to create the iPod, and that it was simply impossible to make it any smaller. Jobs was quiet for a moment. Finally he stood, walked over to an aquarium, and dropped the iPod in the tank. After it touched bottom, bubbles floated to the top.
-
-> "Those are air bubbles," he snapped. "That means there's space in there. Make it smaller."
-
-<!-- -->
 > Explanation is an antagonistic encounter that succeeds by defeating an opponent ... Storytellers do not convert their listeners; they do not move them into the territory of a superior truth ... they offer only vision. Storytelling is therefore not combative; it does not succeed or fail. A story can not be obeyed.
 
 > -- Finite and Infinite Games, James Carse
 
 <!-- -->
-> Print has one supreme flaw: ink is indelible. An ink-and-paper design is static-it must display all its data, all the time. However, a reader typically only cares about a subset relevant to her current situation. The designer is faced with the challenge of organizing the data so that hopefully mutually-relevant subsets are grouped together, and the reader has the challenge of visually or physically navigating through the entire data space to find the group of interest.
+> Ten years ago, I had nothing and no cares. Ten years ago, Lijiang was a paradise for those who liked to exile themselves from civilization. (Or to put it less pretentiously, that was where young people who fancied themselves "artists" slept with one another.) Ten years ago, I carried everything I owned on my back (still had some muscles then).
 
-> Liberating us from the permanence of publication is the undersung crux of the computer-the dynamic display screen. Its pixels are magic ink-capable of absorbing their context and reflecting a unique story for every reader. And the components surrounding the display-CPU, storage, network, input devices-are its peripherals for inferring context.
+> A map of the ancient city in my pocket, I wandered through it from morning till midnight, chatted with every woman who was alone, fell asleep to the accompaniment of song and alcohol. Now I'm back. I have a car, a house-everything a man should have, including erectile dysfunction and insomnia. If happiness and time are the two axes of a graph, then I'm afraid the curve of my life has already passed the apex and is on its inexorable way down to the bottom.
 
-> -- Bret Victor, [Magic Ink](http://worrydream.com/MagicInk/)
+> -- The Fish of Lijiang, Invisible Planets, Ken Liu
 
 <!-- -->
 > I made a bug once, and I need to tell you about it. So, in 2001, I wrote a reference library for JSON, in Java, and in it, I had this line
@@ -189,9 +137,13 @@ Doesn't it make you feel like that, Lenina?"
 > -- Doug Crockford
 
 <!-- -->
-> Start your life already, you're gonna be a rich bastard on your own someday, waiting's a bunch of bullshit.
+> Soft power is the ability to attract and co-opt, rather than coerce (hard power). Soft power is the ability to shape the preferences of others through appeal and attraction. A defining feature of soft power is that it is non-coercive; the currency of soft power is culture, political values, and foreign policies.
 
-> -- Tom, Mad Men
+> It was a former French foreign minister who observed that the Americans are powerful because they can "inspire the dreams and desires of others, thanks to the mastery of global images through film and television and because, for these same reasons, large numbers of students from other countries come to the United States to finish their studies"
+
+> Many observers would agree that American high culture produces significant soft power for the United States. Secretary of State Colin Powell has said, "I can think of no more valuable asset to our country than the friendship of future world leaders who have been educated here ... The continual contest for legitimacy illustrates the importance of soft power. Morality can be a power in reality.
+
+> -- Joseph Nye, Soft Power
 
 <!-- -->
 > But being great isn't as easy as just picking a hard goal -- in fact, picking a really hard goal avoids reality almost as much as picking a really easy one. If you pick an easy goal, you know you'll always succeed; if you pick a really hard one, you know you'll never fail (because it will always be too early to tell). Artificial intelligence is a truly big problem -- how can you possibly expect us to succeed in just a decade? But we're making great progress, we swear.
@@ -201,11 +153,9 @@ Doesn't it make you feel like that, Lenina?"
 > -- Aaron Swartz
 
 <!-- -->
-> A computational process is indeed much like a sorcerer's idea of a spirit. It cannot be seen or touched. It is not composed of matter at all.
+> A model minority is a tractable, one-dimensional (abstraction) simulacrum of a person, stripped of complexity, nuance, danger, and sexuality-a person devoid of dramatic interest.
 
-> However, it is very real. It can perform intellectual work. It can answer questions. It can affect the world by disbursing money at a bank or by controlling a robot arm in a factory. The programs we use to conjure processes are like a sorcerer's spells.
-
-> -- Abelson and Sussman, Structure and Interpretation of Computer Programs (1984)
+> -- Wesley Wang, The Souls of Yellow Folk
 
 <!-- -->
 > At an art school where I once studied, the students wanted most of all to develop a personal style. But if you just try to make good things, you'll inevitably do it in a distinctive way, just as each person walks in a distinctive way. Michelangelo was not trying to paint like Michelangelo, he was just trying to paint well; he couldn't help painting like Michelangelo ... The only style worth having is the one you can't help.
@@ -213,23 +163,17 @@ Doesn't it make you feel like that, Lenina?"
 > -- Paul Graham
 
 <!-- -->
-> Today, we woke up feeling like strangers in a foreign land.
+> Laplace's Demon
 
-> -- Kevin de Leon (California Senator) and Anthony Rendon in response to Trump winning the 2016 election
+> We may regard the present state of the universe as the effect of its past and the cause of its future. An intellect which at a certain moment would know all forces that set nature in motion, and all positions of all items of which nature is composed, if this intellect were also vast enough to submit these data to analysis, it would embrace in a single formula the movements of the greatest bodies of the universe and those of the tiniest atom; for such an intellect nothing would be uncertain and the future just like the past would be present before its eyes.
+
+> -- Pierre Simon Laplace, A Philosophical Essay on Probabilities
 
 <!-- -->
 
 > Race matters in America. It matters more than nuclear war. The concept of a post-racial American utopia has been shattered permanently, and Asian Americans have no choice but to wake up to the realities of racism, xenophobia, and sociopolitical marginalization ... The starting point for Plan A Magazine is the knowledge that we Asians are not as we've been labeled. We have strong convictions, deep feelings, and creative responses to the problem of American racism. We can shape the future that will emerge out of this morass, but we cannot be silent.
 
 > -- [Plan A Magazine](https://planamag.com/)
-
-<!-- -->
-> Here is my promise to you as your mayor: We will use all the tools at our disposal to stand up for our people. If all Muslims are required to register, we will take legal action to block it. If the federal government wants our police officers to tear immigrant families apart, we will refuse to do it. If the federal government wants to deport law abiding citizens ... we will step in. If there are threats to federal funding for planned parenthood, we will insure they get the funding they need.
-
-> If Jews or Muslims or members of LGBT are victimized or attacked, we will find their attackers, we will arrest them, we will prosecute them. This is New York, nothing about us changed on election day. (in response to Trump winning the 2016 election)
-
-> -- NYC Mayer Bill de Blasio
-
 
 <!-- -->
 > The minute that you begin to follow your senses, and not your itinerary, you may begin to find pleasure in many things you would ordinarily overlook. The many sights, smells, sceneries of Paris.
@@ -264,30 +208,11 @@ Doesn't it make you feel like that, Lenina?"
 > -- Henry David Thoreau, Civil Disobedience
 
 <!-- -->
-> You're a lucky man! Stay in the goddamn bar business! Hang on to your money! I can't tell you how many times I've seen even wildly successful men fall victim to this kind of delusional power grab, this sudden urge to expand the empire -- only to find their personal Stalingrad waiting for them.
-
-> -- Anthony Bourdain, Kitchen Confidential
-
-<!-- -->
 > So long as it remains out of touch with the rest of the world, an ideal society can remain a viable society. Pala was viable until about 1905. Then, in less than a single generation, the world completely changed. Movies, cars, airplanes, radio. Mass production, mass slaughter, mass communication, and above all, plain mass.
 
 > -- Aldous Huxley, Island
 
 <!-- -->
-> Will questioned with that innocent air of total ignorance which he had found by long experience to be the best way of eliciting information from the simpleminded and the self important.
-
-> -- Aldous Huxley, Island
-
-
-<!-- -->
 > This is one way to enforce a norm, punish those who do not support it ... The simulation of the norms game shows that relying on individuals to punish defections may not be enough to maintain a norm ... and the existence of a metanorm can be an effective way to get a norm started and protect it once established. By linking vengefulness against nonpunishers with vengefulness against defectors, the metanorm provides a mechanism by which the norm against defection becomes self-policing.
 
 > -- Robert Axelrod, An Evolutionary Approach to Norms
-
-<!-- -->
-> Being a contrarian will inevitably sometimes make you unpopular or lonely.  Accepting this solitary state of affairs at times is essential since it is mathematically provable that you cannot outperform the crowd if you are the crowd.
-
-> In the longer term you will ironically be more popular as long as you are right enough in your contrarian views. Of course, being a contrarian and wrong is not helpful and it is magnitude of correctness and not frequency of correctness that should be tracked on your scorecard.
-
-> -- Tren, 25iq
-
