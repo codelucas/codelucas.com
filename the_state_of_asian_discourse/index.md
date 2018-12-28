@@ -10,7 +10,7 @@ tags:
 ---
 > On December 12th 2018 something historical happened in the Asian diaspora. The Facebook group, *Subtle Asian Dating*, a highly engaged community of 300,000+ overseas Asians that gets on the order of 1 million+ comments/posts per week had a breakthrough moment where the community pulled together for an uncomfortable discussion about anti-asian racism and our shared fate in the West.
 
-Topics include the legitimacy of Asian-only environments, the supression of Asian male and female discourse, East vs. South/Southeast Asian identity, model minority myth, interracial dating, internalized self-hate and wishing to be White, Gen-Z and younger Asians being more woke and proud of their heritage than their predecessors, and dealing with White supremacy.
+Topics include the legitimacy of Asian-only environments, the supression of Asian male and female discourse, East and South/Southeast Asians uniting under Pan-Asianism, emasculation of Asian men, fetishization of Asian women, self-hate and wishing to be White, younger Asians being more woke vs. their predecessors, and dealing with White supremacy.
 
 *Never before have I ever seen so many Asian people join together to earnestly discuss our reality with such vigorousness and candor. This is so encouraging.*
 
