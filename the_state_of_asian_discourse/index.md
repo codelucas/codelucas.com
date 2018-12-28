@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Subtle Asian Dating"
+title: "The state of Asian discourse - 2018"
 tags:
 - identity
 - racism
@@ -8,13 +8,13 @@ tags:
 - race
 - "subtle asian dating"
 ---
-> On December 12th 2018 something historical happened in the Asian diaspora. The Facebook group, *Subtle Asian Dating*, a highly engaged community of 300,000+ overseas Asians that gets on the order of 1m+ comments/posts per week had a breakthrough moment where the community unprecedentedly pulled together for an uncomfortable but important discussion about anti-asian racism in the West.
+> On December 12th 2018 something historical happened in the Asian diaspora. The Facebook group, *Subtle Asian Dating*, a highly engaged community of 300,000+ overseas Asians that gets on the order of 1 million+ comments/posts per week had a breakthrough moment where the community pulled together for an uncomfortable discussion about anti-asian racism and our shared fate in the West.
 
-> Topics include the legitimacy of Asian-only environments, the supression of Asian male and female discourse, East vs. South/Southeast Asian identity, the model minority myth, interracial dating, internalized self-hate and wishing to be White, 1st gen immigrant and 2nd+ gen reconciliation, Gen-Z and younger Asians being more proud of their heritage and woke to systemic racism than their predecessors, and dealing with White supremacy.
+Topics include the legitimacy of Asian-only environments, the supression of Asian male and female discourse, East vs. South/Southeast Asian identity, model minority myth, interracial dating, internalized self-hate and wishing to be White, Gen-Z and younger Asians being more woke and proud of their heritage than their predecessors, and dealing with White supremacy.
 
-> *Never before have I ever seen so many Asian people join together to earnestly discuss our reality with such vigorousness and candor. This is so encouraging.*
+*Never before have I ever seen so many Asian people join together to earnestly discuss our reality with such vigorousness and candor. This is so encouraging.*
 
-> Below, I managed to screenshot a small subset of the 1,000+ comment dialogue. Note that before I got the chance to screenshot and mirror this discourse, the moderators had already deleted many of the more incendiary threads and comments, so you will see many comment holes and greyed out names. Warning: this archive consists of 77 images, which total 50+ mb in filesize. Please allow time time to load and a good internet connection.
+Below, I managed to screenshot a subset of the 1,000+ comment dialogue. Before I got the chance to mirror this discourse, the moderators had already deleted many of the more incendiary threads and comments so you will see many comment gaps and greyed out names. Warning: this archive consists of 77 images, which total 50+ mb in filesize. Please allow time time to load.
 
 ![](/images/sad/1.png)
 ![](/images/sad/2.png)
@@ -101,5 +101,4 @@ tags:
 ![](/images/sad/76.png)
 ![](/images/sad/77.png)
 
-[Link to conversation](https://www.facebook.com/groups/725870897781323/permalink/759635184404894/) (reminder: comments are locked and many old comments and threads have been deleted by mods. You also must be a member of Facebook and also accepted into the S.A.D. group)
 Also see Oxford Condo's [writing on this phenomenon](https://planamag.com/subtle-asian-traits-and-subtle-asian-dating-are-raising-good-questions-a1501bb82544)
