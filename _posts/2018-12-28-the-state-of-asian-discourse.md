@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The state of Asian discourse, 2018"
+title: "The state of Asian discourse"
 permalink: /the_state_of_asian_discourse
 date: 2018-12-28
 tags:
