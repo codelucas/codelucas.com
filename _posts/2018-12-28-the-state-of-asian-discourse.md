@@ -1,12 +1,16 @@
 ---
 layout: post
-title: "The state of Asian discourse - 2018"
+title: "The state of Asian discourse, 2018"
+permalink: /the_state_of_asian_discourse
+date: 2018-12-28
 tags:
 - identity
 - racism
 - asian
 - race
 - "subtle asian dating"
+- "subtle asian traits"
+- "asian american"
 ---
 > On December 12th 2018 something historical happened in the Asian diaspora. The Facebook group, *Subtle Asian Dating*, a highly engaged community of 300,000+ overseas Asians that gets on the order of 1 million+ comments/posts per week had a breakthrough moment where the community pulled together for an uncomfortable discussion about anti-asian racism and our shared fate in the West.
 
