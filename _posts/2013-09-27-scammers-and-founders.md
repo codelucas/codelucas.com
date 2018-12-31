@@ -27,9 +27,9 @@ One of my shortcomings was a predilection for taking individual feedback persona
 
 ###The Scam - Dangers of entrepreneurship
 
-Before Summer started, a visibly older and almost urbane looking man approached one of my TA's, a friend, and me for the opportunity of forming a startup with him. His alias for this story will be Jon.
+Before Summer started, a visibly older and almost urbane looking man approached one of my TAs, a friend, and me for the opportunity of forming a startup with him. His alias for this story will be Jon.
 
-For our first two meetings, Jon charmed and regaled us on a weekly basis. He was suave, articulate, scrupulously dressed, and gave off fittingly paternal vibes. When we first met, he showed up in a clean black suit and drove us in a shiny black S-class Mercedes to treat us to one of the [nicest eateries and lounges in Laguna Beach](http://www.montagelagunabeach.com/). One night with Jon and the others, the sky was an orange twilight, and The Montage was characteristically filled cliques of artificially attractive trophy-wife-looking women and older men. We racked up over $500 in bills while Jon saved his intention of asking us to build him a prototype until the end of the night. By then, the three of us were hopelessly beguiled by the charm of the evening and agreed to build him whatever he wanted.
+For our first two meetings, Jon charmed and regaled us on a weekly basis. He was suave, articulate, scrupulously dressed, and gave off fittingly paternal vibes. When we first met, he showed up in a clean black suit and drove us in a shiny black S-class Mercedes to treat us to [The Montage](http://www.montagelagunabeach.com/), an opulent seaside eatery and lounge in Laguna Beach. One night with Jon and the others, the sky was an orange twilight, and The Montage was characteristically filled cliques of artificially attractive trophy-wife-looking women and older men. We racked up over $500 in bills while Jon saved his intention of asking us to build him a prototype until the end of the night. By then, the three of us were hopelessly beguiled by the charm of the evening and agreed to build him whatever he wanted.
 
 ![The Montage, in Laguna Beach](/images/the_montage_1.jpg)
  <center><span class="img-subtitle">The Montage, in Laguna Beach</span></center>
@@ -45,8 +45,6 @@ My mistrust of Jon grew. He was aloof and refused to to open up about his backgr
 <iframe width="560" height="315" src="//www.youtube.com/embed/LgHS_-L8iVs" frameborder="0" allowfullscreen=""></iframe>
 
 Compared to local or smaller school sponsored hackathons, this was on a whole new level. Contestants came from over 100 universities all over the globe and free food and tons of sponsor gear were provided! I ended up recieving $100 in AWS credit, $2000 appengine credit, and 10GB Dropbox storage! Oh, and unlimited free tshirts :) Words can't describe how frenetic and convivial the environment was. There were students laying half awake holding their laptops at 3-5A.M. in the morning.
-
-If I could change something about my experience, I regret not going with a team. A lot of the teams there had shifts where one person would work while others slept or ate. This was much harder if you were alone.
 
 I'm glad that hackathons exist, they bond people from different universities and countries together to not only build things together, but to mix ideas. I actually felt a distinct iconoclastic energy at Pennapps experienced nowhere else. Imagine a mass of students whose goal it was to disrupt entire industries with hacks produced in 48 hours.
 
