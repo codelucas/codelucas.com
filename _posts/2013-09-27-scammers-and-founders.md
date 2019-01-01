@@ -10,7 +10,7 @@ tags:
 
 Today marks the first day of junior year of college and the Summer of '13, marked with great trials and tribulations, is finally over. My friend [Nithin](http://nithinjilla.com) and I incorporated an investor backed startup, [Wintria](http://wintria.com). I also purchased my first car, almost got scammed by a man my dad's age, interned at a major company, and attended my first hackathon.
 
-All of it was new, perhaps even avant-garde, to my still impressionable psyche. The characteristically oversaturated gorgeous Southern California scenery accentuated these experiences in my memories. More importantly, these experiences, both the good and the bad, allow for introspection and growth by trail-and-error.
+All of it was new, maybe avant-garde, to my impressionable mind. While reading, imagine a characteristically oversaturated Southern California scenery as the backdrop. These experiences, both the good and the bad, allow for introspection and growth by trail-and-error.
 
 ![2003 Ford Mustang, snagged it for $5K](/images/mustang.jpg)
 <center><span class="img-subtitle">The car I bought, snagged it for $5K</span></center>
@@ -50,6 +50,6 @@ I'm glad that hackathons exist, they bond people from different universities and
 
 ###Conclusion
 
-Summer was great. My friend from high school, Jake, came down to SoCal from Seattle to visit! I also did a lot of side hacking with my friend [Jason](http://jasontanner.herokuapp.com/). Stay tuned for some cool apps from us! For the last 3 weeks, I visited my family back home before school started. Basketball with my brother and his friends was fun.
+Thus, Summer has come to an end. My close friend from high school, Jake, came down to SoCal from Seattle to visit! I also did a lot of side hacking with [Jason](http://jasontanner.herokuapp.com/), a colleague and friend from Reddit's programming forum. Stay tuned for some cool applications from us! For the final three weeks of Summer, I visited my family back home in Seattle before school started, it was nice to finally slow down a notch and relax.
 
 However, I'm back on campus now and ready for next year! Goodbye for now, more posts to come soon!
