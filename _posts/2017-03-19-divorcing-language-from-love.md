@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Decoupling language from love"
+title: "Divorcing language from love"
 tags:
 - life
 - dating
 ---
 
-This story starts in late 2016. I had just moved to LA and it was my first day at a new job. I decided to take an UberPool that morning and serendipitously ran into a friendly, but at the same time reserved, girl in the car. After some small talk we exchanged phone numbers and she got off first; it was also her first day at college so we bonded over shared anxiety. Our first date seemed different than my previous Tinder dates, it somehow felt effortless and fun. That's weird because she is from Korea and had only been living in America for a few months, meaning that she was not proficient in English. Since I am Chinese American, we ended up having no languages in common. We are hopelessly doomed, this will be nothing more than a fling, right?
+This story starts in late 2016. I had just moved to Venice, a sun-kissed oceanside neighborhood in LA for a new job. While in an UberPool, nervously waiting to arrive at new hire orientation, I serendipitously ran into a friendly but at the same time reserved girl in the car as one of the other passengers. After some small talk we ended up exchanging phone numbers; it was also her first day at college so we bonded over shared anxiety and eagerness to explore our new city. Our first date seemed different than my previous Tinder dates, it somehow felt effortless and fun. That's weird because she is from Korea and had only been living in America for a few months, meaning that she was not proficient in English. Since I am Chinese American, we ended up having no languages in common. Are hopelessly doomed, and will be nothing more than a fling?
 
 The rest of this blog will talk about the counterintuitively functional and loving relationship we had; it will also talk about the immense amount that I've learned about people and communication from this incredible experience. For the rest of the story, the girl in question will be referred to as "S".
 
