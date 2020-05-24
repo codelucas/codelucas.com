@@ -11,6 +11,13 @@ title: Quotes
 > -- Brave New World
 
 <!-- -->
+> Her long hair is loosely tied back, her face very refined and intelligent looking, with beautiful eyes and a shadowy smile playing over her lips, a smile whose sense of completeness is indescribable.
+
+> It reminds me of a small, sunny spot, the special patch of sunlight you find only in some remote, secluded place. My house back in Tokyo has one just like that in the garden, and ever since I was little I loved that bright little spot.
+
+> -- Kafka On the Shore, Haruki Murakami
+
+<!-- -->
 > Most inventors and engineers I've met are like me ... they live in their heads. They're almost like artists. In fact, the very best of them are artists. And artists work best alone ... I'm going to give you some advice that might be hard to take. That advice is: Work alone ... Not on a committee. Not on a team.
 
 > -- Steve Wozniak
