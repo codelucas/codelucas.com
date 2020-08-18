@@ -1,0 +1,57 @@
+<html>
+<head>
+  <!--
+  Lucas Ou-Yang
+  http://codelucas.com
+  -->
+  {% capture meta_desc %}{% if page.summary %}{{ page.summary }}{% else %}Hi, my name is Lucas Ou-Yang, I'm enthusiastic about creative media, recommendation engines, Asian identity, political praxis, and making latte art.{% endif %}{% endcapture %}
+  <title>{{ page.title }} &raquo; codelucas.com</title>
+  <meta property="og:title" content="{{ page.title }} &raquo; codelucas.com" />
+  <meta name="description" content="{{ meta_desc }}">
+  <meta property="og:description" content="{{ meta_desc }}" />
+
+  <meta property="og:type" content="article" />
+  {% if page.tags %}{% for tag in page.tags %}<meta property="article:tag" 
+    content="{{ tag | replace: '-', ' ' }}" />{% endfor %}{% endif %}
+  <meta property="og:image" content="http://codelucas.com/images/lucasou.png" />
+
+  <meta property="article:author" content="http://codelucas.com/about/" />
+  <meta property="fb:admins" content="lucas.ouyang.7" />
+  <link rel="author" href="https://plus.google.com/108352969036344290601" />
+  <link rel="icon" type="image/png" href="/images/favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600'
+    rel='stylesheet' type='text/css'>
+
+  {% if page.class == "post" %}
+    <link rel="canonical" href="http://codelucas.com{{ page.url }}/" />
+    <meta property="og:url" content="http://codelucas.com{{ page.url }}/" />
+  {% elsif page.class == "home" %}
+    <link rel="canonical" href="http://codelucas.com/" />
+    <meta property="og:url" content="http://codelucas.com/" />
+  {% endif %}
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/compiled/style_4.css" />
+</head>
+
+  <a href="/"><img id="icon-one" class="icon icon-one" 
+      src="/images/lucasou.png"
+      onmouseover="this.src='/images/halo.png';"
+      onmouseout="this.src='/images/lucasou.png';">
+  </a>
+  <a href="/"><img id="icon-two" class="icon icon-two" 
+      src="/images/selfie1.jpg"
+          onmouseover="this.src='/images/devil.png'";
+          onmouseout="this.src='/images/halo.png';">
+      <!--onmouseover="document.getElementById('icon-one').src='/images/ou.png';"
+      onmouseout="document.getElementById('icon-one').src='/images/lucasou.png';">-->
+  </a>
+
+  <script src="/js/libraries.js"></script>
+  <script src="/js/script_1.js"></script>
+
+
+
+
+{{ content }}
+</html>
