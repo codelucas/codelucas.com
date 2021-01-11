@@ -223,3 +223,14 @@ Doesn't it make you feel like that, Lenina?"
 > This is one way to enforce a norm, punish those who do not support it ... The simulation of the norms game shows that relying on individuals to punish defections may not be enough to maintain a norm ... and the existence of a metanorm can be an effective way to get a norm started and protect it once established. By linking vengefulness against nonpunishers with vengefulness against defectors, the metanorm provides a mechanism by which the norm against defection becomes self-policing.
 
 > -- Robert Axelrod, An Evolutionary Approach to Norms
+
+<!-- -->
+> There is a tide in the affairs of men.
+> Which, taken at the flood, leads on to fortune;
+> Omitted, all the voyage of their life
+> Is bound in shallows and in miseries.
+> On such a full sea are we now afloat,
+> And we must take the current when it serves,
+> Or lose our ventures.
+
+> -- Shakespeare, Julius Caesar
